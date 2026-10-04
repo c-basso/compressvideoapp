@@ -1,0 +1,175 @@
+{
+  "priority": 1,
+  "title": "How to Compress a Video on iPhone (Free, No Upload)",
+  "description": "Compress a video on iPhone in four taps: trim, lower resolution or frame rate, export HEVC and save a smaller copy. Free, on-device, no upload needed.",
+  "h1": "How to compress a video on iPhone",
+  "eyebrow": "Compress video",
+  "card_title": "Compress a video on iPhone",
+  "card_summary": "iOS has no compress button. Here is the fastest way to make any clip smaller, on device.",
+  "keywords": "compress video iphone, how to compress a video on iphone, video compressor iphone, compress video iphone free, compress video iphone app",
+  "quick_answer": "iPhone has no built-in “compress” button for an existing video. Open it in Compress Video, optionally trim it, drag the resolution slider down in Compress settings, tap Compress and then Download Compressed. You get a smaller HEVC copy; the original stays untouched.",
+  "intro": [
+    "Phone videos are huge: a minute of 4K is easily more than 150 MB. That breaks email, chat apps and uploads, and fills storage fast.",
+    "Photos can trim a clip but cannot re-encode it to a smaller size. Below are the built-in options, what they really do, and the four-tap way to compress any video on iPhone."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "Compress Video showing file size, duration, resolution, codec and frame rate before compressing",
+    "caption": "Compress Video shows size, resolution, codec and frame rate before you compress."
+  },
+  "sections": [
+    {
+      "heading": "What iPhone can do without an app",
+      "paragraphs": [
+        "None of the built-in options compress a video you already recorded. They either change future recordings or hand the job to a service."
+      ],
+      "list": [
+        "Settings → Camera → Record Video: lowers the size of new recordings only.",
+        "Settings → Camera → Formats → High Efficiency: records future videos in HEVC instead of H.264.",
+        "Photos → Edit: trims the clip, but the remaining part keeps its original bitrate.",
+        "iMovie: exporting at a lower resolution works, but it means building a project for one clip.",
+        "Online compressors: they require uploading a private video to someone else's server."
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "Why on-device compression matters",
+      "paragraphs": [
+        "Compress Video encodes the clip on your iPhone. The video is not uploaded to a server to compress it, there is no account, and nothing leaves the phone until you share it yourself."
+      ]
+    },
+    {
+      "id": "resolution-slider",
+      "heading": "How the resolution slider works",
+      "paragraphs": [
+        "Compress Video scales resolution with a slider instead of fixed presets. It shrinks width and height proportionally, so the aspect ratio never changes.",
+        "Pixel count drops with the square of the slider: 50% keeps a quarter of the pixels. From a 4K clip, 50% is about 1080p and about a third is about 720p. From a 1080p clip, about two thirds is about 720p."
+      ],
+      "table": {
+        "head": [
+          "Source",
+          "Slider",
+          "Result (landscape)"
+        ],
+        "rows": [
+          [
+            "4K (3840×2160)",
+            "50%",
+            "≈ 1920×1080"
+          ],
+          [
+            "4K (3840×2160)",
+            "≈ 33%",
+            "≈ 1280×720"
+          ],
+          [
+            "1080p (1920×1080)",
+            "≈ 67%",
+            "≈ 1280×720"
+          ],
+          [
+            "1080p (1920×1080)",
+            "50%",
+            "960×540"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Which settings make the biggest difference",
+      "paragraphs": [
+        "Resolution has the biggest effect: going from 4K to 1080p cuts the pixel count by four. Frame rate comes next: 60 fps to 30 fps roughly halves the frames to store. Audio is small compared with video, but muting it helps when you only need the picture."
+      ],
+      "table": {
+        "head": [
+          "Change",
+          "Effect on size",
+          "Good for"
+        ],
+        "rows": [
+          [
+            "4K → 1080p",
+            "Large drop",
+            "Sharing on phones and chats"
+          ],
+          [
+            "1080p → 720p",
+            "Large drop",
+            "Email and quick previews"
+          ],
+          [
+            "60 fps → 30 fps",
+            "Noticeable drop",
+            "Talking, screen recordings"
+          ],
+          [
+            "H.264 → HEVC",
+            "Often around half",
+            "Every clip, same resolution"
+          ],
+          [
+            "Mute audio",
+            "Small drop",
+            "Silent clips, GIF-like loops"
+          ]
+        ]
+      }
+    }
+  ],
+  "steps": {
+    "heading": "Compress a video on iPhone with Compress Video",
+    "intro": "Free download, works offline, about a minute for a typical clip.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the video in Compress Video",
+        "text": "Open Compress Video and pick the clip from Photos or Files, or tap Share on the video in Photos and choose Compress Video."
+      },
+      {
+        "name": "Trim what you don't need",
+        "text": "Tap Trim Video, drag the handles to keep only the part you need, and tap Save. Shorter clips are smaller clips."
+      },
+      {
+        "name": "Choose how small",
+        "text": "Open Compress settings. Drag the resolution slider down, lower the frame rate if needed, and set audio to compress, keep or mute."
+      },
+      {
+        "name": "Compress and check the size",
+        "text": "Tap Compress. The app shows the new size and how much smaller it is. Flip Original and Compressed to compare."
+      },
+      {
+        "name": "Save or share",
+        "text": "Tap Download Compressed to save the smaller copy to Photos, or share it straight to Mail, WhatsApp, Discord or any app."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips for the smallest file",
+    "items": [
+      "Trim first: every second you remove is saved at 100%.",
+      "For chat apps, about half the original resolution is usually enough on a phone screen (4K at 50% ≈ 1080p).",
+      "Keep the original until you have checked the compressed copy."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is there a way to compress a video on iPhone for free?",
+      "answer": "Yes. Compress Video is a free download with a daily number of compressions included. iOS itself can only lower the quality of future recordings, not existing ones."
+    },
+    {
+      "question": "Can I use an iPhone Shortcut to compress a video?",
+      "answer": "Shortcuts can encode media, but you have to build and tune the shortcut yourself and you don't see the before and after size. A dedicated app gives you resolution, frame rate and audio controls plus a size comparison."
+    },
+    {
+      "question": "Does compressing replace the original video?",
+      "answer": "No. Compress Video saves a new, smaller copy. The original stays in Photos until you delete it."
+    }
+  ],
+  "related": [
+    "how-to-reduce-video-size-on-iphone-without-losing-quality",
+    "how-to-email-a-large-video-from-iphone",
+    "how-to-trim-and-compress-a-video-on-iphone"
+  ],
+  "published": "2026-10-04",
+  "updated": "2026-10-04"
+}

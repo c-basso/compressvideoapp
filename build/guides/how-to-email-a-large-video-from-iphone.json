@@ -1,0 +1,106 @@
+{
+  "priority": 3,
+  "title": "How to Email a Large Video From iPhone (Gmail 25 MB)",
+  "description": "Video too large to email? Gmail allows 25 MB, Outlook 20 MB. Compress the video on iPhone under the limit, or use Mail Drop for big files. Steps inside.",
+  "h1": "How to email a video that is too large from iPhone",
+  "eyebrow": "Email",
+  "card_title": "Email a video that's too large",
+  "card_summary": "Gmail stops at 25 MB, Outlook at 20 MB. Compress under the limit and attach it.",
+  "keywords": "video too large to send by email, how to make a video smaller to email on iphone, email large video from iphone, gmail video too large",
+  "quick_answer": "Most email services cap attachments: Gmail at 25 MB, Outlook.com at 20 MB. Compress the video in Compress Video until the Compressed size reads under that number (drag the resolution slider down until it fits), then tap Download Compressed and share it to Mail or Gmail. For files that must stay large, Apple Mail Drop sends a link instead.",
+  "intro": [
+    "A 30-second 4K clip is often bigger than any email attachment limit. Mail then offers Mail Drop, Gmail swaps the file for a Drive link, and some recipients never get a playable video.",
+    "If the recipient should get the actual file in their inbox, make it fit."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/4.webp",
+    "alt": "Compressed video at 240 KB, small enough to attach to an email",
+    "caption": "Aim for a Compressed size under your email provider's limit."
+  },
+  "sections": [
+    {
+      "heading": "Email attachment limits",
+      "table": {
+        "head": [
+          "Service",
+          "Attachment limit",
+          "Over the limit"
+        ],
+        "rows": [
+          [
+            "Gmail",
+            "25 MB",
+            "Replaced with a Google Drive link"
+          ],
+          [
+            "Outlook.com",
+            "20 MB",
+            "Upload to OneDrive and share a link"
+          ],
+          [
+            "Apple Mail + iCloud",
+            "Mail Drop up to 5 GB",
+            "Sent as a link that expires after 30 days"
+          ]
+        ]
+      },
+      "note": "Corporate mail servers often allow less. If a send fails, compress further."
+    },
+    {
+      "heading": "How small should the video be?",
+      "paragraphs": [
+        "As a rough guide, a 1-minute clip at around 720p and 30 fps in HEVC often fits under 25 MB, and short clips can keep more resolution. Compress Video shows the exact size before you save, so you don't need to guess."
+      ]
+    },
+    {
+      "heading": "When to use Mail Drop instead",
+      "paragraphs": [
+        "Use Mail Drop when the recipient needs the full-quality original, for example for editing. The link expires after 30 days and the file is downloaded rather than attached."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Make a video small enough to email",
+    "intro": "Works with Apple Mail, Gmail and Outlook on iPhone.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the video",
+        "text": "Open Compress Video and pick the clip, or share it from Photos to Compress Video."
+      },
+      {
+        "name": "Trim",
+        "text": "Tap Trim Video and keep only the part the recipient needs."
+      },
+      {
+        "name": "Lower the resolution",
+        "text": "In Compress settings drag the resolution slider down (about a third for 4K, two thirds for 1080p ≈ 720p), lower the frame rate to 30 fps if needed, keep the audio, and tap Compress."
+      },
+      {
+        "name": "Check the size",
+        "text": "Make sure the Compressed size is under 25 MB for Gmail or 20 MB for Outlook. If not, move the resolution slider further down or trim more."
+      },
+      {
+        "name": "Attach",
+        "text": "Tap Download Compressed, then share the file to Mail, Gmail or Outlook and send."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why does my iPhone ask to use Mail Drop?",
+      "answer": "Because the attachment is over your mail provider's limit. Compress the video below the limit to attach it directly, or accept Mail Drop to send a download link."
+    },
+    {
+      "question": "Can I email a 5-minute video from iPhone?",
+      "answer": "Yes, if you compress it enough: 5 minutes with the resolution slider low and a reduced frame rate can fit under 25 MB. Check the Compressed size before sending."
+    }
+  ],
+  "related": [
+    "video-too-large-to-send-on-iphone",
+    "how-to-compress-a-video-on-iphone",
+    "how-to-trim-and-compress-a-video-on-iphone"
+  ],
+  "published": "2026-10-04",
+  "updated": "2026-10-04"
+}

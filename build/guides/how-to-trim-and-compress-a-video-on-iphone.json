@@ -1,0 +1,89 @@
+{
+  "priority": 8,
+  "title": "How to Trim and Compress a Video on iPhone in One Go",
+  "description": "Video too long to send? Trim and compress it in one app on iPhone: cut the part you need, shrink the size, save. The fastest way to shrink a long clip.",
+  "h1": "How to trim and compress a video on iPhone",
+  "eyebrow": "Trim",
+  "card_title": "Trim and compress in one go",
+  "card_summary": "Cutting seconds is the cheapest size win. Trim, then compress the rest.",
+  "keywords": "trim and compress video iphone, video too long to send iphone, cut video iphone smaller, shorten video to send",
+  "quick_answer": "In Compress Video tap Trim Video, drag the handles to keep only the part you need, tap Save, then tap Compress. Size scales with duration, so cutting a 60-second clip to 15 seconds removes about three quarters of it before compression even starts.",
+  "intro": [
+    "Photos can trim too, but the trimmed part keeps the original bitrate, so a 4K clip stays heavy. Trimming and compressing together gets you a small file in one pass."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/3.webp",
+    "alt": "Trim screen in Compress Video with the selection from 0:04 to 0:16",
+    "caption": "Drag the handles, tap Save, then compress."
+  },
+  "sections": [
+    {
+      "heading": "Trim in Photos vs trim in Compress Video",
+      "table": {
+        "head": [
+          "",
+          "Photos → Edit",
+          "Compress Video"
+        ],
+        "rows": [
+          [
+            "Cuts duration",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Lowers bitrate / resolution",
+            "No",
+            "Yes"
+          ],
+          [
+            "Shows final size",
+            "No",
+            "Yes"
+          ],
+          [
+            "Keeps original",
+            "Optional",
+            "Always"
+          ]
+        ]
+      }
+    }
+  ],
+  "steps": {
+    "heading": "Trim and compress a video",
+    "intro": "One app, one pass.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the clip",
+        "text": "Pick the video in Compress Video."
+      },
+      {
+        "name": "Tap Trim Video",
+        "text": "Drag the start and end handles; the selected length is shown above the timeline. Tap Save."
+      },
+      {
+        "name": "Compress",
+        "text": "Open Compress settings, pick resolution, frame rate and audio, tap Compress."
+      },
+      {
+        "name": "Save",
+        "text": "Check the new size and tap Download Compressed."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can I undo a trim?",
+      "answer": "Yes. Tap Original to go back to the untouched clip; the source video is never changed."
+    }
+  ],
+  "related": [
+    "how-to-make-a-video-smaller-for-discord",
+    "video-too-large-to-send-on-iphone",
+    "how-to-compress-a-video-on-iphone"
+  ],
+  "published": "2026-10-04",
+  "updated": "2026-10-04"
+}

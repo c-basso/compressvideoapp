@@ -1,0 +1,24 @@
+# Cursor Rules
+
+## Main Purpose
+
+- **Primary Goal**: This website is a landing page for an iOS app that compresses videos: Video File Compressor (https://apps.apple.com/app/id6808348626). All content, design, and functionality should be optimized to promote and drive downloads of the iOS app.
+
+## File Modification Rules
+
+- **DO NOT** modify `index.html` or any other generated `*/index.html`, `llms.txt`, `urls.txt`, `sitemap.xml`, `robots.txt` - they are generated. All HTML changes go to `build/template.html`, `build/guide-template.html`, `build/guides-hub-template.html` and `build/partials/*.html`.
+- After changing templates or JSON, regenerate with `npm run build`.
+
+## Project Structure
+
+- `build/constants.js` - Site URL, App Store id, locales, guide config, shared meta
+- `build/build.js` - Build script (homepage per locale, guides, guides hub, llms.txt, urls.txt)
+- `build/template.html` - Homepage template; `build/partials/` - shared head/header/footer/App Store button/analytics
+- `build/en.json` - Homepage copy (only locale for now; add `build/<lang>.json` + entry in `LANGUAGES` for more)
+- `build/guides/*.json` - English SEO guides (one per target keyword, see `keywords/keywords.md`), published under `/guides/<slug>/`
+- `app.md` - App Store facts (description, features, pricing, screenshots, UI terms): single source of truth for copy
+- `build/validate/` - JSON-LD, Open Graph and SEO meta validators (`npm run validate`)
+- `build/sitemap.js` - sitemap.xml + robots.txt (`npm run sitemap`)
+- `build/preview.js` - Generates `site_preview.png` (OG image) from the live site (`npm run site:preview`)
+- `style.css` - Main stylesheet
+- `privacy.html` / `terms.html` - Legal pages

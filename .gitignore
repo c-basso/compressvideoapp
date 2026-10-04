@@ -1,3 +1,11 @@
+.DS_Store
 node_modules
 .env
-.DS_Store
+service_account.json
+# Search Console exports (build/gsc-report.js) — never commit
+gsc/
+# Google Indexing API daily rotation progress (build/gindexnow.js)
+.index-google-state.json
+.index-google-state.json.tmp
+
+_to_delete/

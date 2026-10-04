@@ -1,0 +1,85 @@
+# Compress Video
+
+> Compress video on iPhone in seconds. Shrink large clips so they send by email, WhatsApp or Discord. Trim, compare sizes, save the smaller copy. Free app.
+
+## Entity snapshot
+- Name: Compress Video
+- App Store title: "Video File Compressor", subtitle "Compress Video – Reduce size"
+- Category: iOS app, App Store category Productivity
+- Primary use case: make a video file on iPhone smaller so it sends, uploads or stops filling storage
+- Core workflow: import (Photos, Files, Share Sheet, Action extension) -> optional trim -> Compress settings (resolution, frame rate, audio compress/keep/mute) -> Compress (HEVC) -> compare Original/Compressed -> Download Compressed
+- Processing on device; videos are not uploaded
+- Publisher: Vladimir Ivakhnenko (c-basso)
+- App Store listing: https://apps.apple.com/app/id6808348626
+- App Store id: 6808348626
+
+## By the numbers
+- Example from the App Store screenshots: 1.7 MB H.264 clip -> 240 KB HEVC (86% smaller)
+- Requires iOS 18.6 or later; 27.9 MB download; app localized in 31 languages
+- Price: free download (daily convert/share limit, one saved project); premium in-app purchase removes the limit
+- Public website: https://compressvideoapp.com/
+- Last website build date: 2026-10-04
+
+## Main sections
+- [Home](https://compressvideoapp.com/): Product overview, how it works, FAQ, and App Store link
+- [FAQ](https://compressvideoapp.com/#faq): Direct answers to common product questions
+- [Guides](https://compressvideoapp.com/guides/): Step-by-step how-to articles, one per use case
+- [Privacy policy](https://c-basso.xyz/privacy.html): Data and privacy details
+- [Terms of service](https://c-basso.xyz/terms.html): Legal terms
+
+## How-to guides (English)
+- [All guides](https://compressvideoapp.com/guides/)
+- [How to compress a video on iPhone](https://compressvideoapp.com/guides/how-to-compress-a-video-on-iphone/): Compress a video on iPhone in four taps: trim, lower resolution or frame rate, export HEVC and save a smaller copy. Free, on-device, no upload needed.
+- [How to reduce video size on iPhone without losing quality](https://compressvideoapp.com/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/): Reduce video size on iPhone and keep it sharp: convert to HEVC, keep resolution, trim, lower frame rate only where safe. Exact steps and best settings.
+- [How to email a video that is too large from iPhone](https://compressvideoapp.com/guides/how-to-email-a-large-video-from-iphone/): Video too large to email? Gmail allows 25 MB, Outlook 20 MB. Compress the video on iPhone under the limit, or use Mail Drop for big files. Steps inside.
+- [Video too large to send on iPhone: how to fix it](https://compressvideoapp.com/guides/video-too-large-to-send-on-iphone/): Getting “video too large to send” on iPhone in Messages or Messenger? Why the limit hits and how to trim and compress the clip so it sends first time.
+- [How to compress a video for WhatsApp on iPhone](https://compressvideoapp.com/guides/how-to-compress-a-video-for-whatsapp/): Video too large for WhatsApp or arriving blurry? Compress it on iPhone first so you control quality, or send it as a document up to 2 GB. Step by step.
+- [How to make a video smaller for Discord on iPhone](https://compressvideoapp.com/guides/how-to-make-a-video-smaller-for-discord/): Free Discord accounts can upload files up to 20 MB. Get your iPhone video under the limit in a minute: trim, lower resolution, export HEVC, share it fast.
+- [How to send a large video from iPhone to Android without it getting blurry](https://compressvideoapp.com/guides/how-to-send-a-large-video-from-iphone-to-android/): Videos sent from iPhone to Android arrive blurry or fail because they go as MMS. Compress the clip on iPhone and send it via a chat app or email instead.
+- [How to trim and compress a video on iPhone](https://compressvideoapp.com/guides/how-to-trim-and-compress-a-video-on-iphone/): Video too long to send? Trim and compress it in one app on iPhone: cut the part you need, shrink the size, save. The fastest way to shrink a long clip.
+- [How to free up iPhone storage by compressing videos](https://compressvideoapp.com/guides/how-to-free-up-iphone-storage-from-videos/): Videos eating your iPhone storage? Find the biggest clips, compress them to HEVC, keep the smaller copy and delete the original. Reclaim gigabytes fast.
+- [How to convert a video to HEVC on iPhone](https://compressvideoapp.com/guides/how-to-convert-video-to-hevc-on-iphone/): Convert H.264 videos to HEVC (H.265) on iPhone to cut file size, often by about half, at the same resolution. What HEVC is and how to convert in a minute.
+
+## LLM-ready Q&A facts
+### How do I compress a video on iPhone?
+Open Compress Video, pick the clip from Photos or Files (or share it into the app), open Compress settings and drag the resolution slider down (or lower frame rate and audio), tap Compress, then Download Compressed. The app shows the original and compressed size before you save.
+
+### How do I reduce video size on iPhone and keep the quality?
+Yes, within limits. Re-encoding to HEVC alone often cuts H.264 files by around half at the same resolution. Keep the resolution, lower the frame rate only for talking-head clips, and compare Original and Compressed before you save.
+
+### How do I email a video that is too large to send?
+Gmail accepts attachments up to 25 MB and Outlook.com up to 20 MB. Compress the clip until the Compressed size reads below that limit, then attach it. For anything bigger, Apple Mail Drop sends a download link instead of the file.
+
+### Why does my iPhone say the video is too large to send?
+Messages, mail servers and carriers cap attachment size. A minute of 4K video is often well over 150 MB, so it fails. Trim the clip and compress it to a lower resolution, and it sends as a normal attachment.
+
+### How do I send a long video on WhatsApp without it being cut or blurry?
+WhatsApp recompresses video you send as media. Compress it yourself first so you control the quality, or send the compressed file as a Document, which WhatsApp accepts up to 2 GB without recompressing.
+
+### How small does a video need to be for Discord?
+Free Discord accounts can upload files up to 20 MB (since August 2026). Nitro Basic allows 50 MB and Nitro 500 MB. Compress until the Compressed size shows under your limit, then share the file to Discord.
+
+### Why do videos sent from iPhone to Android look blurry?
+When iMessage is not available, the video goes as MMS, and carriers squeeze it to a tiny file. Compress the video yourself to a sensible size and send it through WhatsApp, Telegram, email or a link instead.
+
+### Can I trim a video before compressing it?
+Yes. Tap Trim Video, drag the handles to keep only the part you need, tap Save, then compress. Removing footage you do not need is the fastest way to make a file smaller without touching quality.
+
+### Will compressing videos free up storage on my iPhone?
+Yes, once you keep the compressed copy and delete the original. 4K and slow-motion clips shrink the most. Deleted originals stay in Recently Deleted for 30 days, so empty it to get the space back.
+
+### What is HEVC and why does it make videos smaller?
+HEVC (H.265) is a newer video codec that stores the same picture in fewer bits than H.264. Compress Video always exports HEVC, which is why older H.264 clips often shrink a lot even at the same resolution.
+
+### Is Compress Video free?
+The download is free and includes a daily convert/share limit and one saved project. A premium in-app purchase removes the daily share limit and unlocks more projects. Current prices are shown on the App Store.
+
+### Are my videos uploaded to a server?
+No. Compression runs on your iPhone. The app does not upload your video to a server to compress it, so private clips stay on your device.
+
+## Contact and policies
+- Website: https://compressvideoapp.com/
+- Privacy: https://c-basso.xyz/privacy.html
+- Terms: https://c-basso.xyz/terms.html
+
+Last updated: 2026-10-04

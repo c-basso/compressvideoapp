@@ -1,0 +1,80 @@
+{
+  "priority": 4,
+  "title": "Video Too Large to Send on iPhone? How to Fix It Fast",
+  "description": "Getting “video too large to send” on iPhone in Messages or Messenger? Why the limit hits and how to trim and compress the clip so it sends first time.",
+  "h1": "Video too large to send on iPhone: how to fix it",
+  "eyebrow": "Too large to send",
+  "card_title": "“Video too large to send”",
+  "card_summary": "Why Messages, text and Messenger reject big clips, and how to make them fit.",
+  "keywords": "video too large to send iphone, video too large to send imessage, video too large to send text, video too long to send iphone, video too large to send messenger",
+  "quick_answer": "The error means the clip is bigger than the app, carrier or server allows. Trim it and drag the resolution slider down in Compress Video, then share the compressed file instead of the original. For green-bubble texts (MMS), carriers allow only small files, so send through iMessage, email or a chat app when you can.",
+  "intro": [
+    "The message shows up in different words: “too large to send”, “file is too big”, or a send that fails silently. The cause is always the same: the file is above a size limit somewhere between you and the recipient."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "Compress Video file details with Trim Video and Compress buttons",
+    "caption": "Trim and compress the clip, then share the smaller copy."
+  },
+  "sections": [
+    {
+      "heading": "Where the limit comes from",
+      "list": [
+        "iMessage: large clips are sent, but iOS may lower quality on the way; very long clips can still fail on poor connections.",
+        "MMS / text (green bubbles): carriers cap media at a small size, so long videos fail or arrive blurry.",
+        "Messenger, Instagram, Snapchat: each app has its own cap and recompresses what you send.",
+        "Email: Gmail 25 MB, Outlook.com 20 MB."
+      ]
+    },
+    {
+      "heading": "Too large vs too long",
+      "paragraphs": [
+        "Some apps limit duration instead of size. If an app says “too long”, trim the clip; if it says “too large”, compress it. Doing both gives you the most room."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Make the video small enough to send",
+    "intro": "About a minute, no upload.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the video in Compress Video",
+        "text": "Open Compress Video and pick the clip from Photos or Files, or tap Share on the video in Photos and choose Compress Video."
+      },
+      {
+        "name": "Trim what you don't need",
+        "text": "Tap Trim Video, drag the handles to keep only the part you need, and tap Save. Shorter clips are smaller clips."
+      },
+      {
+        "name": "Choose how small",
+        "text": "Open Compress settings. Drag the resolution slider down, lower the frame rate if needed, and set audio to compress, keep or mute."
+      },
+      {
+        "name": "Compress and check the size",
+        "text": "Tap Compress. The app shows the new size and how much smaller it is. Flip Original and Compressed to compare."
+      },
+      {
+        "name": "Save or share",
+        "text": "Tap Download Compressed to save the smaller copy to Photos, or share it straight to Mail, WhatsApp, Discord or any app."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why can I send a video in iMessage but not as a text?",
+      "answer": "iMessage goes over the internet with high limits; MMS text goes through your carrier with very small limits. Compressing helps both."
+    },
+    {
+      "question": "Will compressing make the video look bad?",
+      "answer": "Not on a phone screen at 720p or 1080p in HEVC. Compare Original and Compressed in the app before you send."
+    }
+  ],
+  "related": [
+    "how-to-email-a-large-video-from-iphone",
+    "how-to-send-a-large-video-from-iphone-to-android",
+    "how-to-trim-and-compress-a-video-on-iphone"
+  ],
+  "published": "2026-10-04",
+  "updated": "2026-10-04"
+}

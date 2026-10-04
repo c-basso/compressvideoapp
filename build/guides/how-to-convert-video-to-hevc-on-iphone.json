@@ -1,0 +1,90 @@
+{
+  "priority": 10,
+  "title": "How to Convert a Video to HEVC on iPhone (H.264 to H.265)",
+  "description": "Convert H.264 videos to HEVC (H.265) on iPhone to cut file size, often by about half, at the same resolution. What HEVC is and how to convert in a minute.",
+  "h1": "How to convert a video to HEVC on iPhone",
+  "eyebrow": "HEVC",
+  "card_title": "Convert a video to HEVC",
+  "card_summary": "H.264 → H.265 is the biggest free size win for older clips and downloads.",
+  "keywords": "convert video to hevc iphone, h264 to hevc iphone, convert mp4 to hevc, high efficiency video iphone",
+  "quick_answer": "HEVC (H.265) stores the same picture as H.264 in fewer bits. Compress Video always exports HEVC: open the H.264 clip, keep the resolution if you want, tap Compress and then Download Compressed. Many H.264 clips come out around half the size.",
+  "intro": [
+    "New iPhone recordings are already HEVC if Settings → Camera → Formats is set to High Efficiency. Downloads, screen recordings from other apps, older videos and anything shot in “Most Compatible” are often H.264."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "Compress Video file details showing codec H.264 before conversion",
+    "caption": "Check the codec: H.264 clips gain the most from HEVC."
+  },
+  "sections": [
+    {
+      "heading": "H.264 vs HEVC",
+      "table": {
+        "head": [
+          "",
+          "H.264 (AVC)",
+          "HEVC (H.265)"
+        ],
+        "rows": [
+          [
+            "File size at same quality",
+            "Larger",
+            "Often around half"
+          ],
+          [
+            "Playback",
+            "Everywhere",
+            "iPhone, Mac, modern Android and Windows with support"
+          ],
+          [
+            "iPhone setting",
+            "Most Compatible",
+            "High Efficiency"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "When not to convert",
+      "paragraphs": [
+        "If the video is for a very old device or a workflow that only accepts H.264, keep the original or lower its resolution instead."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Convert H.264 to HEVC",
+    "intro": "One pass, no quality settings to guess.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the clip",
+        "text": "Pick the video in Compress Video and check that the codec reads H.264."
+      },
+      {
+        "name": "Keep the resolution",
+        "text": "In Compress settings leave the resolution slider at 100% and keep the frame rate if you only want the codec change."
+      },
+      {
+        "name": "Compress",
+        "text": "Tap Compress. The result is encoded in HEVC."
+      },
+      {
+        "name": "Save",
+        "text": "Compare sizes and tap Download Compressed."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is H.265 the same as HEVC?",
+      "answer": "Yes. HEVC stands for High Efficiency Video Coding, also called H.265."
+    }
+  ],
+  "related": [
+    "how-to-reduce-video-size-on-iphone-without-losing-quality",
+    "how-to-free-up-iphone-storage-from-videos",
+    "how-to-compress-a-video-on-iphone"
+  ],
+  "published": "2026-10-04",
+  "updated": "2026-10-04"
+}

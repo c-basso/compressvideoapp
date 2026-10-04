@@ -1,0 +1,90 @@
+{
+  "priority": 5,
+  "title": "How to Compress a Video for WhatsApp on iPhone (2026)",
+  "description": "Video too large for WhatsApp or arriving blurry? Compress it on iPhone first so you control quality, or send it as a document up to 2 GB. Step by step.",
+  "h1": "How to compress a video for WhatsApp on iPhone",
+  "eyebrow": "WhatsApp",
+  "card_title": "Compress a video for WhatsApp",
+  "card_summary": "Stop WhatsApp from mangling your video: compress it yourself or send it as a document.",
+  "keywords": "compress video for whatsapp iphone, video too large to send on whatsapp, send long video whatsapp iphone, whatsapp video blurry",
+  "quick_answer": "WhatsApp recompresses videos you send as media, which is why they arrive blurry or get refused. Compress the clip yourself in Compress Video (resolution slider at about 50% for 4K clips, HEVC), then send it. To keep full quality, attach the compressed file as a Document instead: WhatsApp accepts documents up to 2 GB without recompressing them.",
+  "intro": [
+    "WhatsApp optimises for speed, not quality. Long or big clips get squeezed hard, and very large ones don't send at all.",
+    "Doing the compression yourself means you decide the trade-off."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/4.webp",
+    "alt": "Compressed video ready to share to WhatsApp from Compress Video",
+    "caption": "Share the compressed file straight to WhatsApp."
+  },
+  "sections": [
+    {
+      "heading": "Media vs Document in WhatsApp",
+      "table": {
+        "head": [
+          "Send as",
+          "What WhatsApp does",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Photo & Video",
+            "Recompresses, plays inline",
+            "Quick clips in chats"
+          ],
+          [
+            "Document",
+            "Sends the file as is, up to 2 GB",
+            "Keeping quality, longer videos"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "What size to aim for",
+      "paragraphs": [
+        "For inline playback keep clips short and at 720p–1080p. For documents, the smaller the file, the faster it uploads and downloads for everyone in a group."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Compress and send a video to WhatsApp",
+    "intro": "Works for chats, groups and Status.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the clip",
+        "text": "Open Compress Video and pick the video, or share it from Photos into the app."
+      },
+      {
+        "name": "Trim",
+        "text": "Tap Trim Video; for Status, keep the part you want to post."
+      },
+      {
+        "name": "Compress",
+        "text": "In Compress settings drag the resolution slider to about 50% for 4K clips (≈ 1080p) or lower for long videos, keep the audio, and tap Compress."
+      },
+      {
+        "name": "Share to WhatsApp",
+        "text": "Tap Download Compressed and share to WhatsApp, or in WhatsApp tap + → Document and pick the file from Files to avoid recompression."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why are my WhatsApp videos blurry?",
+      "answer": "WhatsApp recompresses media to save data. Send the clip as a Document, or compress it yourself first so WhatsApp has less to squeeze."
+    },
+    {
+      "question": "How do I send a long video on WhatsApp?",
+      "answer": "Trim and compress it in Compress Video, then send it as a Document. Documents can be up to 2 GB."
+    }
+  ],
+  "related": [
+    "video-too-large-to-send-on-iphone",
+    "how-to-make-a-video-smaller-for-discord",
+    "how-to-send-a-large-video-from-iphone-to-android"
+  ],
+  "published": "2026-10-04",
+  "updated": "2026-10-04"
+}

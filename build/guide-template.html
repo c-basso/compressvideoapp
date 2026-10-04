@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="{{meta.html_lang}}" dir="{{meta.html_dir}}">
+  <head>
+{{> head}}
+  </head>
+  <body class="page-guide">
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="noise-layer" aria-hidden="true"></div>
+    <div class="page-shell">
+{{> site-header}}
+
+      <main id="main" class="guide-layout">
+        <nav class="breadcrumbs" aria-label="{{guides.labels.breadcrumb_aria}}">
+          <ol>
+            <li><a href="{{nav.home_url}}">{{guides.labels.home}}</a></li>
+            <li><a href="{{guides.hub_url}}">{{guides.labels.guides}}</a></li>
+            <li aria-current="page">{{guide.card_title}}</li>
+          </ol>
+        </nav>
+
+        <article class="guide-article">
+          <header class="guide-header">
+            <p class="eyebrow"><span class="sticker sticker-sm">{{guide.eyebrow}}</span></p>
+            <h1>{{guide.h1}}</h1>
+            <p class="guide-meta">
+              {{guides.labels.updated}} <time datetime="{{guide.updated_iso}}">{{guide.updated_label}}</time>
+              · {{guide.reading_time}}
+            </p>
+            <div class="quick-answer">
+              <p class="quick-answer-label">{{guides.labels.quick_answer}}</p>
+              <p>{{guide.quick_answer}}</p>
+            </div>
+          </header>
+
+          <div class="guide-body">
+            {{#each guide.intro as |para|}}
+            <p>{{para}}</p>
+            {{/each}}
+
+            {{#if guide.figure}}
+            <figure class="guide-figure">
+              <div class="guide-figure-frame">
+                <img src="{{guide.figure.src}}" alt="{{guide.figure.alt}}" width="600" height="1298" loading="lazy" decoding="async" />
+              </div>
+              <figcaption>{{guide.figure.caption}}</figcaption>
+            </figure>
+            {{/if}}
+            {{#if guide.callout}}
+            <aside class="guide-callout">
+              <span class="guide-callout-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+              </span>
+              <p class="guide-callout-text">{{guide.callout.text}}</p>
+            </aside>
+            {{/if}}
+
+            {{#each guide.sections as |section|}}
+            <section class="guide-section" id="{{section.id}}">
+              <h2>{{section.heading}}</h2>
+              {{#each section.paragraphs as |para|}}
+              <p>{{para}}</p>
+              {{/each}}
+              {{#if section.list}}
+              {{#if section.ordered}}
+              <ol>
+                {{#each section.list as |item|}}<li>{{item}}</li>{{/each}}
+              </ol>
+              {{/if}}
+              {{#if section.unordered}}
+              <ul>
+                {{#each section.list as |item|}}<li>{{item}}</li>{{/each}}
+              </ul>
+              {{/if}}
+              {{/if}}
+              {{#if section.table}}
+              <div class="geo-table-wrap">
+                <table class="geo-compare-table">
+                  <thead>
+                    <tr>{{#each section.table.head as |item|}}<th scope="col">{{item}}</th>{{/each}}</tr>
+                  </thead>
+                  <tbody>
+                    {{#each section.table.rows as |row|}}
+                    <tr>{{#each row as |item|}}<td>{{item}}</td>{{/each}}</tr>
+                    {{/each}}
+                  </tbody>
+                </table>
+              </div>
+              {{/if}}
+              {{#if section.note}}
+              <p class="guide-note">{{section.note}}</p>
+              {{/if}}
+            </section>
+            {{/each}}
+
+            {{#if guide.steps}}
+            <section class="guide-section guide-steps" id="steps">
+              <h2>{{guide.steps.heading}}</h2>
+              <p>{{guide.steps.intro}}</p>
+              <ol class="steps-list">
+                {{#each guide.steps.items as |step|}}
+                <li id="step-{{step.number}}">
+                  <span class="step-number">{{step.number}}</span>
+                  <div>
+                    <h3>{{step.name}}</h3>
+                    <p>{{step.text}}</p>
+                  </div>
+                </li>
+                {{/each}}
+              </ol>
+              <div class="inline-cta">
+                <img src="/img/app-icon.webp" alt="" width="56" height="56" loading="lazy" decoding="async" />
+                <div>
+                  <p class="inline-cta-title">{{guide.cta.title}}</p>
+                  <p>{{guide.cta.text}}</p>
+                </div>
+{{> appstore-button}}
+              </div>
+            </section>
+            {{/if}}
+
+            {{#if guide.tips}}
+            <section class="guide-section">
+              <h2>{{guide.tips.heading}}</h2>
+              <ul class="tips-list">
+                {{#each guide.tips.items as |tip|}}<li>{{tip}}</li>{{/each}}
+              </ul>
+            </section>
+            {{/if}}
+
+            {{#if guide.faq}}
+            <section class="guide-section guide-faq">
+              <h2>{{guides.labels.faq_heading}}</h2>
+              <div class="faq-list">
+                {{#each guide.faq as |faq|}}
+                <article class="faq-item">
+                  <h3 class="faq-q">{{faq.question}}</h3>
+                  <p class="faq-a">{{faq.answer}}</p>
+                </article>
+                {{/each}}
+              </div>
+            </section>
+            {{/if}}
+
+            <p class="guide-disclaimer">{{guides.labels.disclaimer}}</p>
+          </div>
+        </article>
+
+        <aside class="guide-aside">
+          <div class="aside-card app-card">
+            <img src="/img/app-icon.webp" alt="{{header.logo_alt}}" width="72" height="72" loading="lazy" decoding="async" />
+            <p class="app-card-name">{{header.app_name}}</p>
+            <p class="app-card-sub">{{download.subtitle}}</p>
+            {{#if download.rating_line}}<p class="app-card-rating">{{download.rating_line}}</p>{{/if}}
+{{> appstore-button}}
+            <p class="app-card-note">{{download.price}} · {{download.price_note}}</p>
+          </div>
+          {{#if guide.related}}
+          <div class="aside-card">
+            <p class="aside-title">{{guides.labels.related}}</p>
+            <ul class="related-list">
+              {{#each guide.related as |link|}}
+              <li><a href="{{link.url}}"><span class="related-eyebrow">{{link.eyebrow}}</span> {{link.title}}</a></li>
+              {{/each}}
+            </ul>
+            <a class="text-link" href="{{guides.hub_url}}">{{guides.labels.all_guides}} →</a>
+          </div>
+          {{/if}}
+        </aside>
+      </main>
+
+{{> site-footer}}
+    </div>
+
+    <script type="application/ld+json">
+      {{seo.structured_data.article|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.howto|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.faqpage|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.webpage|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.breadcrumb_list|json}}
+    </script>
+
+{{> analytics}}
+  </body>
+</html>

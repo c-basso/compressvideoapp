@@ -1,0 +1,37 @@
+      <footer class="site-footer">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="/img/app-icon.webp" alt="{{header.logo_alt}}" width="40" height="40" loading="lazy" decoding="async" />
+            <div>
+              <div class="footer-brand-name">{{header.app_name}}</div>
+              <p class="footer-tagline">{{footer.tagline}}</p>
+            </div>
+          </div>
+          <nav class="footer-links" aria-label="{{footer.links_aria}}">
+            <a href="{{nav.home_url}}#how-it-works">{{nav.how_it_works}}</a>
+            {{#if screenshots.items}}<a href="{{nav.home_url}}#screenshots">{{nav.screenshots}}</a>{{/if}}
+            {{#if guides.hub_url}}<a href="{{guides.hub_url}}">{{footer.guides_link_text}}</a>{{/if}}
+            <a href="{{nav.home_url}}#faq">{{nav.faq}}</a>
+            <a href="{{footer.privacy_url}}">{{footer.privacy_link}}</a>
+            <a href="{{footer.terms_url}}">{{footer.terms_link}}</a>
+            <a href="{{header.download_url}}" target="_blank" rel="noopener noreferrer">{{footer.app_store_link_text}}</a>
+          </nav>
+        </div>
+        {{#if meta.language_links}}
+        <div class="footer-languages">
+          <span class="footer-languages-label">{{footer.languages_label}}</span>
+          <ul>
+            {{#each meta.language_links as |lang|}}
+            <li><a href="{{lang.url}}" hreflang="{{lang.hreflang}}" lang="{{lang.hreflang}}">{{lang.name}}</a></li>
+            {{/each}}
+          </ul>
+        </div>
+        {{/if}}
+        <div class="footer-bottom">
+          <div>{{footer.copyright}}</div>
+          <p class="footer-updated">
+            {{footer.last_updated_label}}
+            <time datetime="{{footer.last_updated_iso}}">{{footer.last_updated_iso}}</time>
+          </p>
+        </div>
+      </footer>

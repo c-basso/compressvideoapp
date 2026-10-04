@@ -1,0 +1,22 @@
+{
+  "name": "compressvideoapp",
+  "scripts": {
+    "build": "node build/build.js",
+    "validate": "node build/validate/index.js",
+    "sitemap": "node build/sitemap.js",
+    "start": "npx http-server",
+    "site:preview": "node build/preview.js",
+    "index:now": "node build/indexnow.js",
+    "index:google": "node build/gindexnow.js",
+    "index:google:status": "node build/gindexnow.js --status",
+    "push": "git add . && git commit -m 'wip' && git push origin main",
+    "deploy": "npm run build && npm run validate && npm run sitemap && npm run push",
+    "gsc": "node build/gsc-report.js"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.59.1",
+    "jsonld": "^9.0.0",
+    "sharp": "^0.34.5",
+    "googleapis": "^173.0.0"
+  }
+}

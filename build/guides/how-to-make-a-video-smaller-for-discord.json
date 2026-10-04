@@ -1,0 +1,97 @@
+{
+  "priority": 6,
+  "title": "How to Make a Video Smaller for Discord (20 MB Limit)",
+  "description": "Free Discord accounts can upload files up to 20 MB. Get your iPhone video under the limit in a minute: trim, lower resolution, export HEVC, share it fast.",
+  "h1": "How to make a video smaller for Discord on iPhone",
+  "eyebrow": "Discord",
+  "card_title": "Make a video fit Discord",
+  "card_summary": "Free Discord uploads stop at 20 MB. Get any clip under it from your iPhone.",
+  "keywords": "how to make a video smaller for discord, discord file size limit, compress video for discord iphone, video too big for discord",
+  "quick_answer": "Free Discord accounts can upload files up to 20 MB (raised from 10 MB in August 2026); Nitro Basic allows 50 MB and Nitro 500 MB. In Compress Video, trim the clip, drag the resolution slider down, lower the frame rate to 30 fps, tap Compress, and check that the Compressed size is under your limit. Then share it to Discord.",
+  "intro": [
+    "Gaming clips and screen recordings are exactly the videos that blow past Discord's limit: high resolution, 60 fps, long."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/3.webp",
+    "alt": "Trimming a clip in Compress Video before compressing it for Discord",
+    "caption": "Trim the highlight first: it is the biggest size saver."
+  },
+  "sections": [
+    {
+      "heading": "Discord upload limits",
+      "table": {
+        "head": [
+          "Plan",
+          "Upload limit"
+        ],
+        "rows": [
+          [
+            "Free",
+            "20 MB"
+          ],
+          [
+            "Nitro Basic",
+            "50 MB"
+          ],
+          [
+            "Nitro",
+            "500 MB"
+          ]
+        ]
+      },
+      "note": "Limits as of August 2026; servers with boosts can allow more."
+    },
+    {
+      "heading": "Settings that fit 20 MB",
+      "list": [
+        "Clips under 30 seconds: around 1080p (50% of 4K), 30 fps usually fits.",
+        "30–60 seconds: around 720p (about a third of 4K), 30 fps.",
+        "Longer: trim to the highlight, or move the slider lower still."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Compress a video for Discord",
+    "intro": "Works for chats, servers and DMs.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the clip",
+        "text": "Pick the recording in Compress Video, or share it into the app from Photos."
+      },
+      {
+        "name": "Trim to the highlight",
+        "text": "Tap Trim Video and keep just the moment you want to share."
+      },
+      {
+        "name": "Lower resolution and fps",
+        "text": "In Compress settings drag the resolution slider down, set 30 fps and tap Compress."
+      },
+      {
+        "name": "Check the size",
+        "text": "Confirm the Compressed size is under 20 MB (or your Nitro limit)."
+      },
+      {
+        "name": "Share to Discord",
+        "text": "Tap Download Compressed, then upload it in Discord or share it from the iOS share sheet."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is Discord's file size limit for free users?",
+      "answer": "20 MB per file since August 2026. Before that it was 10 MB."
+    },
+    {
+      "question": "Can I send a longer video on Discord without Nitro?",
+      "answer": "Yes, if you compress it under 20 MB, or trim it into a shorter highlight."
+    }
+  ],
+  "related": [
+    "how-to-trim-and-compress-a-video-on-iphone",
+    "how-to-compress-a-video-for-whatsapp",
+    "how-to-compress-a-video-on-iphone"
+  ],
+  "published": "2026-10-04",
+  "updated": "2026-10-04"
+}

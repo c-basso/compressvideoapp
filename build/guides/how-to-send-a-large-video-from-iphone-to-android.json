@@ -1,0 +1,72 @@
+{
+  "priority": 7,
+  "title": "How to Send a Large Video From iPhone to Android (2026)",
+  "description": "Videos sent from iPhone to Android arrive blurry or fail because they go as MMS. Compress the clip on iPhone and send it via a chat app or email instead.",
+  "h1": "How to send a large video from iPhone to Android without it getting blurry",
+  "eyebrow": "iPhone to Android",
+  "card_title": "Send a video from iPhone to Android",
+  "card_summary": "Why videos get blurry over text, and the clean way to send them.",
+  "keywords": "send large video from iphone to android, compress video iphone to android, blurry video iphone to android, video too large to send android",
+  "quick_answer": "Texts between iPhone and Android go as MMS (or RCS), and carriers squeeze video to a tiny size, so it arrives blurry or fails. Compress the video yourself in Compress Video (resolution slider down to about 1080p or 720p, HEVC), then send it with WhatsApp, Telegram, email or a cloud link instead of plain MMS.",
+  "intro": [
+    "iMessage only works between Apple devices. As soon as the recipient is on Android, your iPhone falls back to MMS or RCS, where size limits are much lower."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "Compress Video file info before compressing a clip to send to Android",
+    "caption": "Check the size, then compress before you send."
+  },
+  "sections": [
+    {
+      "heading": "Best ways to send video to Android",
+      "list": [
+        "WhatsApp or Telegram: send as a document to keep quality.",
+        "Email: compress under 25 MB for Gmail.",
+        "A cloud link (iCloud, Google Drive) for full-length originals.",
+        "MMS only for very short, small clips."
+      ]
+    },
+    {
+      "heading": "Will Android play HEVC?",
+      "paragraphs": [
+        "Most Android phones from recent years play HEVC. If an older phone can't, lower the resolution and send through a chat app, which converts on upload."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Compress and send to an Android phone",
+    "intro": "Keeps the video sharp for the person on Android.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the video",
+        "text": "Pick the clip in Compress Video."
+      },
+      {
+        "name": "Trim",
+        "text": "Tap Trim Video to drop parts you don't need."
+      },
+      {
+        "name": "Compress",
+        "text": "In Compress settings drag the resolution slider down (about 50% of 4K ≈ 1080p) and tap Compress."
+      },
+      {
+        "name": "Send through a chat app",
+        "text": "Tap Download Compressed and share to WhatsApp, Telegram or email instead of a plain text message."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why are iPhone videos blurry on Android?",
+      "answer": "Because they were sent as MMS, which carriers limit to small files. Compress the clip yourself and send it through a chat app or email."
+    }
+  ],
+  "related": [
+    "video-too-large-to-send-on-iphone",
+    "how-to-compress-a-video-for-whatsapp",
+    "how-to-email-a-large-video-from-iphone"
+  ],
+  "published": "2026-10-04",
+  "updated": "2026-10-04"
+}

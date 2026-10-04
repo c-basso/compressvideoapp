@@ -1,0 +1,77 @@
+{
+  "priority": 9,
+  "title": "Free Up iPhone Storage by Shrinking Your Videos (HEVC)",
+  "description": "Videos eating your iPhone storage? Find the biggest clips, compress them to HEVC, keep the smaller copy and delete the original. Reclaim gigabytes fast.",
+  "h1": "How to free up iPhone storage by compressing videos",
+  "eyebrow": "Storage",
+  "card_title": "Free up storage from videos",
+  "card_summary": "Keep the memory, lose the gigabytes: shrink 4K, slow-mo and screen recordings.",
+  "keywords": "videos taking up storage iphone, reduce video size to save storage iphone, iphone storage full videos, compress videos to free space",
+  "quick_answer": "Videos are usually the biggest thing in Photos. Find the largest clips, compress them in Compress Video, save the smaller copy, then delete the original and empty Recently Deleted. 4K, 60 fps, slow-motion and long screen recordings shrink the most.",
+  "intro": [
+    "iPhone records 4K at roughly 170–190 MB per minute and 4K 60 fps at about 400 MB per minute (HEVC). A handful of long clips can eat tens of gigabytes."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/4.webp",
+    "alt": "Compress Video result: 86% smaller file ready to save",
+    "caption": "Save the smaller copy, then delete the original."
+  },
+  "sections": [
+    {
+      "heading": "Find the biggest videos",
+      "list": [
+        "Photos → Collections → Media Types → Videos.",
+        "Settings → General → iPhone Storage → Photos shows how much videos use.",
+        "Start with screen recordings and slow-motion: they are often large and rarely need full quality."
+      ]
+    },
+    {
+      "heading": "Don't forget Recently Deleted",
+      "paragraphs": [
+        "Deleted originals stay in Photos → Recently Deleted for 30 days and still use space. Empty it after you have checked the compressed copies."
+      ]
+    },
+    {
+      "heading": "Record smaller from now on",
+      "paragraphs": [
+        "Settings → Camera → Record Video → 1080p at 30 fps, and Formats → High Efficiency, keep future clips smaller."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Shrink a video to save space",
+    "intro": "Repeat for your biggest clips.",
+    "total_time": "PT2M",
+    "items": [
+      {
+        "name": "Open a big clip",
+        "text": "Pick one of your largest videos in Compress Video."
+      },
+      {
+        "name": "Compress",
+        "text": "For 4K memories set the resolution slider to about 50% (≈ 1080p), lower 60 fps to 30 fps, tap Compress."
+      },
+      {
+        "name": "Save the copy",
+        "text": "Tap Download Compressed to save it to Photos."
+      },
+      {
+        "name": "Delete the original",
+        "text": "Check the copy, delete the original in Photos and empty Recently Deleted."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Will I lose quality if I compress my memories?",
+      "answer": "Keeping 1080p in HEVC looks the same on a phone and most laptops. Keep 4K originals only for clips you plan to edit or show on a TV."
+    }
+  ],
+  "related": [
+    "how-to-reduce-video-size-on-iphone-without-losing-quality",
+    "how-to-convert-video-to-hevc-on-iphone",
+    "how-to-compress-a-video-on-iphone"
+  ],
+  "published": "2026-10-04",
+  "updated": "2026-10-04"
+}
