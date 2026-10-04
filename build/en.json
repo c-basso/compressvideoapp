@@ -18,7 +18,9 @@
     "brand_name": "Compress Video",
     "brand_subtitle": "Video compressor for iPhone",
     "download_text": "Download on the App Store",
-    "download_aria_label": "Download Compress Video on the App Store"
+    "download_aria_label": "Download Compress Video on the App Store",
+    "download_text_small": "Download on the",
+    "download_text_big": "App Store"
   },
   "nav": {
     "aria": "Main navigation",
@@ -86,7 +88,9 @@
         "value": "Original vs Compressed",
         "label": "See both sizes before you save."
       }
-    ]
+    ],
+    "card_sub": "Video File Compressor for iPhone",
+    "card_note": "Free to try. Premium removes the daily limit."
   },
   "screenshots": {
     "eyebrow": "Screenshots",

@@ -63,6 +63,11 @@ p { margin: 0 0 16px; }
 .cta-ghost:hover { border-color: #cfc8e0; color: var(--ink); }
 .text-link { font-weight: 600; font-size: 15px; text-decoration: none; white-space: nowrap; }
 
+.cta-label { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.1; text-align: left; white-space: nowrap; }
+.cta-label small { font-size: 11px; font-weight: 500; opacity: .8; letter-spacing: .01em; }
+.cta-label { font-size: 19px; font-weight: 600; letter-spacing: -.015em; }
+.cta-apple-icon { width: 22px; height: 26px; flex: none; }
+
 /* Hero */
 .hero { position: relative; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 64px; align-items: center; padding: 72px 0 48px; }
 .hero::before { content: ""; position: absolute; z-index: -1; inset: -68px -50vw 0; background: radial-gradient(600px 360px at 78% 40%, rgba(139, 43, 226, .14), transparent 70%), radial-gradient(420px 300px at 92% 85%, rgba(214, 38, 143, .10), transparent 70%); pointer-events: none; }
@@ -229,11 +234,12 @@ p { margin: 0 0 16px; }
 .guide-disclaimer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 13px; line-height: 1.6; color: var(--muted); }
 .guide-aside { position: sticky; top: 92px; display: grid; gap: 16px; margin-top: 56px; }
 .aside-card { padding: 24px; border-radius: var(--r); background: var(--surface); border: 1px solid var(--line); }
-.app-card { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 4px; }
-.app-card img { border-radius: 16px; }
-.app-card-name { font: 600 17px var(--font-head); color: var(--ink); margin: 8px 0 0; }
-.app-card-sub, .app-card-note { font-size: 13px; color: var(--muted); margin: 0; }
-.app-card .cta-primary { height: 44px; font-size: 14px; padding: 0 16px; margin: 12px 0 8px; }
+.app-card { text-align: center; display: flex; flex-direction: column; align-items: center; padding: 28px 24px; }
+.app-card img { width: 72px; height: 72px; border-radius: 16px; box-shadow: var(--shadow); }
+.app-card-name { font: 600 17px var(--font-head); color: var(--ink); margin: 16px 0 4px; }
+.app-card-sub { font-size: 13px; line-height: 1.4; color: var(--muted); margin: 0; }
+.app-card .cta-primary { width: 100%; justify-content: center; height: 52px; padding: 0 16px; margin: 20px 0 12px; }
+.app-card-note { font-size: 13px; line-height: 1.45; color: var(--muted); margin: 0; }
 .aside-title { font: 600 13px var(--font); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
 .related-list { list-style: none; padding: 0; margin: 0 0 16px; display: grid; gap: 14px; }
 .related-list a { display: block; text-decoration: none; color: var(--ink); font-weight: 500; font-size: 15px; line-height: 1.4; }

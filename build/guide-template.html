@@ -149,10 +149,10 @@
           <div class="aside-card app-card">
             <img src="/img/app-icon.webp" alt="{{header.logo_alt}}" width="72" height="72" loading="lazy" decoding="async" />
             <p class="app-card-name">{{header.app_name}}</p>
-            <p class="app-card-sub">{{download.subtitle}}</p>
+            <p class="app-card-sub">{{download.card_sub}}</p>
             {{#if download.rating_line}}<p class="app-card-rating">{{download.rating_line}}</p>{{/if}}
 {{> appstore-button}}
-            <p class="app-card-note">{{download.price}} · {{download.price_note}}</p>
+            <p class="app-card-note">{{download.card_note}}</p>
           </div>
           {{#if guide.related}}
           <div class="aside-card">
