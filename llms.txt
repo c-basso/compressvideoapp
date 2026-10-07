@@ -18,14 +18,14 @@
 - Requires iOS 18.6 or later; 27.9 MB download; app localized in 31 languages
 - Price: free download (daily convert/share limit, one saved project); premium in-app purchase removes the limit
 - Public website: https://compressvideoapp.com/
-- Last website build date: 2026-10-04
+- Last website build date: 2026-10-07
 
 ## Main sections
 - [Home](https://compressvideoapp.com/): Product overview, how it works, FAQ, and App Store link
 - [FAQ](https://compressvideoapp.com/#faq): Direct answers to common product questions
 - [Guides](https://compressvideoapp.com/guides/): Step-by-step how-to articles, one per use case
-- [Privacy policy](https://c-basso.xyz/privacy.html): Data and privacy details
-- [Terms of service](https://c-basso.xyz/terms.html): Legal terms
+- [Privacy policy](https://compressvideoapp.com/privacy.html): Data and privacy details
+- [Terms of service](https://compressvideoapp.com/terms.html): Legal terms
 
 ## How-to guides (English)
 - [All guides](https://compressvideoapp.com/guides/)
@@ -79,7 +79,7 @@ No. Compression runs on your iPhone. The app does not upload your video to a ser
 
 ## Contact and policies
 - Website: https://compressvideoapp.com/
-- Privacy: https://c-basso.xyz/privacy.html
-- Terms: https://c-basso.xyz/terms.html
+- Privacy: https://compressvideoapp.com/privacy.html
+- Terms: https://compressvideoapp.com/terms.html
 
-Last updated: 2026-10-04
+Last updated: 2026-10-07

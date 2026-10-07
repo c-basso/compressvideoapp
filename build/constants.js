@@ -173,8 +173,8 @@ const EXPECTED_GUIDES_HUB_JSON_LD_TYPES = [
 const INDEX_NOW_KEY = 'VprsvtyeguO2iImhduATEjQz7HxWXSBD';
 
 /** Same legal docs as the App Store listing; merged into every locale `footer` in `normalizeFooter`. */
-const FOOTER_PRIVACY_URL = 'https://c-basso.xyz/privacy.html';
-const FOOTER_TERMS_URL = 'https://c-basso.xyz/terms.html';
+const FOOTER_PRIVACY_URL = 'https://compressvideoapp.com/privacy.html';
+const FOOTER_TERMS_URL = 'https://compressvideoapp.com/terms.html';
 
 /**
  * JSON-LD `aggregateRating` on `MobileApplication` (merged in `buildSoftwareApplicationStructuredData`).

@@ -17,7 +17,7 @@ Source: https://apps.apple.com/us/app/video-file-compressor/id6808348626 (pulled
 - Languages: English + 30 more (hr, cs, da, nl, fil, fi, fr, de, el, he, hu, id, it, ja, ko, ms, nb, pl, pt, ro, ru, zh-Hans, zh-Hant, sk, es, sv, th, tr, uk, vi)
 - Version: 1.0.1 — "This version of Video File Compressor includes new locales"
 - Privacy label: data not linked to you (purchases, identifiers, diagnostics); analytics + app functionality
-- Legal (store): Terms https://c-basso.xyz/terms.html · Privacy https://c-basso.xyz/privacy.html
+- Legal (store): Terms https://compressvideoapp.com/terms.html · Privacy https://compressvideoapp.com/privacy.html
 
 ## Keywords field
 App Store keyword field is private (App Store Connect only) — not visible on the listing. Indexed text we can see: title, subtitle, description. Website keyword strategy: `keywords/keywords.md`.
