@@ -42,7 +42,36 @@
             "High Efficiency"
           ]
         ]
-      }
+      },
+      "paragraphs": [
+        "HEVC is why Compress Video, a video compressor for iPhone, can shrink an H.264 clip without lowering its resolution. The codec does most of the work; the picture stays the same size on screen."
+      ],
+      "links": [
+        {
+          "url": "/",
+          "text": "Compress Video: video compressor for iPhone"
+        }
+      ]
+    },
+    {
+      "heading": "Still too big after HEVC?",
+      "paragraphs": [
+        "Changing the codec is the first, free step. If the file still won't send, lower the resolution or frame rate in Compress settings, or trim the parts you don't need."
+      ],
+      "links": [
+        {
+          "url": "/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/",
+          "text": "Reduce video size on iPhone without losing quality"
+        },
+        {
+          "url": "/guides/how-to-trim-and-compress-a-video-on-iphone/",
+          "text": "Trim and compress a video on iPhone"
+        },
+        {
+          "url": "/guides/video-too-large-to-send-on-iphone/",
+          "text": "Video too large to send on iPhone"
+        }
+      ]
     },
     {
       "heading": "When not to convert",
@@ -83,8 +112,14 @@
   "related": [
     "how-to-reduce-video-size-on-iphone-without-losing-quality",
     "how-to-free-up-iphone-storage-from-videos",
-    "how-to-compress-a-video-on-iphone"
+    "how-to-compress-a-video-on-iphone",
+    "how-to-trim-and-compress-a-video-on-iphone",
+    "video-too-large-to-send-on-iphone"
   ],
   "published": "2026-10-04",
-  "updated": "2026-10-04"
+  "updated": "2026-10-21",
+  "cta": {
+    "title": "Convert to HEVC in Compress Video",
+    "text": "Free video compressor for iPhone. Open the H.264 clip, tap Compress, save the HEVC copy."
+  }
 }

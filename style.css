@@ -218,6 +218,8 @@ p { margin: 0 0 16px; }
 .geo-compare-table thead th { background: #f6f5f9; color: var(--ink); font-weight: 600; font-size: 14px; }
 .geo-compare-table tr:last-child td { border-bottom: 0; }
 .guide-note { font-size: 14px; color: var(--muted); }
+.guide-links { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 8px; }
+.guide-links .text-link { white-space: normal; }
 .steps-list { list-style: none; padding: 0 !important; margin: 24px 0; display: grid; gap: 12px; }
 .steps-list li { display: flex; gap: 16px; margin: 0; padding: 20px; border-radius: var(--r); background: var(--surface); border: 1px solid var(--line); }
 .steps-list .step-number { flex: none; margin: 0; }
