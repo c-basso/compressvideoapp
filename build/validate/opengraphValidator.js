@@ -165,7 +165,10 @@ function validateOpenGraphTags(html, { file, lang }) {
   // Validate og:description length
   if (found['og:description']) {
     const descLength = found['og:description'].length;
-    if (descLength < OG_DESCRIPTION_MIN_LENGTH) {
+    // Lazy require: seoValidator imports this module. CJK and other dense scripts say more in fewer
+    // characters, so the 110-char hint only applies to Latin/Cyrillic locales (same rule as seoValidator).
+    const { useLatinSerpLengthHeuristic } = require('./seoValidator');
+    if (descLength < OG_DESCRIPTION_MIN_LENGTH && useLatinSerpLengthHeuristic(lang)) {
       warnings.push(`og:description is short: ${descLength} characters (recommended: ${OG_DESCRIPTION_MIN_LENGTH}+)`);
     } else if (descLength > OG_DESCRIPTION_MAX_LENGTH) {
       errors.push(`og:description is too long: ${descLength} characters (maximum: ${OG_DESCRIPTION_MAX_LENGTH})`);

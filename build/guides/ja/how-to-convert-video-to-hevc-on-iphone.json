@@ -1,0 +1,126 @@
+{
+  "en_slug": "how-to-convert-video-to-hevc-on-iphone",
+  "priority": 10,
+  "title": "iPhoneで動画をHEVCに変換する方法（H.264からH.265へ）",
+  "description": "iPhoneでH.264の動画をHEVC（H.265）に変換して、同じ解像度のままファイルサイズを減らす方法。半分ほどになることも。HEVCとは何か、1分でできる変換手順を解説します。",
+  "h1": "iPhoneで動画をHEVCに変換する方法",
+  "eyebrow": "HEVC",
+  "card_title": "動画をHEVCに変換",
+  "card_summary": "古い動画やダウンロードした動画は、H.264 → H.265がいちばん手軽に効きます。",
+  "keywords": "iphone 動画 hevc 変換, h264 hevc 変換 iphone, mp4 hevc 変換, iphone 高効率 動画, h265 変換 iphone",
+  "quick_answer": "HEVC（H.265）は、H.264と同じ映像を少ないデータで保存できます。Compress Videoは常にHEVCで書き出します。H.264の動画を開き、必要なら解像度はそのままにして、圧縮をタップし、保存します。多くのH.264の動画は半分ほどのサイズになります。",
+  "intro": [
+    "設定 → カメラ → フォーマットが「高効率」なら、iPhoneで新しく撮った動画はすでにHEVCです。ダウンロードした動画、ほかのアプリの画面収録、古い動画、「互換性優先」で撮った動画は、H.264であることがよくあります。"
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "変換前にコーデックH.264を表示したCompress Videoのファイル詳細",
+    "caption": "コーデックを確認：H.264の動画ほどHEVCで大きく縮みます。"
+  },
+  "sections": [
+    {
+      "heading": "H.264とHEVCの違い",
+      "table": {
+        "head": [
+          "",
+          "H.264（AVC）",
+          "HEVC（H.265）"
+        ],
+        "rows": [
+          [
+            "同じ画質でのファイルサイズ",
+            "大きい",
+            "半分ほどになることが多い"
+          ],
+          [
+            "再生できる環境",
+            "ほぼすべて",
+            "iPhone、Mac、最近のAndroid、対応したWindows"
+          ],
+          [
+            "iPhoneの設定",
+            "互換性優先",
+            "高効率"
+          ]
+        ]
+      },
+      "paragraphs": [
+        "iPhone用の動画圧縮アプリであるCompress Videoが、解像度を下げずにH.264の動画を小さくできるのはHEVCのおかげです。仕事の大部分はコーデックがしてくれるので、画面上の映像の大きさは変わりません。"
+      ],
+      "links": [
+        {
+          "url": "/ja/",
+          "text": "Compress Video：iPhone用の動画圧縮アプリ"
+        }
+      ]
+    },
+    {
+      "heading": "HEVCにしてもまだ大きいときは",
+      "paragraphs": [
+        "コーデックの変更は、最初にできる無料の一歩です。それでも送れないときは、圧縮設定で解像度やフレームレートを下げるか、いらない部分をトリミングしてください。"
+      ],
+      "links": [
+        {
+          "url": "/ja/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/",
+          "text": "iPhoneで画質を落とさずに動画のサイズを小さくする"
+        },
+        {
+          "url": "/ja/guides/how-to-trim-and-compress-a-video-on-iphone/",
+          "text": "iPhoneで動画をトリミングして圧縮する"
+        },
+        {
+          "url": "/ja/guides/video-too-large-to-send-on-iphone/",
+          "text": "iPhoneで動画が大きすぎて送れないとき"
+        }
+      ]
+    },
+    {
+      "heading": "変換しないほうがいいとき",
+      "paragraphs": [
+        "とても古い機器向けの動画や、H.264しか受け付けない作業に使う場合は、元の動画のままにするか、代わりに解像度を下げてください。"
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "H.264をHEVCに変換する",
+    "intro": "一度の操作で完了。画質の設定に迷う必要はありません。",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "動画を開く",
+        "text": "Compress Videoで動画を選び、コーデックがH.264になっているか確認します。"
+      },
+      {
+        "name": "解像度はそのまま",
+        "text": "コーデックだけを変えたいなら、圧縮設定で解像度のスライダーを100%のままにし、フレームレートも変えません。"
+      },
+      {
+        "name": "圧縮",
+        "text": "圧縮をタップします。結果はHEVCでエンコードされます。"
+      },
+      {
+        "name": "保存",
+        "text": "サイズを比べて、圧縮後のファイルを保存します。"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "H.265とHEVCは同じものですか？",
+      "answer": "同じです。HEVCはHigh Efficiency Video Codingの略で、H.265とも呼ばれます。"
+    }
+  ],
+  "related": [
+    "how-to-reduce-video-size-on-iphone-without-losing-quality",
+    "how-to-free-up-iphone-storage-from-videos",
+    "how-to-compress-a-video-on-iphone",
+    "how-to-trim-and-compress-a-video-on-iphone",
+    "video-too-large-to-send-on-iphone"
+  ],
+  "published": "2026-11-25",
+  "updated": "2026-11-25",
+  "cta": {
+    "title": "Compress VideoでHEVCに変換",
+    "text": "iPhone用の無料動画圧縮アプリ。H.264の動画を開いて圧縮し、HEVCのコピーを保存します。"
+  }
+}

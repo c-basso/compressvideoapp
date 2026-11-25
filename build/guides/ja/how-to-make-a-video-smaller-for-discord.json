@@ -1,0 +1,153 @@
+{
+  "en_slug": "how-to-make-a-video-smaller-for-discord",
+  "priority": 6,
+  "title": "iPhoneでDiscord用に動画を圧縮する方法（20MB）",
+  "description": "動画が大きすぎてDiscordに送れない？iPhoneで無料プランの20MB以下に圧縮する方法。トリミングし、解像度とfpsを下げてHEVCで書き出します。長さ別の設定つき。",
+  "h1": "iPhoneでDiscord用に動画を小さくする方法",
+  "eyebrow": "Discord",
+  "card_title": "Discordに送れるサイズにする",
+  "card_summary": "無料プランのDiscordは20MBまで。iPhoneでどんな動画も上限以下にできます。",
+  "keywords": "discord 動画 圧縮 iphone, discord 動画 送れない 容量, discord 20mb 動画, discord 動画 サイズ 上限, discord ファイル 大きすぎる",
+  "quick_answer": "Discordの無料アカウントでは、1ファイル20MBまでアップロードできます（2026年8月に10MBから引き上げ）。Nitro Basicは50MB、Nitroは500MBです。Compress Videoでトリミングし、解像度のスライダーを下げ、フレームレートを30fpsにして圧縮をタップし、圧縮後のサイズが上限を下回っているか確認してから、Discordに共有してください。",
+  "intro": [
+    "ゲームのクリップや画面収録は、高解像度・60fps・長尺と、まさにDiscordの上限を超えやすい動画です。"
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/3.webp",
+    "alt": "Discord用に圧縮する前にCompress Videoで動画をトリミングしている画面",
+    "caption": "まず見せ場だけにトリミング。これがいちばんサイズを減らせます。"
+  },
+  "sections": [
+    {
+      "heading": "Discordのアップロード上限",
+      "table": {
+        "head": [
+          "プラン",
+          "アップロード上限"
+        ],
+        "rows": [
+          [
+            "無料",
+            "20MB"
+          ],
+          [
+            "Nitro Basic",
+            "50MB"
+          ],
+          [
+            "Nitro",
+            "500MB"
+          ]
+        ]
+      },
+      "note": "2026年8月時点の上限です。ブーストされたサーバーでは、さらに大きいファイルを送れることがあります。",
+      "links": [
+        {
+          "url": "/ja/",
+          "text": "Compress Video：iPhoneの動画圧縮アプリ"
+        }
+      ]
+    },
+    {
+      "heading": "20MBに収まる設定",
+      "list": [
+        "30秒未満の動画：およそ1080p（4Kの50%）・30fpsならたいてい収まります。",
+        "30〜60秒：およそ720p（4Kの約3分の1）・30fps。",
+        "それより長い動画：見せ場だけにトリミングするか、スライダーをさらに下げます。"
+      ]
+    },
+    {
+      "heading": "20MBに収まる動画の長さ",
+      "paragraphs": [
+        "ファイルサイズはビットレート×長さなので、長い動画ほど使えるビットレートは低くなります。下の表は、Discordの無料プランの20MBにぎりぎり収まる合計ビットレート（映像＋音声）です。"
+      ],
+      "table": {
+        "head": [
+          "動画の長さ",
+          "最大の合計ビットレート",
+          "たいてい収まる設定"
+        ],
+        "rows": [
+          [
+            "15秒",
+            "≈10.5Mbps",
+            "1080p・60fps"
+          ],
+          [
+            "30秒",
+            "≈5.3Mbps",
+            "1080p・30fps"
+          ],
+          [
+            "60秒",
+            "≈2.6Mbps",
+            "720p・30fps"
+          ],
+          [
+            "2分",
+            "≈1.3Mbps",
+            "540p〜480p・30fps"
+          ],
+          [
+            "5分",
+            "≈0.5Mbps",
+            "短い見せ場にトリミング"
+          ]
+        ]
+      },
+      "note": "20MB ≈ 160メガビット。Discordは音声も含めたファイル全体で数えるので、少し余裕を残しましょう。"
+    }
+  ],
+  "steps": {
+    "heading": "Discord用に動画を圧縮する",
+    "intro": "チャット、サーバー、DMで使えます。",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "動画を開く",
+        "text": "Compress Videoで録画を選ぶか、写真アプリからアプリに共有します。"
+      },
+      {
+        "name": "見せ場だけにトリミング",
+        "text": "トリミングを開き、共有したい場面だけを残します。"
+      },
+      {
+        "name": "解像度とfpsを下げる",
+        "text": "圧縮設定で解像度のスライダーを下げ、30fpsにして、圧縮をタップします。"
+      },
+      {
+        "name": "サイズを確認",
+        "text": "圧縮後のサイズが20MB（またはNitroの上限）を下回っていることを確認します。"
+      },
+      {
+        "name": "Discordに共有",
+        "text": "圧縮後のファイルを保存してDiscordでアップロードするか、iOSの共有シートから共有します。"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Discordの無料ユーザーのファイルサイズ上限は？",
+      "answer": "2026年8月から1ファイル20MBです。それ以前は10MBでした。"
+    },
+    {
+      "question": "Nitroなしで長い動画をDiscordに送れますか？",
+      "answer": "20MB以下に圧縮するか、短い見せ場にトリミングすれば送れます。"
+    },
+    {
+      "question": "Discordで「ファイルが大きすぎます」と表示されるのはなぜですか？",
+      "answer": "ファイルがアップロード上限（無料アカウントは20MB）を超えているからです。iPhoneの動画は高解像度で、60fpsで撮られていることも多いため大きくなります。トリミングして圧縮し、アップロードする前に圧縮後のサイズを確認してください。"
+    },
+    {
+      "question": "Discord用にオンラインの圧縮サービスを使う必要はありますか？",
+      "answer": "ありません。オンラインの圧縮サービスでは、まず動画をウェブサイトにアップロードする必要があります。Compress VideoはiPhoneの中で処理するので、動画が端末の外に出ることはなく、小さくしたファイルをそのままDiscordに共有できます。"
+    }
+  ],
+  "related": [
+    "how-to-trim-and-compress-a-video-on-iphone",
+    "how-to-compress-a-video-for-whatsapp",
+    "how-to-compress-a-video-on-iphone"
+  ],
+  "published": "2026-11-25",
+  "updated": "2026-11-25"
+}

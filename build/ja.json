@@ -1,0 +1,386 @@
+{
+  "meta": {
+    "lang": "ja",
+    "title": "iPhoneの動画圧縮アプリ｜動画サイズを無料で小さく – Compress Video",
+    "description": "iPhoneで動画を圧縮する無料アプリ。動画をアップロードせず端末内でサイズを小さくできます。トリミングして元のサイズと圧縮後のサイズを比べ、メールやLINE、Discordで送れる大きさにします。",
+    "keywords": "動画 圧縮 iphone, iphone 動画 容量 小さく, 動画 サイズ 小さく iphone, 動画圧縮アプリ, iphone 動画 送れない, 動画 容量 減らす, 動画 圧縮 無料, 動画ファイル圧縮",
+    "og_title": "iPhoneの動画圧縮アプリ｜動画サイズを無料で小さく",
+    "og_description": "大きすぎて送れないiPhoneの動画を、端末内で小さく。不要な部分をトリミングし、元のサイズと圧縮後のサイズを比べてから、小さいコピーを保存できます。",
+    "og_image_alt": "iPhone用Compress Video：1.7MBの動画を240KBに圧縮（86%小さく）",
+    "twitter_title": "iPhoneの動画圧縮アプリ｜動画サイズを無料で小さく",
+    "twitter_description": "大きすぎて送れないiPhoneの動画を、端末内で小さく。不要な部分をトリミングし、元のサイズと圧縮後のサイズを比べてから、小さいコピーを保存できます。",
+    "twitter_image_alt": "iPhone用Compress Video：1.7MBの動画を240KBに圧縮（86%小さく）"
+  },
+  "header": {
+    "app_name": "Compress Video",
+    "app_name_suffix": "iPhone用 動画ファイル圧縮",
+    "logo_alt": "Compress Videoのアプリアイコン",
+    "brand_name": "Compress Video",
+    "brand_subtitle": "iPhoneの動画圧縮アプリ",
+    "download_text": "App Storeからダウンロード",
+    "download_aria_label": "App StoreでCompress Videoをダウンロード",
+    "download_text_small": "ダウンロード",
+    "download_text_big": "App Store"
+  },
+  "nav": {
+    "aria": "メインナビゲーション",
+    "how_it_works": "使い方",
+    "screenshots": "スクリーンショット",
+    "guides": "ガイド",
+    "faq": "よくある質問",
+    "download": "アプリを入手"
+  },
+  "hero": {
+    "kicker_value": "−86%",
+    "kicker_text": "アプリでの実例：1.7MBの動画 → 240KB",
+    "title_prefix": "iPhoneの動画圧縮アプリ。",
+    "title_highlight": "一度で送れるサイズに。",
+    "title_suffix": "",
+    "subtitle": "動画が大きすぎて送れませんか？Compress VideoならiPhoneの中で小さくできます。いらない部分をトリミングし、サイズを選び、元のサイズと圧縮後のサイズを比べて、メールやLINE、Discordの上限に収まるファイルを保存できます。",
+    "cta_secondary_link": "使い方を見る",
+    "cta_note": "無料ダウンロード・iOS 18.6以降・アップロードなし、端末内で処理",
+    "proof_aria": "アプリの特長",
+    "proof": [
+      {
+        "value": "HEVC",
+        "label": "新しいコーデックでファイルが小さい"
+      },
+      {
+        "value": "端末内で処理",
+        "label": "動画はアップロードされません"
+      },
+      {
+        "value": "トリミング＋圧縮",
+        "label": "ひとつのアプリで完結"
+      }
+    ],
+    "device_image_src": "/img/screenshots/1.webp",
+    "device_image_alt": "iPhone用動画圧縮アプリCompress Videoの画面",
+    "badge_before": "1.7 MB",
+    "badge_after": "240 KB"
+  },
+  "geo": {
+    "summary_aria": "このアプリについて",
+    "summary_lead": "Compress Video（App Storeでの名称は「動画ファイル圧縮 – Compress Video」）は、動画をHEVCで再エンコードしてファイルサイズを小さくするiPhoneアプリです。解像度、フレームレート、音声を調整でき、先にトリミングすることもできます。元のサイズと圧縮後のサイズを確認してから、小さいコピーを写真に保存したり、ほかのアプリに共有したりできます。処理はすべて端末内で行われ、動画はアップロードされません。"
+  },
+  "download": {
+    "eyebrow": "ダウンロード",
+    "title": "App Storeで「動画ファイル圧縮 – Compress Video」を入手",
+    "subtitle": "ビデオサイズを縮小してスマホの容量を減らす・仕事効率化・iPhone",
+    "price": "無料",
+    "price_note": "1日の上限まで無料で圧縮できます。プレミアムで上限がなくなります",
+    "requirements": "iOS 18.6以降・27.9MB・日本語を含む31言語・4+",
+    "facts_title": "できること",
+    "facts": [
+      {
+        "value": "写真・ファイル・共有シート",
+        "label": "アクション拡張を含め、どこからでも読み込めます。"
+      },
+      {
+        "value": "トリミング",
+        "label": "圧縮の前に、必要な秒数だけを残せます。"
+      },
+      {
+        "value": "解像度・fps・音声",
+        "label": "音声は圧縮・そのまま・ミュートから選択。解像度とフレームレートを下げられます。"
+      },
+      {
+        "value": "元のサイズと圧縮後のサイズ",
+        "label": "保存する前に両方のサイズを確認できます。"
+      }
+    ],
+    "card_sub": "iPhone用 動画ファイル圧縮",
+    "card_note": "無料で試せます。プレミアムで1日の上限がなくなります。"
+  },
+  "screenshots": {
+    "eyebrow": "スクリーンショット",
+    "title": "3つの画面で、送れないサイズから送れるサイズへ",
+    "intro": "アプリの実際の画面です。ファイルの詳細とトリミング・圧縮設定、トリミング画面、そしてどれだけ小さくなったかを示す結果画面。",
+    "aria": "アプリのスクリーンショット（横にスクロール）",
+    "items": [
+      {
+        "src": "/img/screenshots/2.webp",
+        "alt": "Compress Videoのファイル詳細：1.7MB、0:23、460×816、H.264。トリミング、圧縮設定、圧縮のボタン",
+        "caption": "サイズ、解像度、コーデック、フレームレートを確認してから圧縮します。"
+      },
+      {
+        "src": "/img/screenshots/3.webp",
+        "alt": "Compress Videoのトリミング画面：圧縮の前に0:04〜0:16だけを残す",
+        "caption": "先にトリミングして、残した部分だけを圧縮します。"
+      },
+      {
+        "src": "/img/screenshots/4.webp",
+        "alt": "Compress Videoの圧縮結果：240KB、86%小さく、HEVC。圧縮後のファイルを保存するボタン",
+        "caption": "元のサイズと圧縮後のサイズを比べて、保存します。"
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "使い方",
+    "title": "4ステップで動画を圧縮",
+    "intro": "ビットレートの計算は不要です。動画を選び、どこまで小さくするか決めて、保存するだけ。",
+    "steps": [
+      "写真またはファイルから動画を選ぶか、ほかのアプリからCompress Videoに共有します。",
+      "必要ならトリミングして、いらない部分をカットします。",
+      "圧縮設定を開き、解像度のスライダーを下げます。必要に応じてフレームレートを下げ、音声を圧縮・そのまま・ミュートから選んで、圧縮をタップします。",
+      "「N%小さく」を確認し、元のサイズと圧縮後のサイズを切り替えて比べたら、圧縮後のファイルを保存または共有します。"
+    ]
+  },
+  "guides": {
+    "eyebrow": "ガイド",
+    "title": "動画が大きすぎる？送り先に合わせて解決",
+    "intro": "メールの上限、WhatsApp、Discord、Android、iPhoneの容量。問題ごとにひとつのガイドで、まず結論、そのあと具体的な手順を説明します。",
+    "hub_link_text": "すべてのガイド",
+    "read_more": "ガイドを読む",
+    "hub": {
+      "title": "Compress Videoガイド｜iPhoneの動画を送れるサイズに小さくする方法",
+      "description": "iPhoneの動画をメールやWhatsApp、Discord用に圧縮する方法、Androidへの送り方、容量を空ける方法、HEVCへの変換を手順つきで解説します。",
+      "h1": "ガイド：iPhoneの動画を送れるサイズにする",
+      "intro": "どのガイドも最初に結論を示し、iOSだけでできること・できないことを説明してから、Compress Videoでの手順を紹介します。"
+    },
+    "labels": {
+      "home": "ホーム",
+      "guides": "ガイド",
+      "breadcrumb_aria": "パンくずリスト",
+      "updated": "更新日",
+      "reading_time": "{n}分で読めます",
+      "quick_answer": "結論",
+      "faq_heading": "よくある質問",
+      "related": "関連ガイド",
+      "all_guides": "すべてのガイド",
+      "disclaimer": "Compress Videoは、動画の小さいコピーを新しく保存します。元の動画は、削除するまでそのまま残ります。各サービスのアップロード上限は変わることがあります。上限に近いファイルは、送り先のサービスで最新の上限を確認してください。"
+    },
+    "default_cta": {
+      "title": "Compress Videoでやってみる",
+      "text": "App Storeで無料。動画を選んで圧縮し、小さいコピーを保存するだけです。"
+    }
+  },
+  "faq_section": {
+    "eyebrow": "よくある質問",
+    "title": "iPhoneでの動画圧縮：よくある質問",
+    "intro": "まず短い答えを。くわしくは各ガイドで説明しています。",
+    "learn_more_label": "くわしく見る"
+  },
+  "cta": {
+    "eyebrow": "さっそく試す",
+    "title": "次の動画は、一度で送れます。",
+    "text": "Compress Videoをダウンロードして、送れなかった動画を選ぶだけ。数秒で小さいコピーを保存できます。",
+    "note": "無料ダウンロード・iOS 18.6以降・端末内で処理"
+  },
+  "footer": {
+    "copyright": "© {year} c-basso · Compress Video",
+    "tagline": "iPhoneで動画を圧縮。ファイルは小さく、思い出はそのまま。",
+    "links_aria": "フッター",
+    "last_updated_label": "最終更新日：",
+    "privacy_link": "プライバシーポリシー",
+    "terms_link": "利用規約",
+    "app_store_link_text": "App Storeで見る",
+    "guides_link_text": "ガイド",
+    "languages_label": "ほかの言語で見る"
+  },
+  "llms": {
+    "entity": [
+      "App Store（日本）での名称：「動画ファイル圧縮 – Compress Video」、サブタイトル「ビデオサイズを縮小してスマホの容量を減らす」",
+      "カテゴリ：iOSアプリ、App Storeカテゴリは仕事効率化",
+      "主な用途：iPhoneの動画ファイルを小さくして、送信・アップロードできるようにし、容量を空ける",
+      "基本の流れ：読み込み（写真、ファイル、共有シート、アクション拡張）→ 必要ならトリミング → 圧縮設定（解像度、フレームレート、音声の圧縮・そのまま・ミュート）→ 圧縮（HEVC）→ 元のサイズと圧縮後のサイズを比較 → 保存",
+      "処理は端末内。動画はアップロードされない",
+      "デベロッパ：Vladimir Ivakhnenko（c-basso）"
+    ],
+    "numbers": [
+      "App Storeのスクリーンショットの例：1.7MBのH.264動画 → 240KBのHEVC（86%小さく）",
+      "iOS 18.6以降が必要。サイズ27.9MB。日本語を含む31言語に対応",
+      "料金：無料ダウンロード（1日の変換・共有の上限、保存できるプロジェクト1件）。プレミアムのアプリ内課金で上限がなくなる"
+    ]
+  },
+  "seo": {
+    "breadcrumb_home": "ホーム",
+    "faq": [
+      {
+        "question": "iPhoneで動画を圧縮するには？",
+        "answer": "Compress Videoを開き、写真またはファイルから動画を選びます（アプリに共有してもかまいません）。圧縮設定で解像度のスライダーを下げ（必要ならフレームレートや音声も調整）、圧縮をタップして保存します。保存する前に、元のサイズと圧縮後のサイズを確認できます。",
+        "guide": "how-to-compress-a-video-on-iphone"
+      },
+      {
+        "question": "画質を落とさずにiPhoneの動画のサイズを小さくできますか？",
+        "answer": "ある程度までは可能です。H.264の動画はHEVCに再エンコードするだけで、同じ解像度のまま半分ほどになることがよくあります。解像度はそのままにし、フレームレートを下げるのは話している人を映した動画などに限り、保存前に元のサイズと圧縮後のサイズを比べてください。",
+        "guide": "how-to-reduce-video-size-on-iphone-without-losing-quality"
+      },
+      {
+        "question": "大きすぎてメールで送れない動画はどうすればいいですか？",
+        "answer": "Gmailの添付ファイルは25MBまで、Outlook.comは20MBまでです。圧縮後のサイズが上限を下回るまで動画を圧縮してから添付してください。それより大きいファイルは、AppleのMail Dropを使うとファイルの代わりにダウンロードリンクを送れます。",
+        "guide": "how-to-email-a-large-video-from-iphone"
+      },
+      {
+        "question": "iPhoneで「動画が大きすぎて送れない」と表示されるのはなぜですか？",
+        "answer": "メッセージやメールサーバー、通信会社は、添付できるサイズに上限を設けています。4K動画は1分でも150MBを大きく超えることが多く、送信に失敗します。動画をトリミングして低い解像度に圧縮すれば、ふつうの添付ファイルとして送れます。",
+        "guide": "video-too-large-to-send-on-iphone"
+      },
+      {
+        "question": "WhatsAppで長い動画を、切れたりぼやけたりせずに送るには？",
+        "answer": "WhatsAppはメディアとして送られた動画を再圧縮します。先に自分で圧縮して画質を決めておくか、圧縮したファイルを「書類」として送ってください。書類なら2GBまで再圧縮されずに送れます。",
+        "guide": "how-to-compress-a-video-for-whatsapp"
+      },
+      {
+        "question": "Discordに送るには動画をどこまで小さくすればいいですか？",
+        "answer": "Discordの無料アカウントでは、1ファイル20MBまでアップロードできます（2026年8月から）。Nitro Basicは50MB、Nitroは500MBです。圧縮後のサイズが上限を下回るまで圧縮してから、Discordに共有してください。",
+        "guide": "how-to-make-a-video-smaller-for-discord"
+      },
+      {
+        "question": "iPhoneからAndroidに送った動画がぼやけるのはなぜですか？",
+        "answer": "iMessageが使えないと、動画はMMSで送られ、通信会社によってとても小さいファイルに圧縮されます。自分で適切なサイズに圧縮し、LINEやWhatsApp、メール、リンク共有などで送ってください。",
+        "guide": "how-to-send-a-large-video-from-iphone-to-android"
+      },
+      {
+        "question": "圧縮する前に動画をトリミングできますか？",
+        "answer": "できます。トリミングを開き、ハンドルをドラッグして必要な部分だけを残して保存し、そのあと圧縮します。いらない部分を削るのが、画質に手を加えずにファイルを小さくするいちばん早い方法です。",
+        "guide": "how-to-trim-and-compress-a-video-on-iphone"
+      },
+      {
+        "question": "動画を圧縮するとiPhoneの容量は空きますか？",
+        "answer": "圧縮したコピーを残して元の動画を削除すれば空きます。4Kやスローモーションの動画ほど大きく縮みます。削除した元の動画は「最近削除した項目」に30日間残るので、容量を戻すにはそこからも削除してください。",
+        "guide": "how-to-free-up-iphone-storage-from-videos"
+      },
+      {
+        "question": "HEVCとは？なぜ動画が小さくなるのですか？",
+        "answer": "HEVC（H.265）は、H.264より少ないデータで同じ映像を保存できる新しい動画コーデックです。Compress Videoは常にHEVCで書き出すため、古いH.264の動画は同じ解像度でも大きく縮むことがよくあります。",
+        "guide": "how-to-convert-video-to-hevc-on-iphone"
+      },
+      {
+        "question": "iPhoneで動画のサイズを確認するには？",
+        "answer": "写真で動画を開き、情報ボタン（ⓘ）をタップすると、撮影したデバイス名の下にサイズが表示されます。ファイルでは、リスト表示にするとファイル名の横にサイズが表示されます。Compress Videoでも、元のサイズと圧縮後のサイズを並べて確認できます。",
+        "guide": "how-to-check-video-size-on-iphone"
+      },
+      {
+        "question": "Compress Videoは無料ですか？",
+        "answer": "ダウンロードは無料で、1日の変換・共有の上限と、保存できるプロジェクト1件が含まれます。プレミアムのアプリ内課金で1日の共有上限がなくなり、複数のプロジェクトを保存できます。最新の価格はApp Storeで確認できます。",
+        "guide": "",
+        "learn_more_url": "__APP_STORE_URL__",
+        "learn_more_title": "App Storeの「動画ファイル圧縮 – Compress Video」：無料ダウンロードと最新の価格",
+        "learn_more_label": "App Storeで価格を見る"
+      },
+      {
+        "question": "動画はサーバーにアップロードされますか？",
+        "answer": "いいえ。圧縮はiPhoneの中で行われます。圧縮のために動画をサーバーにアップロードすることはないので、プライベートな動画も端末の外に出ません。",
+        "guide": "how-to-compress-a-video-on-iphone#privacy"
+      }
+    ],
+    "structured_data": {
+      "software_application": {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "動画ファイル圧縮 – Compress Video",
+        "alternateName": "Video File Compressor",
+        "operatingSystem": "iOS 18.6以降",
+        "applicationCategory": "MultimediaApplication",
+        "applicationSubCategory": "ProductivityApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "JPY",
+          "category": "free"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Vladimir Ivakhnenko"
+        },
+        "inLanguage": [
+          "en",
+          "hr",
+          "cs",
+          "da",
+          "nl",
+          "fil",
+          "fi",
+          "fr",
+          "de",
+          "el",
+          "he",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "ms",
+          "nb",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "zh-Hans",
+          "zh-Hant",
+          "sk",
+          "es",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi"
+        ],
+        "featureList": [
+          "iPhoneで動画をHEVCに圧縮",
+          "圧縮前のトリミング",
+          "解像度、フレームレート、音声（圧縮・そのまま・ミュート）の調整",
+          "元のファイルサイズと圧縮後のサイズの比較",
+          "写真、ファイル、共有シート、アクション拡張からの読み込み",
+          "写真への保存、ほかのアプリへの共有",
+          "端末内で処理、アップロードなし"
+        ],
+        "description": "動画ファイルを圧縮するiPhoneアプリ。トリミングし、解像度・フレームレート・音声を調整してHEVCで再エンコードし、サイズを比べて小さいコピーを保存できます。処理は端末内で行われます。"
+      },
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "c-basso",
+        "url": "https://compressvideoapp.com/",
+        "logo": "https://compressvideoapp.com/img/app-icon.webp",
+        "description": "iOSユーティリティを開発する個人デベロッパ（Vladimir Ivakhnenko）。",
+        "sameAs": [
+          "https://x.com/c__basso",
+          "https://apps.apple.com/developer/id1239180595"
+        ]
+      },
+      "website": {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Compress Video",
+        "url": "https://compressvideoapp.com/ja/"
+      },
+      "howto": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Compress VideoでiPhoneの動画を圧縮する方法",
+        "description": "動画を選び、トリミングし、解像度・フレームレート・音声を決めてHEVCに圧縮し、小さいコピーを保存します。",
+        "totalTime": "PT1M",
+        "tool": [
+          {
+            "@type": "HowToTool",
+            "name": "iPhone用アプリ Compress Video"
+          }
+        ],
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "動画を選ぶ",
+            "text": "写真またはファイルから動画を選ぶか、Compress Videoに共有します。"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "トリミング",
+            "text": "トリミングを開き、必要な部分だけを残します。"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "圧縮",
+            "text": "圧縮設定を開き、解像度のスライダーを下げ、必要ならフレームレートを下げて音声を選び、圧縮をタップします。"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "保存",
+            "text": "元のサイズと圧縮後のサイズを比べてから、圧縮後のファイルを保存します。"
+          }
+        ]
+      }
+    }
+  }
+}

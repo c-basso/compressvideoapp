@@ -7,6 +7,16 @@
     <loc>https://compressvideoapp.com/</loc>
     <lastmod>2026-10-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/" />
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/" />
     <priority>1.0</priority>
   </url>
@@ -15,6 +25,16 @@
     <loc>https://compressvideoapp.com/guides/</loc>
     <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/guides/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/" />
     <priority>0.8</priority>
   </url>
@@ -23,6 +43,7 @@
     <loc>https://compressvideoapp.com/guides/how-to-check-video-size-on-iphone/</loc>
     <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-check-video-size-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-check-video-size-on-iphone/" />
     <priority>0.9</priority>
   </url>
@@ -31,6 +52,7 @@
     <loc>https://compressvideoapp.com/guides/how-to-compress-a-video-for-whatsapp/</loc>
     <lastmod>2026-10-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-compress-a-video-for-whatsapp/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-compress-a-video-for-whatsapp/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-compress-a-video-for-whatsapp/" />
     <priority>0.9</priority>
   </url>
@@ -39,6 +61,7 @@
     <loc>https://compressvideoapp.com/guides/how-to-compress-a-video-on-iphone/</loc>
     <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-compress-a-video-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-compress-a-video-on-iphone/" />
     <priority>0.9</priority>
   </url>
@@ -47,6 +70,7 @@
     <loc>https://compressvideoapp.com/guides/how-to-convert-video-to-hevc-on-iphone/</loc>
     <lastmod>2026-10-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-convert-video-to-hevc-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-convert-video-to-hevc-on-iphone/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-convert-video-to-hevc-on-iphone/" />
     <priority>0.9</priority>
   </url>
@@ -55,6 +79,7 @@
     <loc>https://compressvideoapp.com/guides/how-to-email-a-large-video-from-iphone/</loc>
     <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-email-a-large-video-from-iphone/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-email-a-large-video-from-iphone/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-email-a-large-video-from-iphone/" />
     <priority>0.9</priority>
   </url>
@@ -63,6 +88,7 @@
     <loc>https://compressvideoapp.com/guides/how-to-free-up-iphone-storage-from-videos/</loc>
     <lastmod>2026-10-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-free-up-iphone-storage-from-videos/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-free-up-iphone-storage-from-videos/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-free-up-iphone-storage-from-videos/" />
     <priority>0.9</priority>
   </url>
@@ -71,6 +97,7 @@
     <loc>https://compressvideoapp.com/guides/how-to-make-a-video-smaller-for-discord/</loc>
     <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-make-a-video-smaller-for-discord/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-make-a-video-smaller-for-discord/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-make-a-video-smaller-for-discord/" />
     <priority>0.9</priority>
   </url>
@@ -79,6 +106,7 @@
     <loc>https://compressvideoapp.com/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/</loc>
     <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/" />
     <priority>0.9</priority>
   </url>
@@ -87,6 +115,7 @@
     <loc>https://compressvideoapp.com/guides/how-to-send-a-large-video-from-iphone-to-android/</loc>
     <lastmod>2026-10-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-send-a-large-video-from-iphone-to-android/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-send-a-large-video-from-iphone-to-android/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-send-a-large-video-from-iphone-to-android/" />
     <priority>0.9</priority>
   </url>
@@ -95,6 +124,7 @@
     <loc>https://compressvideoapp.com/guides/how-to-trim-and-compress-a-video-on-iphone/</loc>
     <lastmod>2026-10-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-trim-and-compress-a-video-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-trim-and-compress-a-video-on-iphone/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-trim-and-compress-a-video-on-iphone/" />
     <priority>0.9</priority>
   </url>
@@ -103,6 +133,106 @@
     <loc>https://compressvideoapp.com/guides/video-too-large-to-send-on-iphone/</loc>
     <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/video-too-large-to-send-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/video-too-large-to-send-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/video-too-large-to-send-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-check-video-size-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-check-video-size-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/guides/how-to-compress-a-video-for-whatsapp/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-compress-a-video-for-whatsapp/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-compress-a-video-for-whatsapp/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-compress-a-video-for-whatsapp/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-compress-a-video-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-compress-a-video-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/guides/how-to-convert-video-to-hevc-on-iphone/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-convert-video-to-hevc-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-convert-video-to-hevc-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-convert-video-to-hevc-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/guides/how-to-email-a-large-video-from-iphone/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-email-a-large-video-from-iphone/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-email-a-large-video-from-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-email-a-large-video-from-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/guides/how-to-free-up-iphone-storage-from-videos/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-free-up-iphone-storage-from-videos/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-free-up-iphone-storage-from-videos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-free-up-iphone-storage-from-videos/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/guides/how-to-make-a-video-smaller-for-discord/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-make-a-video-smaller-for-discord/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-make-a-video-smaller-for-discord/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-make-a-video-smaller-for-discord/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/guides/how-to-send-a-large-video-from-iphone-to-android/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-send-a-large-video-from-iphone-to-android/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-send-a-large-video-from-iphone-to-android/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-send-a-large-video-from-iphone-to-android/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/guides/how-to-trim-and-compress-a-video-on-iphone/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-trim-and-compress-a-video-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-trim-and-compress-a-video-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-trim-and-compress-a-video-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://compressvideoapp.com/ja/guides/video-too-large-to-send-on-iphone/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/video-too-large-to-send-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/video-too-large-to-send-on-iphone/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/video-too-large-to-send-on-iphone/" />
     <priority>0.9</priority>
   </url>

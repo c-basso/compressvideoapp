@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover"
+    />
+    <title>iPhoneで動画のサイズ（容量）を確認する方法｜写真・ファイル</title>
+    <meta
+      name="description"
+      content="iPhoneで動画が何MBあるか確認する方法。写真アプリでは情報ボタン（ⓘ）、ファイルアプリではリスト表示で確認できます。送る前に、メールやDiscordの上限と比べましょう。"
+    />
+    
+    <!-- App Store Smart App Banner -->
+    <meta name="apple-itunes-app" content="app-id=6808348626" />
+    
+    <!-- Core SEO -->
+    <meta name="keywords" content="iphone 動画 サイズ 確認, iphone 動画 容量 確認, iphone 動画 何mb, 写真 動画 容量 見方 iphone, iphone 動画 ファイルサイズ" />
+    <meta name="author" content="c-basso" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+    <link rel="canonical" href="https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/" />
+    <link
+      rel="alternate"
+      type="text/plain"
+      href="/llms.txt"
+      title="LLM / AI summary of this site"
+    />
+
+    <!-- Alternate Language Links -->
+    
+    <link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-check-video-size-on-iphone/" />
+    
+    <link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-check-video-size-on-iphone/" />
+
+    <!-- PWA & Theming -->
+    <meta name="theme-color" content="#7b2ff7" />
+    <meta name="msapplication-TileColor" content="#7b2ff7" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="iPhoneで動画のサイズを確認する方法" />
+    <meta property="og:description" content="iPhoneで動画が何MBあるか確認する方法。写真アプリでは情報ボタン（ⓘ）、ファイルアプリではリスト表示で確認できます。送る前に、メールやDiscordの上限と比べましょう。" />
+    <meta property="og:image" content="https://compressvideoapp.com/site_preview.png" />
+    <meta property="og:image:alt" content="元の動画のサイズを表示したCompress Videoのファイル詳細" />
+    <meta property="og:image:width" content="1026" />
+    <meta property="og:image:height" content="539" />
+    <meta property="og:logo" content="https://compressvideoapp.com/img/app-icon.webp" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/" />
+    <meta property="og:site_name" content="Compress Video" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/" />
+    <meta name="twitter:title" content="iPhoneで動画のサイズを確認する方法" />
+    <meta name="twitter:description" content="iPhoneで動画が何MBあるか確認する方法。写真アプリでは情報ボタン（ⓘ）、ファイルアプリではリスト表示で確認できます。送る前に、メールやDiscordの上限と比べましょう。" />
+    <meta name="twitter:image" content="https://compressvideoapp.com/site_preview.png" />
+    <meta name="twitter:image:width" content="1026" />
+    <meta name="twitter:image:height" content="539" />
+
+    <link rel="preconnect" href="https://apps.apple.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://apps.apple.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/web-app-manifest-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/img/web-app-manifest-512x512.png" />
+    <!-- Application Name -->
+    <meta name="application-name" content="Compress Video – iPhone用 動画ファイル圧縮" />
+
+    <link
+      rel="stylesheet"
+      href="/style.css?v=1795618606982"
+    />
+    <script>document.documentElement.classList.add('js');</script>
+    <!-- dev-links: on localhost / LAN dev servers, point absolute site links at the local copy (no effect in production) -->
+    <script>
+      (function () {
+        var h = location.hostname;
+        var isDev = h === 'localhost' || h === '127.0.0.1' || h === '[::1]' || h === '0.0.0.0' ||
+          /\.(local|localhost|test)$/.test(h) || /^(10|192\.168|172\.(1[6-9]|2\d|3[01]))\./.test(h);
+        if (!isDev) return;
+        var SITE = 'https://compressvideoapp.com';
+        var sel = 'a[href^="' + SITE + '"]';
+        function fix(root) {
+          root.querySelectorAll(sel).forEach(function (a) {
+            a.setAttribute('href', a.getAttribute('href').slice(SITE.length) || '/');
+          });
+        }
+        document.addEventListener('DOMContentLoaded', function () { fix(document); });
+        document.addEventListener('click', function (e) {
+          var a = e.target.closest && e.target.closest(sel);
+          if (a) a.setAttribute('href', a.getAttribute('href').slice(SITE.length) || '/');
+        }, true);
+      })();
+    </script>
+
+  </head>
+  <body class="page-guide">
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="noise-layer" aria-hidden="true"></div>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="https://compressvideoapp.com/ja/" aria-label="Compress Video">
+          <span class="brand-logo">
+            <img
+              src="/img/app-icon.webp"
+              alt="Compress Videoのアプリアイコン"
+              width="44"
+              height="44"
+              loading="eager"
+              decoding="async"
+            />
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">Compress Video</span>
+            <span class="brand-subtitle">iPhoneの動画圧縮アプリ</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="メインナビゲーション">
+          <a href="https://compressvideoapp.com/ja/#how-it-works">使い方</a>
+          <a href="https://compressvideoapp.com/ja/#screenshots">スクリーンショット</a>
+          <a href="https://compressvideoapp.com/ja/guides/">ガイド</a>
+          <a href="https://compressvideoapp.com/ja/#faq">よくある質問</a>
+        </nav>
+        <a
+          class="header-cta"
+          href="https://apps.apple.com/app/id6808348626"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="App StoreでCompress Videoをダウンロード"
+        >
+          <svg class="apple-mark" width="14" height="17" viewBox="14 8 14 26" aria-hidden="true"><path fill="currentColor" d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"/><path fill="currentColor" d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"/></svg>
+          <span>アプリを入手</span>
+        </a>
+      </header>
+
+
+      <main id="main" class="guide-layout">
+        <nav class="breadcrumbs" aria-label="パンくずリスト">
+          <ol>
+            <li><a href="https://compressvideoapp.com/ja/">ホーム</a></li>
+            <li><a href="https://compressvideoapp.com/ja/guides/">ガイド</a></li>
+            <li aria-current="page">動画のサイズを確認</li>
+          </ol>
+        </nav>
+
+        <article class="guide-article">
+          <header class="guide-header">
+            <p class="eyebrow"><span class="sticker sticker-sm">動画のサイズ</span></p>
+            <h1>iPhoneで動画のサイズを確認する方法</h1>
+            <p class="guide-meta">
+              更新日 <time datetime="2026-11-25">2026年11月25日</time>
+              · 1分で読めます
+            </p>
+            <div class="quick-answer">
+              <p class="quick-answer-label">結論</p>
+              <p>写真アプリで動画を開き、画面下の情報ボタン（ⓘ）をタップすると、撮影したデバイス名の下にファイルサイズが表示されます。ファイルアプリではリスト表示にすると、ファイル名の横にサイズが表示されます。送り先の上限より大きければ、トリミングするか圧縮してください。</p>
+            </div>
+          </header>
+
+          <div class="guide-body">
+            
+            <p>先にサイズがわかっていれば、送信の失敗を防げます。メール、SMS、チャットアプリにはそれぞれ上限があり、iPhoneの動画は4Kや60fpsだと特にすぐ超えてしまいます。</p>
+            
+
+            
+            <figure class="guide-figure">
+              <div class="guide-figure-frame">
+                <img src="/img/screenshots/2.webp" alt="元の動画のサイズを表示したCompress Videoのファイル詳細" width="600" height="1298" loading="lazy" decoding="async" />
+              </div>
+              <figcaption>Compress Videoでは、元のサイズと、保存前に圧縮後のサイズを確認できます。</figcaption>
+            </figure>
+            
+            
+
+            
+            <section class="guide-section" id="photos">
+              <h2>写真アプリで確認する</h2>
+              
+              
+              
+              <ol>
+                <li>写真アプリを開き、動画をタップします。</li><li>画面下の情報ボタン（ⓘ）をタップします。</li><li>撮影したデバイス名の下、ほかの技術情報と並んでファイルサイズが表示されます。</li>
+              </ol>
+              
+              
+              
+              
+              
+              <p class="guide-note">写真アプリで確認できるのは1本ずつです。ライブラリをサイズ順に並べることはできません。</p>
+              
+              
+              <ul class="guide-links">
+                <li><a class="text-link" href="/ja/">Compress Video：iPhone用の動画圧縮アプリ →</a></li>
+              </ul>
+              
+            </section>
+            
+            <section class="guide-section" id="files">
+              <h2>ファイルアプリで確認する</h2>
+              
+              <p>写真ライブラリ以外に保存した動画（ダウンロード、AirDrop、クラウドのフォルダ）は、ファイルアプリで動画を探します。リスト表示ではファイル名の横に、アイコン表示ではサムネールの下にサイズが表示されます。正確な数字は、ファイルを長押しして「情報を見る」で確認できます。</p>
+              
+              <p>ファイルアプリではフォルダ内をサイズ順に並べ替えることもでき、いちばん大きい動画をすぐに見つけられます。</p>
+              
+              
+              
+              
+              
+            </section>
+            
+            <section class="guide-section" id="limits">
+              <h2>大きすぎる？上限と比べる</h2>
+              
+              
+              
+              <div class="geo-table-wrap">
+                <table class="geo-compare-table">
+                  <thead>
+                    <tr><th scope="col">送り先</th><th scope="col">上限</th></tr>
+                  </thead>
+                  <tbody>
+                    
+                    <tr><td>Gmailの添付ファイル</td><td>25MB</td></tr>
+                    
+                    <tr><td>Outlook.comの添付ファイル</td><td>20MB</td></tr>
+                    
+                    <tr><td>Discord（無料アカウント）</td><td>20MB</td></tr>
+                    
+                    <tr><td>AppleのメールのMail Drop</td><td>5GBまで（30日で期限切れになるリンク）</td></tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+              
+              
+              <p class="guide-note">動画が上限より大きければ、いらない部分をトリミングして圧縮し、もう一度サイズを確認してください。</p>
+              
+              
+              <ul class="guide-links">
+                <li><a class="text-link" href="/ja/guides/video-too-large-to-send-on-iphone/">iPhoneで動画が大きすぎて送れないとき →</a></li><li><a class="text-link" href="/ja/guides/how-to-email-a-large-video-from-iphone/">大きすぎる動画をメールで送る方法 →</a></li>
+              </ul>
+              
+            </section>
+            
+            <section class="guide-section" id="why">
+              <h2>iPhoneの動画が大きい理由</h2>
+              
+              <p>ファイルサイズは、解像度、フレームレート、長さに比例して大きくなります。4K・60fpsの1分は、1080p・30fpsの1分の何倍もの容量を使います。設定 → カメラ → ビデオ撮影で、それぞれの設定で1分あたりどれくらいの容量になるかを確認できます。</p>
+              
+              
+              
+              
+              
+            </section>
+            
+
+            
+            <section class="guide-section guide-steps" id="steps">
+              <h2>サイズを確認して小さくする</h2>
+              <p>Compress Videoなら両方のサイズが表示されるので、送る前に上限に収まっているかわかります。</p>
+              <ol class="steps-list">
+                
+                <li id="step-1">
+                  <span class="step-number">1</span>
+                  <div>
+                    <h3>動画を開く</h3>
+                    <p>Compress Videoで動画を選びます。ファイルの詳細に元のサイズが表示されます。</p>
+                  </div>
+                </li>
+                
+                <li id="step-2">
+                  <span class="step-number">2</span>
+                  <div>
+                    <h3>できればトリミング</h3>
+                    <p>トリミングを開き、必要な部分だけを残します。</p>
+                  </div>
+                </li>
+                
+                <li id="step-3">
+                  <span class="step-number">3</span>
+                  <div>
+                    <h3>圧縮</h3>
+                    <p>圧縮設定を開き、必要なら解像度やフレームレートを下げて、圧縮をタップします。</p>
+                  </div>
+                </li>
+                
+                <li id="step-4">
+                  <span class="step-number">4</span>
+                  <div>
+                    <h3>比べて保存</h3>
+                    <p>圧縮後のサイズが上限を下回っているか確認し、保存または共有します。</p>
+                  </div>
+                </li>
+                
+              </ol>
+              <div class="inline-cta">
+                <img src="/img/app-icon.webp" alt="" width="56" height="56" loading="lazy" decoding="async" />
+                <div>
+                  <p class="inline-cta-title">サイズを確認して、小さくする</p>
+                  <p>iPhone用の無料動画圧縮アプリ。保存する前に、元のサイズと圧縮後のサイズを比べられます。</p>
+                </div>
+              <a
+                class="cta-primary"
+                href="https://apps.apple.com/app/id6808348626"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="App StoreでCompress Videoをダウンロード"
+              >
+                <svg
+                  class="cta-apple-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span class="cta-label"><small>ダウンロード</small>App Store</span>
+              </a>
+
+              </div>
+            </section>
+            
+
+            
+
+            
+            <section class="guide-section guide-faq">
+              <h2>よくある質問</h2>
+              <div class="faq-list">
+                
+                <article class="faq-item">
+                  <h3 class="faq-q">iPhoneの写真アプリで動画をサイズ順に並べられますか？</h3>
+                  <p class="faq-a">できません。写真アプリでは1本ずつサイズを確認します。たくさんの動画を比べたいときは、ファイルアプリのフォルダに保存して、サイズ順に並べ替えてください。</p>
+                </article>
+                
+                <article class="faq-item">
+                  <h3 class="faq-q">iPhoneの動画は1分でどれくらいの容量ですか？</h3>
+                  <p class="faq-a">解像度とフレームレートによって変わります。4K・60fpsは1080p・30fpsよりはるかに大きくなります。設定 → カメラ → ビデオ撮影で、各設定の1分あたりのおおよその容量を確認できます。</p>
+                </article>
+                
+                <article class="faq-item">
+                  <h3 class="faq-q">サイズがわかったら、どうやって動画を小さくすればいいですか？</h3>
+                  <p class="faq-a">いらない部分をトリミングしてから圧縮します。Compress Videoは動画をHEVCで再エンコードし、解像度やフレームレートも下げられます。保存する前に新しいサイズを確認できます。</p>
+                </article>
+                
+              </div>
+            </section>
+            
+
+            <p class="guide-disclaimer">Compress Videoは、動画の小さいコピーを新しく保存します。元の動画は、削除するまでそのまま残ります。各サービスのアップロード上限は変わることがあります。上限に近いファイルは、送り先のサービスで最新の上限を確認してください。</p>
+          </div>
+        </article>
+
+        <aside class="guide-aside">
+          <div class="aside-card app-card">
+            <img src="/img/app-icon.webp" alt="Compress Videoのアプリアイコン" width="72" height="72" loading="lazy" decoding="async" />
+            <p class="app-card-name">Compress Video</p>
+            <p class="app-card-sub">iPhone用 動画ファイル圧縮</p>
+            
+              <a
+                class="cta-primary"
+                href="https://apps.apple.com/app/id6808348626"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="App StoreでCompress Videoをダウンロード"
+              >
+                <svg
+                  class="cta-apple-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span class="cta-label"><small>ダウンロード</small>App Store</span>
+              </a>
+
+            <p class="app-card-note">無料で試せます。プレミアムで1日の上限がなくなります。</p>
+          </div>
+          
+          <div class="aside-card">
+            <p class="aside-title">関連ガイド</p>
+            <ul class="related-list">
+              
+              <li><a href="https://compressvideoapp.com/ja/guides/video-too-large-to-send-on-iphone/"><span class="related-eyebrow">送れない</span> 「動画が大きすぎて送れない」</a></li>
+              
+              <li><a href="https://compressvideoapp.com/ja/guides/how-to-email-a-large-video-from-iphone/"><span class="related-eyebrow">メール</span> 大きすぎる動画をメールで送る</a></li>
+              
+              <li><a href="https://compressvideoapp.com/ja/guides/how-to-free-up-iphone-storage-from-videos/"><span class="related-eyebrow">ストレージ</span> 動画でいっぱいの容量を空ける</a></li>
+              
+            </ul>
+            <a class="text-link" href="https://compressvideoapp.com/ja/guides/">すべてのガイド →</a>
+          </div>
+          
+        </aside>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="/img/app-icon.webp" alt="Compress Videoのアプリアイコン" width="40" height="40" loading="lazy" decoding="async" />
+            <div>
+              <div class="footer-brand-name">Compress Video</div>
+              <p class="footer-tagline">iPhoneで動画を圧縮。ファイルは小さく、思い出はそのまま。</p>
+            </div>
+          </div>
+          <nav class="footer-links" aria-label="フッター">
+            <a href="https://compressvideoapp.com/ja/#how-it-works">使い方</a>
+            <a href="https://compressvideoapp.com/ja/#screenshots">スクリーンショット</a>
+            <a href="https://compressvideoapp.com/ja/guides/">ガイド</a>
+            <a href="https://compressvideoapp.com/ja/#faq">よくある質問</a>
+            <a href="https://compressvideoapp.com/privacy.html">プライバシーポリシー</a>
+            <a href="https://compressvideoapp.com/terms.html">利用規約</a>
+            <a href="https://apps.apple.com/app/id6808348626" target="_blank" rel="noopener noreferrer">App Storeで見る</a>
+          </nav>
+        </div>
+        
+        <div class="footer-bottom">
+          <div>© 2026 c-basso · Compress Video</div>
+          <p class="footer-updated">
+            最終更新日：
+            <time datetime="2026-10-04">2026-10-04</time>
+          </p>
+        </div>
+      </footer>
+
+    </div>
+
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Article","headline":"iPhoneで動画のサイズを確認する方法","description":"iPhoneで動画が何MBあるか確認する方法。写真アプリでは情報ボタン（ⓘ）、ファイルアプリではリスト表示で確認できます。送る前に、メールやDiscordの上限と比べましょう。","image":["https://compressvideoapp.com/img/screenshots/2.webp"],"author":{"@type":"Organization","name":"c-basso","url":"https://compressvideoapp.com/","logo":{"@type":"ImageObject","url":"https://compressvideoapp.com/img/app-icon.webp"}},"publisher":{"@type":"Organization","name":"c-basso","url":"https://compressvideoapp.com/","logo":{"@type":"ImageObject","url":"https://compressvideoapp.com/img/app-icon.webp"}},"datePublished":"2026-11-25","dateModified":"2026-11-25","mainEntityOfPage":"https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/","inLanguage":"ja","about":{"@type":"MobileApplication","name":"Compress Video","url":"https://compressvideoapp.com/ja/","operatingSystem":"iOS"}}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"HowTo","name":"サイズを確認して小さくする","description":"Compress Videoなら両方のサイズが表示されるので、送る前に上限に収まっているかわかります。","image":"https://compressvideoapp.com/img/screenshots/2.webp","totalTime":"PT1M","inLanguage":"ja","tool":[{"@type":"HowToTool","name":"Compress Video"}],"step":[{"@type":"HowToStep","position":1,"name":"動画を開く","text":"Compress Videoで動画を選びます。ファイルの詳細に元のサイズが表示されます。","url":"https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/#step-1"},{"@type":"HowToStep","position":2,"name":"できればトリミング","text":"トリミングを開き、必要な部分だけを残します。","url":"https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/#step-2"},{"@type":"HowToStep","position":3,"name":"圧縮","text":"圧縮設定を開き、必要なら解像度やフレームレートを下げて、圧縮をタップします。","url":"https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/#step-3"},{"@type":"HowToStep","position":4,"name":"比べて保存","text":"圧縮後のサイズが上限を下回っているか確認し、保存または共有します。","url":"https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/#step-4"}]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"FAQPage","inLanguage":"ja","mainEntity":[{"@type":"Question","name":"iPhoneの写真アプリで動画をサイズ順に並べられますか？","acceptedAnswer":{"@type":"Answer","text":"できません。写真アプリでは1本ずつサイズを確認します。たくさんの動画を比べたいときは、ファイルアプリのフォルダに保存して、サイズ順に並べ替えてください。"}},{"@type":"Question","name":"iPhoneの動画は1分でどれくらいの容量ですか？","acceptedAnswer":{"@type":"Answer","text":"解像度とフレームレートによって変わります。4K・60fpsは1080p・30fpsよりはるかに大きくなります。設定 → カメラ → ビデオ撮影で、各設定の1分あたりのおおよその容量を確認できます。"}},{"@type":"Question","name":"サイズがわかったら、どうやって動画を小さくすればいいですか？","acceptedAnswer":{"@type":"Answer","text":"いらない部分をトリミングしてから圧縮します。Compress Videoは動画をHEVCで再エンコードし、解像度やフレームレートも下げられます。保存する前に新しいサイズを確認できます。"}}]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebPage","name":"iPhoneで動画のサイズ（容量）を確認する方法｜写真・ファイル","url":"https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/","description":"iPhoneで動画が何MBあるか確認する方法。写真アプリでは情報ボタン（ⓘ）、ファイルアプリではリスト表示で確認できます。送る前に、メールやDiscordの上限と比べましょう。","dateModified":"2026-11-25","inLanguage":"ja","isPartOf":{"@type":"WebSite","name":"Compress Video","url":"https://compressvideoapp.com/ja/"}}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://compressvideoapp.com/ja/"},{"@type":"ListItem","position":2,"name":"ガイド","item":"https://compressvideoapp.com/ja/guides/"},{"@type":"ListItem","position":3,"name":"iPhoneで動画のサイズを確認する方法","item":"https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/"}]}
+    </script>
+
+<!-- Analytics: paste the counter for compressvideoapp.com here (left empty on purpose). -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=113397206', 'ym');
+
+    ym(113397206, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/113397206" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+  </body>
+</html>

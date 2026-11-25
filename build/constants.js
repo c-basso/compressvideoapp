@@ -11,7 +11,8 @@ const DEFAULT_LANGUAGE = 'en';
  * (lookup tables for html lang / og:locale / native names live in build.js).
  */
 const LANGUAGES = [
-    DEFAULT_LANGUAGE
+    DEFAULT_LANGUAGE,
+    'ja'
 ];
 
 const URLS = LANGUAGES.map((code) => ({
@@ -33,7 +34,9 @@ const GUIDES_HUB_URL = `${SITE_URL}${GUIDES_PATH_SEGMENT}/`;
 const PROJECT_ROOT_DIR = path.join(__dirname, '..');
 
 const GUIDE_LOCALE_CONFIG = {
-    en: { dir: GUIDES_DIR, segment: GUIDES_PATH_SEGMENT }
+    en: { dir: GUIDES_DIR, segment: GUIDES_PATH_SEGMENT },
+    // Japanese: English slugs (ASCII URLs read better than percent-encoded kana in SERPs and shares)
+    ja: { dir: path.join(GUIDES_DIR, 'ja'), segment: 'ja/guides' }
     // e.g. de: { dir: path.join(GUIDES_DIR, 'de'), segment: 'de/anleitungen' }
 };
 

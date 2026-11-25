@@ -1,0 +1,80 @@
+{
+  "en_slug": "how-to-send-a-large-video-from-iphone-to-android",
+  "priority": 7,
+  "title": "iPhoneからAndroidに大きい動画を送る方法（2026年版）",
+  "description": "iPhoneからAndroidに送った動画がぼやける、送れないのはMMSで送られるからです。iPhoneで動画を圧縮し、LINEやWhatsApp、メールなどで送る方法を解説します。",
+  "h1": "iPhoneからAndroidに大きい動画を画質を落とさずに送る方法",
+  "og_title": "iPhoneからAndroidに大きい動画をきれいに送る方法",
+  "eyebrow": "iPhone→Android",
+  "card_title": "iPhoneからAndroidに動画を送る",
+  "card_summary": "メッセージで送ると動画がぼやける理由と、きれいに送る方法。",
+  "keywords": "iphone android 動画 送る, iphone から android 動画 画質, iphone android 動画 ぼやける, iphone android 大きい動画 送り方, iphone 動画 android 送れない",
+  "quick_answer": "iPhoneとAndroidのあいだのメッセージはMMS（またはRCS）で送られ、通信会社が動画をとても小さく圧縮するため、ぼやけたり送れなかったりします。Compress Videoで自分で圧縮し（解像度のスライダーを1080pや720p程度まで下げ、HEVC）、ふつうのMMSではなく、LINEやWhatsApp、Telegram、メール、クラウドのリンクで送りましょう。",
+  "intro": [
+    "iMessageはApple製品どうしでしか使えません。相手がAndroidだと、iPhoneはMMSやRCSに切り替わり、サイズの上限がずっと小さくなります。"
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "Androidに送る動画を圧縮する前のCompress Videoのファイル情報",
+    "caption": "サイズを確認してから、送る前に圧縮します。"
+  },
+  "sections": [
+    {
+      "heading": "Androidに動画を送るおすすめの方法",
+      "list": [
+        "LINE、WhatsApp、Telegram：WhatsAppとTelegramは書類として送ると画質を保てます。",
+        "メール：Gmailなら25MB以下に圧縮します。",
+        "クラウドのリンク（iCloud、Googleドライブ）：元の長さのままの動画に。",
+        "MMSは、とても短くて小さい動画だけに。"
+      ],
+      "links": [
+        {
+          "url": "/ja/",
+          "text": "iPhone用の動画圧縮アプリ"
+        }
+      ]
+    },
+    {
+      "heading": "AndroidでHEVCは再生できる？",
+      "paragraphs": [
+        "ここ数年のAndroidスマホの多くはHEVCを再生できます。古いスマホで再生できない場合は、解像度を下げて、アップロード時に変換してくれるチャットアプリで送ってください。"
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "圧縮してAndroidのスマホに送る",
+    "intro": "Androidの相手にも、くっきりした動画を届けられます。",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "動画を開く",
+        "text": "Compress Videoで動画を選びます。"
+      },
+      {
+        "name": "トリミング",
+        "text": "トリミングを開き、いらない部分を削ります。"
+      },
+      {
+        "name": "圧縮",
+        "text": "圧縮設定で解像度のスライダーを下げ（4Kの約50% ≈ 1080p）、圧縮をタップします。"
+      },
+      {
+        "name": "チャットアプリで送る",
+        "text": "圧縮後のファイルを保存し、ふつうのメッセージではなく、LINEやWhatsApp、Telegram、メールに共有します。"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "iPhoneの動画がAndroidでぼやけるのはなぜですか？",
+      "answer": "MMSで送られたからです。MMSは通信会社によって小さいファイルに制限されています。自分で動画を圧縮し、チャットアプリやメールで送ってください。"
+    }
+  ],
+  "related": [
+    "video-too-large-to-send-on-iphone",
+    "how-to-compress-a-video-for-whatsapp",
+    "how-to-email-a-large-video-from-iphone"
+  ],
+  "published": "2026-11-25",
+  "updated": "2026-11-25"
+}

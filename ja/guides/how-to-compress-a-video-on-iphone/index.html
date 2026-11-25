@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover"
+    />
+    <title>iPhoneで動画を圧縮する方法｜無料・アップロード不要</title>
+    <meta
+      name="description"
+      content="iPhoneで動画を圧縮する方法を解説。トリミングして解像度やフレームレートを下げ、HEVCで書き出して小さいコピーを保存します。無料、端末内で処理、アップロード不要です。"
+    />
+    
+    <!-- App Store Smart App Banner -->
+    <meta name="apple-itunes-app" content="app-id=6808348626" />
+    
+    <!-- Core SEO -->
+    <meta name="keywords" content="動画 圧縮 iphone, iphone 動画 圧縮 方法, 動画圧縮アプリ iphone, 動画 圧縮 無料 iphone, iphone 動画 小さくする, 動画 容量 小さく iphone" />
+    <meta name="author" content="c-basso" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+    <link rel="canonical" href="https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/" />
+    <link
+      rel="alternate"
+      type="text/plain"
+      href="/llms.txt"
+      title="LLM / AI summary of this site"
+    />
+
+    <!-- Alternate Language Links -->
+    
+    <link rel="alternate" hreflang="en" href="https://compressvideoapp.com/guides/how-to-compress-a-video-on-iphone/" />
+    
+    <link rel="alternate" hreflang="ja" href="https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://compressvideoapp.com/guides/how-to-compress-a-video-on-iphone/" />
+
+    <!-- PWA & Theming -->
+    <meta name="theme-color" content="#7b2ff7" />
+    <meta name="msapplication-TileColor" content="#7b2ff7" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="iPhoneで動画を圧縮する方法" />
+    <meta property="og:description" content="iPhoneで動画を圧縮する方法を解説。トリミングして解像度やフレームレートを下げ、HEVCで書き出して小さいコピーを保存します。無料、端末内で処理、アップロード不要です。" />
+    <meta property="og:image" content="https://compressvideoapp.com/site_preview.png" />
+    <meta property="og:image:alt" content="圧縮前のファイルサイズ、長さ、解像度、コーデック、フレームレートを表示したCompress Video" />
+    <meta property="og:image:width" content="1026" />
+    <meta property="og:image:height" content="539" />
+    <meta property="og:logo" content="https://compressvideoapp.com/img/app-icon.webp" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/" />
+    <meta property="og:site_name" content="Compress Video" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/" />
+    <meta name="twitter:title" content="iPhoneで動画を圧縮する方法" />
+    <meta name="twitter:description" content="iPhoneで動画を圧縮する方法を解説。トリミングして解像度やフレームレートを下げ、HEVCで書き出して小さいコピーを保存します。無料、端末内で処理、アップロード不要です。" />
+    <meta name="twitter:image" content="https://compressvideoapp.com/site_preview.png" />
+    <meta name="twitter:image:width" content="1026" />
+    <meta name="twitter:image:height" content="539" />
+
+    <link rel="preconnect" href="https://apps.apple.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://apps.apple.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/web-app-manifest-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/img/web-app-manifest-512x512.png" />
+    <!-- Application Name -->
+    <meta name="application-name" content="Compress Video – iPhone用 動画ファイル圧縮" />
+
+    <link
+      rel="stylesheet"
+      href="/style.css?v=1795618606982"
+    />
+    <script>document.documentElement.classList.add('js');</script>
+    <!-- dev-links: on localhost / LAN dev servers, point absolute site links at the local copy (no effect in production) -->
+    <script>
+      (function () {
+        var h = location.hostname;
+        var isDev = h === 'localhost' || h === '127.0.0.1' || h === '[::1]' || h === '0.0.0.0' ||
+          /\.(local|localhost|test)$/.test(h) || /^(10|192\.168|172\.(1[6-9]|2\d|3[01]))\./.test(h);
+        if (!isDev) return;
+        var SITE = 'https://compressvideoapp.com';
+        var sel = 'a[href^="' + SITE + '"]';
+        function fix(root) {
+          root.querySelectorAll(sel).forEach(function (a) {
+            a.setAttribute('href', a.getAttribute('href').slice(SITE.length) || '/');
+          });
+        }
+        document.addEventListener('DOMContentLoaded', function () { fix(document); });
+        document.addEventListener('click', function (e) {
+          var a = e.target.closest && e.target.closest(sel);
+          if (a) a.setAttribute('href', a.getAttribute('href').slice(SITE.length) || '/');
+        }, true);
+      })();
+    </script>
+
+  </head>
+  <body class="page-guide">
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="noise-layer" aria-hidden="true"></div>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="https://compressvideoapp.com/ja/" aria-label="Compress Video">
+          <span class="brand-logo">
+            <img
+              src="/img/app-icon.webp"
+              alt="Compress Videoのアプリアイコン"
+              width="44"
+              height="44"
+              loading="eager"
+              decoding="async"
+            />
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">Compress Video</span>
+            <span class="brand-subtitle">iPhoneの動画圧縮アプリ</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="メインナビゲーション">
+          <a href="https://compressvideoapp.com/ja/#how-it-works">使い方</a>
+          <a href="https://compressvideoapp.com/ja/#screenshots">スクリーンショット</a>
+          <a href="https://compressvideoapp.com/ja/guides/">ガイド</a>
+          <a href="https://compressvideoapp.com/ja/#faq">よくある質問</a>
+        </nav>
+        <a
+          class="header-cta"
+          href="https://apps.apple.com/app/id6808348626"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="App StoreでCompress Videoをダウンロード"
+        >
+          <svg class="apple-mark" width="14" height="17" viewBox="14 8 14 26" aria-hidden="true"><path fill="currentColor" d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"/><path fill="currentColor" d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"/></svg>
+          <span>アプリを入手</span>
+        </a>
+      </header>
+
+
+      <main id="main" class="guide-layout">
+        <nav class="breadcrumbs" aria-label="パンくずリスト">
+          <ol>
+            <li><a href="https://compressvideoapp.com/ja/">ホーム</a></li>
+            <li><a href="https://compressvideoapp.com/ja/guides/">ガイド</a></li>
+            <li aria-current="page">iPhoneで動画を圧縮</li>
+          </ol>
+        </nav>
+
+        <article class="guide-article">
+          <header class="guide-header">
+            <p class="eyebrow"><span class="sticker sticker-sm">動画を圧縮</span></p>
+            <h1>iPhoneで動画を圧縮する方法</h1>
+            <p class="guide-meta">
+              更新日 <time datetime="2026-11-25">2026年11月25日</time>
+              · 1分で読めます
+            </p>
+            <div class="quick-answer">
+              <p class="quick-answer-label">結論</p>
+              <p>iPhoneには、撮影済みの動画を「圧縮」するボタンがありません。Compress Videoで動画を開き、必要ならトリミングして、圧縮設定で解像度のスライダーを下げ、圧縮をタップして保存します。HEVCの小さいコピーができ、元の動画はそのまま残ります。</p>
+            </div>
+          </header>
+
+          <div class="guide-body">
+            
+            <p>スマホの動画はとても大きく、4Kなら1分で150MBを超えることもめずらしくありません。そのままではメールやチャットアプリで送れず、アップロードにも時間がかかり、容量もすぐにいっぱいになります。</p>
+            
+            <p>写真アプリではトリミングはできますが、小さいサイズに再エンコードすることはできません。ここでは、iPhoneに最初からある方法で実際に何ができるのかと、どんな動画でも数タップで圧縮できる方法を紹介します。</p>
+            
+
+            
+            <figure class="guide-figure">
+              <div class="guide-figure-frame">
+                <img src="/img/screenshots/2.webp" alt="圧縮前のファイルサイズ、長さ、解像度、コーデック、フレームレートを表示したCompress Video" width="600" height="1298" loading="lazy" decoding="async" />
+              </div>
+              <figcaption>Compress Videoでは、圧縮する前にサイズ、解像度、コーデック、フレームレートを確認できます。</figcaption>
+            </figure>
+            
+            
+
+            
+            <section class="guide-section" id="iphone">
+              <h2>アプリなしでiPhoneにできること</h2>
+              
+              <p>iPhoneに最初からある機能では、撮影済みの動画は圧縮できません。これから撮る動画の設定を変えるか、ほかのサービスに任せるかのどちらかです。</p>
+              
+              
+              
+              
+              <ul>
+                <li>設定 → カメラ → ビデオ撮影：これから撮る動画のサイズだけが小さくなります。</li><li>設定 → カメラ → フォーマット → 高効率：これから撮る動画をH.264ではなくHEVCで記録します。</li><li>写真 → 編集：トリミングはできますが、残した部分のビットレートは元のままです。</li><li>iMovie：低い解像度で書き出せますが、1本の動画のためにプロジェクトを作る必要があります。</li><li>オンラインの圧縮サービス：プライベートな動画を他人のサーバーにアップロードする必要があります。</li>
+              </ul>
+              
+              
+              
+              
+              
+              <ul class="guide-links">
+                <li><a class="text-link" href="/ja/">iPhone用の無料動画圧縮アプリ →</a></li>
+              </ul>
+              
+            </section>
+            
+            <section class="guide-section" id="privacy">
+              <h2>端末内で圧縮することが大切な理由</h2>
+              
+              <p>Compress Videoは、iPhoneの中で動画をエンコードします。圧縮のために動画をサーバーにアップロードすることはなく、アカウントも不要です。自分で共有するまで、動画がiPhoneの外に出ることはありません。</p>
+              
+              
+              
+              
+              
+            </section>
+            
+            <section class="guide-section" id="resolution-slider">
+              <h2>解像度スライダーのしくみ</h2>
+              
+              <p>Compress Videoでは、決まったプリセットではなくスライダーで解像度を調整します。幅と高さを同じ比率で縮めるので、縦横比は変わりません。</p>
+              
+              <p>画素数はスライダーの値の2乗で減ります。50%なら画素数は4分の1です。4Kの動画なら50%でおよそ1080p、約3分の1でおよそ720pになります。1080pの動画なら約3分の2でおよそ720pです。</p>
+              
+              
+              
+              <div class="geo-table-wrap">
+                <table class="geo-compare-table">
+                  <thead>
+                    <tr><th scope="col">元の動画</th><th scope="col">スライダー</th><th scope="col">結果（横向き）</th></tr>
+                  </thead>
+                  <tbody>
+                    
+                    <tr><td>4K（3840×2160）</td><td>50%</td><td>≈ 1920×1080</td></tr>
+                    
+                    <tr><td>4K（3840×2160）</td><td>≈ 33%</td><td>≈ 1280×720</td></tr>
+                    
+                    <tr><td>1080p（1920×1080）</td><td>≈ 67%</td><td>≈ 1280×720</td></tr>
+                    
+                    <tr><td>1080p（1920×1080）</td><td>50%</td><td>960×540</td></tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+              
+              
+              
+            </section>
+            
+            <section class="guide-section" id="">
+              <h2>サイズにいちばん効く設定</h2>
+              
+              <p>いちばん効果が大きいのは解像度です。4Kから1080pにすると、画素数は4分の1になります。次がフレームレートで、60fpsから30fpsにすると保存するフレームがほぼ半分になります。音声は映像に比べれば小さいものの、映像だけでよければミュートすると少し小さくなります。</p>
+              
+              
+              
+              <div class="geo-table-wrap">
+                <table class="geo-compare-table">
+                  <thead>
+                    <tr><th scope="col">変更</th><th scope="col">サイズへの効果</th><th scope="col">向いている用途</th></tr>
+                  </thead>
+                  <tbody>
+                    
+                    <tr><td>4K → 1080p</td><td>大きく減る</td><td>スマホやチャットでの共有</td></tr>
+                    
+                    <tr><td>1080p → 720p</td><td>大きく減る</td><td>メール、確認用の送信</td></tr>
+                    
+                    <tr><td>60fps → 30fps</td><td>はっきり減る</td><td>話している動画、画面収録</td></tr>
+                    
+                    <tr><td>H.264 → HEVC</td><td>半分ほどになることが多い</td><td>すべての動画（同じ解像度のまま）</td></tr>
+                    
+                    <tr><td>音声をミュート</td><td>少し減る</td><td>音のいらない動画、GIFのようなループ</td></tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+              
+              
+              
+            </section>
+            
+
+            
+            <section class="guide-section guide-steps" id="steps">
+              <h2>Compress VideoでiPhoneの動画を圧縮する</h2>
+              <p>無料でダウンロードでき、オフラインでも使えます。ふつうの長さの動画なら1分ほどです。</p>
+              <ol class="steps-list">
+                
+                <li id="step-1">
+                  <span class="step-number">1</span>
+                  <div>
+                    <h3>Compress Videoで動画を開く</h3>
+                    <p>Compress Videoを開いて写真またはファイルから動画を選ぶか、写真アプリで動画の共有ボタンをタップしてCompress Videoを選びます。</p>
+                  </div>
+                </li>
+                
+                <li id="step-2">
+                  <span class="step-number">2</span>
+                  <div>
+                    <h3>いらない部分をトリミング</h3>
+                    <p>トリミングを開き、ハンドルをドラッグして必要な部分だけを残し、保存します。短い動画ほどファイルも小さくなります。</p>
+                  </div>
+                </li>
+                
+                <li id="step-3">
+                  <span class="step-number">3</span>
+                  <div>
+                    <h3>どこまで小さくするか決める</h3>
+                    <p>圧縮設定を開きます。解像度のスライダーを下げ、必要ならフレームレートも下げて、音声を圧縮・そのまま・ミュートから選びます。</p>
+                  </div>
+                </li>
+                
+                <li id="step-4">
+                  <span class="step-number">4</span>
+                  <div>
+                    <h3>圧縮してサイズを確認</h3>
+                    <p>圧縮をタップすると、新しいサイズとどれだけ小さくなったかが表示されます。元のサイズと圧縮後のサイズを切り替えて比べられます。</p>
+                  </div>
+                </li>
+                
+                <li id="step-5">
+                  <span class="step-number">5</span>
+                  <div>
+                    <h3>保存または共有</h3>
+                    <p>圧縮後のファイルを写真に保存するか、メールやLINE、WhatsApp、Discordなどのアプリにそのまま共有します。</p>
+                  </div>
+                </li>
+                
+              </ol>
+              <div class="inline-cta">
+                <img src="/img/app-icon.webp" alt="" width="56" height="56" loading="lazy" decoding="async" />
+                <div>
+                  <p class="inline-cta-title">Compress Videoでやってみる</p>
+                  <p>App Storeで無料。動画を選んで圧縮し、小さいコピーを保存するだけです。</p>
+                </div>
+              <a
+                class="cta-primary"
+                href="https://apps.apple.com/app/id6808348626"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="App StoreでCompress Videoをダウンロード"
+              >
+                <svg
+                  class="cta-apple-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span class="cta-label"><small>ダウンロード</small>App Store</span>
+              </a>
+
+              </div>
+            </section>
+            
+
+            
+            <section class="guide-section">
+              <h2>いちばん小さくするコツ</h2>
+              <ul class="tips-list">
+                <li>先にトリミングする：削った秒数は、そのまま100%節約になります。</li><li>チャットアプリなら、元の解像度の半分ほどでスマホの画面には十分です（4Kの50% ≈ 1080p）。</li><li>圧縮したコピーを確認するまで、元の動画は残しておきましょう。</li>
+              </ul>
+            </section>
+            
+
+            
+            <section class="guide-section guide-faq">
+              <h2>よくある質問</h2>
+              <div class="faq-list">
+                
+                <article class="faq-item">
+                  <h3 class="faq-q">iPhoneで動画を無料で圧縮する方法はありますか？</h3>
+                  <p class="faq-a">あります。Compress Videoは無料でダウンロードでき、1日に一定の回数まで圧縮できます。iOSだけでは、これから撮る動画の画質を下げることしかできず、撮影済みの動画は圧縮できません。</p>
+                </article>
+                
+                <article class="faq-item">
+                  <h3 class="faq-q">iPhoneのショートカットで動画を圧縮できますか？</h3>
+                  <p class="faq-a">ショートカットでもメディアのエンコードはできますが、自分でショートカットを作って調整する必要があり、圧縮前後のサイズも確認できません。専用アプリなら、解像度、フレームレート、音声を調整でき、サイズも比べられます。</p>
+                </article>
+                
+                <article class="faq-item">
+                  <h3 class="faq-q">圧縮すると元の動画は置き換えられますか？</h3>
+                  <p class="faq-a">いいえ。Compress Videoは、小さいコピーを新しく保存します。元の動画は、削除するまで写真アプリに残ります。</p>
+                </article>
+                
+                <article class="faq-item">
+                  <h3 class="faq-q">iPhoneで動画を小さくするには？</h3>
+                  <p class="faq-a">Compress Videoなどの圧縮アプリで動画を開き、いらない部分をトリミングして、解像度やフレームレートを下げ、圧縮したコピーを保存します。保存する前に新しいサイズを確認できます。</p>
+                </article>
+                
+              </div>
+            </section>
+            
+
+            <p class="guide-disclaimer">Compress Videoは、動画の小さいコピーを新しく保存します。元の動画は、削除するまでそのまま残ります。各サービスのアップロード上限は変わることがあります。上限に近いファイルは、送り先のサービスで最新の上限を確認してください。</p>
+          </div>
+        </article>
+
+        <aside class="guide-aside">
+          <div class="aside-card app-card">
+            <img src="/img/app-icon.webp" alt="Compress Videoのアプリアイコン" width="72" height="72" loading="lazy" decoding="async" />
+            <p class="app-card-name">Compress Video</p>
+            <p class="app-card-sub">iPhone用 動画ファイル圧縮</p>
+            
+              <a
+                class="cta-primary"
+                href="https://apps.apple.com/app/id6808348626"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="App StoreでCompress Videoをダウンロード"
+              >
+                <svg
+                  class="cta-apple-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span class="cta-label"><small>ダウンロード</small>App Store</span>
+              </a>
+
+            <p class="app-card-note">無料で試せます。プレミアムで1日の上限がなくなります。</p>
+          </div>
+          
+          <div class="aside-card">
+            <p class="aside-title">関連ガイド</p>
+            <ul class="related-list">
+              
+              <li><a href="https://compressvideoapp.com/ja/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/"><span class="related-eyebrow">画質を保つ</span> 画質を落とさずにサイズを小さく</a></li>
+              
+              <li><a href="https://compressvideoapp.com/ja/guides/how-to-email-a-large-video-from-iphone/"><span class="related-eyebrow">メール</span> 大きすぎる動画をメールで送る</a></li>
+              
+              <li><a href="https://compressvideoapp.com/ja/guides/how-to-trim-and-compress-a-video-on-iphone/"><span class="related-eyebrow">トリミング</span> トリミングと圧縮をまとめて</a></li>
+              
+            </ul>
+            <a class="text-link" href="https://compressvideoapp.com/ja/guides/">すべてのガイド →</a>
+          </div>
+          
+        </aside>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="/img/app-icon.webp" alt="Compress Videoのアプリアイコン" width="40" height="40" loading="lazy" decoding="async" />
+            <div>
+              <div class="footer-brand-name">Compress Video</div>
+              <p class="footer-tagline">iPhoneで動画を圧縮。ファイルは小さく、思い出はそのまま。</p>
+            </div>
+          </div>
+          <nav class="footer-links" aria-label="フッター">
+            <a href="https://compressvideoapp.com/ja/#how-it-works">使い方</a>
+            <a href="https://compressvideoapp.com/ja/#screenshots">スクリーンショット</a>
+            <a href="https://compressvideoapp.com/ja/guides/">ガイド</a>
+            <a href="https://compressvideoapp.com/ja/#faq">よくある質問</a>
+            <a href="https://compressvideoapp.com/privacy.html">プライバシーポリシー</a>
+            <a href="https://compressvideoapp.com/terms.html">利用規約</a>
+            <a href="https://apps.apple.com/app/id6808348626" target="_blank" rel="noopener noreferrer">App Storeで見る</a>
+          </nav>
+        </div>
+        
+        <div class="footer-bottom">
+          <div>© 2026 c-basso · Compress Video</div>
+          <p class="footer-updated">
+            最終更新日：
+            <time datetime="2026-10-04">2026-10-04</time>
+          </p>
+        </div>
+      </footer>
+
+    </div>
+
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Article","headline":"iPhoneで動画を圧縮する方法","description":"iPhoneで動画を圧縮する方法を解説。トリミングして解像度やフレームレートを下げ、HEVCで書き出して小さいコピーを保存します。無料、端末内で処理、アップロード不要です。","image":["https://compressvideoapp.com/img/screenshots/2.webp"],"author":{"@type":"Organization","name":"c-basso","url":"https://compressvideoapp.com/","logo":{"@type":"ImageObject","url":"https://compressvideoapp.com/img/app-icon.webp"}},"publisher":{"@type":"Organization","name":"c-basso","url":"https://compressvideoapp.com/","logo":{"@type":"ImageObject","url":"https://compressvideoapp.com/img/app-icon.webp"}},"datePublished":"2026-11-25","dateModified":"2026-11-25","mainEntityOfPage":"https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/","inLanguage":"ja","about":{"@type":"MobileApplication","name":"Compress Video","url":"https://compressvideoapp.com/ja/","operatingSystem":"iOS"}}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"HowTo","name":"Compress VideoでiPhoneの動画を圧縮する","description":"無料でダウンロードでき、オフラインでも使えます。ふつうの長さの動画なら1分ほどです。","image":"https://compressvideoapp.com/img/screenshots/2.webp","totalTime":"PT1M","inLanguage":"ja","tool":[{"@type":"HowToTool","name":"Compress Video"}],"step":[{"@type":"HowToStep","position":1,"name":"Compress Videoで動画を開く","text":"Compress Videoを開いて写真またはファイルから動画を選ぶか、写真アプリで動画の共有ボタンをタップしてCompress Videoを選びます。","url":"https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/#step-1"},{"@type":"HowToStep","position":2,"name":"いらない部分をトリミング","text":"トリミングを開き、ハンドルをドラッグして必要な部分だけを残し、保存します。短い動画ほどファイルも小さくなります。","url":"https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/#step-2"},{"@type":"HowToStep","position":3,"name":"どこまで小さくするか決める","text":"圧縮設定を開きます。解像度のスライダーを下げ、必要ならフレームレートも下げて、音声を圧縮・そのまま・ミュートから選びます。","url":"https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/#step-3"},{"@type":"HowToStep","position":4,"name":"圧縮してサイズを確認","text":"圧縮をタップすると、新しいサイズとどれだけ小さくなったかが表示されます。元のサイズと圧縮後のサイズを切り替えて比べられます。","url":"https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/#step-4"},{"@type":"HowToStep","position":5,"name":"保存または共有","text":"圧縮後のファイルを写真に保存するか、メールやLINE、WhatsApp、Discordなどのアプリにそのまま共有します。","url":"https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/#step-5"}]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"FAQPage","inLanguage":"ja","mainEntity":[{"@type":"Question","name":"iPhoneで動画を無料で圧縮する方法はありますか？","acceptedAnswer":{"@type":"Answer","text":"あります。Compress Videoは無料でダウンロードでき、1日に一定の回数まで圧縮できます。iOSだけでは、これから撮る動画の画質を下げることしかできず、撮影済みの動画は圧縮できません。"}},{"@type":"Question","name":"iPhoneのショートカットで動画を圧縮できますか？","acceptedAnswer":{"@type":"Answer","text":"ショートカットでもメディアのエンコードはできますが、自分でショートカットを作って調整する必要があり、圧縮前後のサイズも確認できません。専用アプリなら、解像度、フレームレート、音声を調整でき、サイズも比べられます。"}},{"@type":"Question","name":"圧縮すると元の動画は置き換えられますか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。Compress Videoは、小さいコピーを新しく保存します。元の動画は、削除するまで写真アプリに残ります。"}},{"@type":"Question","name":"iPhoneで動画を小さくするには？","acceptedAnswer":{"@type":"Answer","text":"Compress Videoなどの圧縮アプリで動画を開き、いらない部分をトリミングして、解像度やフレームレートを下げ、圧縮したコピーを保存します。保存する前に新しいサイズを確認できます。"}}]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebPage","name":"iPhoneで動画を圧縮する方法｜無料・アップロード不要","url":"https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/","description":"iPhoneで動画を圧縮する方法を解説。トリミングして解像度やフレームレートを下げ、HEVCで書き出して小さいコピーを保存します。無料、端末内で処理、アップロード不要です。","dateModified":"2026-11-25","inLanguage":"ja","isPartOf":{"@type":"WebSite","name":"Compress Video","url":"https://compressvideoapp.com/ja/"}}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://compressvideoapp.com/ja/"},{"@type":"ListItem","position":2,"name":"ガイド","item":"https://compressvideoapp.com/ja/guides/"},{"@type":"ListItem","position":3,"name":"iPhoneで動画を圧縮する方法","item":"https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/"}]}
+    </script>
+
+<!-- Analytics: paste the counter for compressvideoapp.com here (left empty on purpose). -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=113397206', 'ym');
+
+    ym(113397206, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/113397206" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+  </body>
+</html>

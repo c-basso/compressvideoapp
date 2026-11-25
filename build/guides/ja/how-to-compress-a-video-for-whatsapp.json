@@ -1,0 +1,97 @@
+{
+  "en_slug": "how-to-compress-a-video-for-whatsapp",
+  "priority": 5,
+  "title": "iPhoneでWhatsApp用に動画を圧縮する方法（2026年版）",
+  "description": "WhatsAppで動画が大きすぎる、ぼやけて届く？先にiPhoneで圧縮して画質を自分で決めるか、2GBまでの書類として送ります。手順を順番に解説します。",
+  "h1": "iPhoneでWhatsApp用に動画を圧縮する方法",
+  "eyebrow": "WhatsApp",
+  "card_title": "WhatsApp用に動画を圧縮",
+  "card_summary": "WhatsAppで動画が劣化しないように、自分で圧縮するか書類として送ります。",
+  "keywords": "whatsapp 動画 圧縮 iphone, whatsapp 動画 送れない, whatsapp 動画 画質 悪い, whatsapp 長い動画 送り方, whatsapp 動画 書類",
+  "quick_answer": "WhatsAppは、メディアとして送られた動画を再圧縮します。そのため、ぼやけて届いたり、送れなかったりします。Compress Videoで先に自分で圧縮してから（4Kなら解像度のスライダーを約50%、HEVC）送りましょう。画質をそのまま保ちたいなら、圧縮したファイルを「書類」として添付してください。WhatsAppは書類を2GBまで再圧縮せずに送れます。",
+  "intro": [
+    "WhatsAppは画質よりも速さを優先します。長い動画や大きい動画は強く圧縮され、とても大きいものはそもそも送れません。",
+    "自分で圧縮すれば、どこで妥協するかを自分で決められます。"
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/4.webp",
+    "alt": "Compress VideoからWhatsAppに共有する準備ができた圧縮後の動画",
+    "caption": "圧縮したファイルを、そのままWhatsAppに共有します。"
+  },
+  "sections": [
+    {
+      "heading": "WhatsAppの「写真と動画」と「書類」の違い",
+      "table": {
+        "head": [
+          "送り方",
+          "WhatsAppの処理",
+          "向いている用途"
+        ],
+        "rows": [
+          [
+            "写真と動画",
+            "再圧縮し、トーク内で再生",
+            "チャットでの短い動画"
+          ],
+          [
+            "書類",
+            "ファイルをそのまま送信（2GBまで）",
+            "画質を保ちたい動画、長い動画"
+          ]
+        ]
+      },
+      "links": [
+        {
+          "url": "/ja/",
+          "text": "iPhone用の動画圧縮アプリ"
+        }
+      ]
+    },
+    {
+      "heading": "目安にするサイズ",
+      "paragraphs": [
+        "トーク内で再生させるなら、動画は短く、720p〜1080pにしましょう。書類として送る場合も、ファイルが小さいほどアップロードもダウンロードも早くなり、グループの全員が助かります。"
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "動画を圧縮してWhatsAppで送る",
+    "intro": "個別チャット、グループ、ステータスで使えます。",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "動画を開く",
+        "text": "Compress Videoを開いて動画を選ぶか、写真アプリからアプリに共有します。"
+      },
+      {
+        "name": "トリミング",
+        "text": "トリミングを開きます。ステータスに投稿するなら、載せたい部分だけを残します。"
+      },
+      {
+        "name": "圧縮",
+        "text": "圧縮設定で、4Kなら解像度のスライダーを約50%（≈1080p）に、長い動画ならさらに低くし、音声はそのままにして、圧縮をタップします。"
+      },
+      {
+        "name": "WhatsAppに共有",
+        "text": "圧縮後のファイルを保存してWhatsAppに共有します。再圧縮を避けたいときは、WhatsAppで＋ → 書類をタップし、ファイルアプリから選びます。"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "WhatsAppの動画がぼやけるのはなぜですか？",
+      "answer": "WhatsAppはデータ量を減らすためにメディアを再圧縮します。書類として送るか、先に自分で圧縮して、WhatsAppが圧縮する余地を小さくしてください。"
+    },
+    {
+      "question": "WhatsAppで長い動画を送るには？",
+      "answer": "Compress Videoでトリミングして圧縮し、書類として送ります。書類は2GBまで送れます。"
+    }
+  ],
+  "related": [
+    "video-too-large-to-send-on-iphone",
+    "how-to-make-a-video-smaller-for-discord",
+    "how-to-send-a-large-video-from-iphone-to-android"
+  ],
+  "published": "2026-11-25",
+  "updated": "2026-11-25"
+}

@@ -1,0 +1,33 @@
+key	en-US	ja-JP	notes	apple_or_web_verified
+register	(tone)	です・ます調	Polite desu/masu everywhere (body, FAQ, CTA). Button-style labels as plain nouns/する-verbs. No casual endings. No spaces between Japanese and Latin/numbers (Apple JP style: 「iPhoneで動画」).	yes: App Store JP listing style
+app_store_title	Video File Compressor	動画ファイル圧縮 – Compress Video	Official JP App Store title	yes: App Store JP
+app_store_subtitle	Compress Video – Reduce size	ビデオサイズを縮小してスマホの容量を減らす	Official JP subtitle	yes: App Store JP
+brand	Compress Video	Compress Video	Keep Latin; never translate the brand	yes: App Store JP
+compress	compress	圧縮する	Core verb. Noun: 圧縮	yes: App Store JP
+compressor	video compressor	動画圧縮アプリ	Use 動画 (not ビデオ) in body copy; ビデオ only in the official subtitle	web: search usage 「動画 圧縮 iphone」
+reduce_size	reduce video size	動画のサイズを小さくする / 容量を減らす	サイズ = file size; 容量 = storage/capacity (both are common search terms)	yes: App Store JP
+trim	trim	トリミング	Noun; verb トリミングする	yes: App Store JP
+resolution	resolution	解像度		yes: App Store JP
+frame_rate	frame rate	フレームレート	fps stays as fps	yes: App Store JP
+audio	audio (compress/keep/mute)	音声（圧縮する・残す・ミュートする）		yes: App Store JP
+original_size	Original	元のサイズ	Comparison label in copy	yes: App Store JP
+compressed_size	Compressed	圧縮後のサイズ		yes: App Store JP
+export	export / save the smaller copy	書き出す / 小さいコピーを保存する		yes: App Store JP
+on_device	on-device, no upload	端末内で処理・アップロードなし		yes: App Store JP
+photos_app	Photos	写真	iOS app name. Write as 「写真」App when ambiguous	yes: iOS JP
+files_app	Files	ファイル	iOS app name. 「ファイル」App	yes: iOS JP
+share_sheet	Share Sheet	共有シート		yes: App Store JP
+action_ext	Action extension	アクション拡張		yes: App Store JP
+screen_recording	screen recording	画面収録	iOS term (not スクリーン録画)	yes: iOS JP
+slow_mo	slow-motion	スローモーション		yes: App Store JP
+info_button	Information button (ⓘ)	情報ボタン（ⓘ）		yes: Apple Support JP wording
+settings_camera	Settings → Camera → Record Video	設定 → カメラ → ビデオ撮影	iOS path	yes: iOS JP
+formats_high_eff	Formats → High Efficiency	フォーマット → 高効率	iOS path	yes: iOS JP
+most_compatible	Most Compatible	互換性優先	iOS camera format option	yes: iOS JP
+recently_deleted	Recently Deleted	最近削除した項目	Photos album	yes: iOS JP
+iphone_storage	General → iPhone Storage	一般 → iPhoneストレージ		yes: iOS JP
+mail_drop	Mail Drop	Mail Drop	Apple keeps Latin name in JP	yes: Apple Support JP
+messages_app	Messages	メッセージ	iOS app	yes: iOS JP
+mms	MMS / text	MMS（SMS）	In JP iPhone→Android usually goes via SMS/MMS or +メッセージ; keep MMS	no: carrier-specific
+too_large	video too large to send	動画が大きすぎて送れない	Search phrasing in JP: 「動画 送れない 容量」	web
+app_buttons	Trim Video / Compress settings / Compress / Download Compressed	(described, not quoted)	JP in-app labels not verified on device → copy describes actions without 「」-quoting exact button names. Verify on a JP device and replace if needed.	no: needs device check

@@ -41,6 +41,24 @@
 - [How to convert a video to HEVC on iPhone](https://compressvideoapp.com/guides/how-to-convert-video-to-hevc-on-iphone/): Convert H.264 videos to HEVC (H.265) on iPhone to cut file size, often by about half, at the same resolution. What HEVC is and how to convert in a minute.
 - [How to check video size on iPhone](https://compressvideoapp.com/guides/how-to-check-video-size-on-iphone/): See how many MB a video takes on iPhone: tap ⓘ in Photos or use list view in Files, then compare it with the email and Discord limits before you send.
 
+## How-to guides (日本語)
+- [日本語 guides hub](https://compressvideoapp.com/ja/guides/)
+- [iPhoneで動画を圧縮する方法](https://compressvideoapp.com/ja/guides/how-to-compress-a-video-on-iphone/): iPhoneで動画を圧縮する方法を解説。トリミングして解像度やフレームレートを下げ、HEVCで書き出して小さいコピーを保存します。無料、端末内で処理、アップロード不要です。
+- [iPhoneで画質を落とさずに動画のサイズを小さくする方法](https://compressvideoapp.com/ja/guides/how-to-reduce-video-size-on-iphone-without-losing-quality/): iPhoneの動画を、きれいなまま小さくする方法。HEVCに変換し、解像度はそのままでトリミングします。それでも大きいときだけ、フレームレートや解像度を下げます。
+- [iPhoneで大きすぎる動画をメールで送る方法](https://compressvideoapp.com/ja/guides/how-to-email-a-large-video-from-iphone/): 動画が大きすぎてメールで送れない？Gmailは25MB、Outlookは20MBまで。iPhoneで上限以下に圧縮して添付するか、大きいファイルはMail Dropで送ります。
+- [iPhoneで動画が大きすぎて送れないときの対処法](https://compressvideoapp.com/ja/guides/video-too-large-to-send-on-iphone/): iPhoneのメッセージやメールで「動画が大きすぎて送れない」と表示されたら。Gmailは25MB、Outlookは20MBなどの上限と、送れるサイズに動画を小さくする方法を解説します。
+- [iPhoneでWhatsApp用に動画を圧縮する方法](https://compressvideoapp.com/ja/guides/how-to-compress-a-video-for-whatsapp/): WhatsAppで動画が大きすぎる、ぼやけて届く？先にiPhoneで圧縮して画質を自分で決めるか、2GBまでの書類として送ります。手順を順番に解説します。
+- [iPhoneでDiscord用に動画を小さくする方法](https://compressvideoapp.com/ja/guides/how-to-make-a-video-smaller-for-discord/): 動画が大きすぎてDiscordに送れない？iPhoneで無料プランの20MB以下に圧縮する方法。トリミングし、解像度とfpsを下げてHEVCで書き出します。長さ別の設定つき。
+- [iPhoneからAndroidに大きい動画を画質を落とさずに送る方法](https://compressvideoapp.com/ja/guides/how-to-send-a-large-video-from-iphone-to-android/): iPhoneからAndroidに送った動画がぼやける、送れないのはMMSで送られるからです。iPhoneで動画を圧縮し、LINEやWhatsApp、メールなどで送る方法を解説します。
+- [iPhoneで動画をトリミングして圧縮する方法](https://compressvideoapp.com/ja/guides/how-to-trim-and-compress-a-video-on-iphone/): 動画が長すぎて送れない？iPhoneのひとつのアプリでトリミングと圧縮をまとめて。必要な部分を切り出し、サイズを小さくして保存します。長い動画を小さくするいちばん早い方法です。
+- [動画を圧縮してiPhoneのストレージを空ける方法](https://compressvideoapp.com/ja/guides/how-to-free-up-iphone-storage-from-videos/): 動画でiPhoneの容量がいっぱい？いちばん大きい動画を探してHEVCに圧縮し、小さいコピーを残して元の動画を削除。数GBの空きをすばやく取り戻せます。
+- [iPhoneで動画をHEVCに変換する方法](https://compressvideoapp.com/ja/guides/how-to-convert-video-to-hevc-on-iphone/): iPhoneでH.264の動画をHEVC（H.265）に変換して、同じ解像度のままファイルサイズを減らす方法。半分ほどになることも。HEVCとは何か、1分でできる変換手順を解説します。
+- [iPhoneで動画のサイズを確認する方法](https://compressvideoapp.com/ja/guides/how-to-check-video-size-on-iphone/): iPhoneで動画が何MBあるか確認する方法。写真アプリでは情報ボタン（ⓘ）、ファイルアプリではリスト表示で確認できます。送る前に、メールやDiscordの上限と比べましょう。
+
+## Language pages
+- [en](https://compressvideoapp.com/)
+- [ja](https://compressvideoapp.com/ja/)
+
 ## LLM-ready Q&A facts
 ### How do I compress a video on iPhone?
 Open Compress Video, pick the clip from Photos or Files (or share it into the app), open Compress settings and drag the resolution slider down (or lower frame rate and audio), tap Compress, then Download Compressed. The app shows the original and compressed size before you save.

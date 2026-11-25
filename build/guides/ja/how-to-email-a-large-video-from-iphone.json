@@ -1,0 +1,118 @@
+{
+  "en_slug": "how-to-email-a-large-video-from-iphone",
+  "priority": 3,
+  "title": "iPhoneで大きすぎる動画をメールで送る方法（Gmailは25MB）",
+  "description": "動画が大きすぎてメールで送れない？Gmailは25MB、Outlookは20MBまで。iPhoneで上限以下に圧縮して添付するか、大きいファイルはMail Dropで送ります。",
+  "h1": "iPhoneで大きすぎる動画をメールで送る方法",
+  "eyebrow": "メール",
+  "card_title": "大きすぎる動画をメールで送る",
+  "card_summary": "Gmailは25MB、Outlookは20MBまで。上限以下に圧縮して添付します。",
+  "keywords": "動画 メール 送れない iphone, iphone 動画 メール 容量, 動画 メール 添付 大きすぎる, gmail 動画 25mb, iphone 動画 圧縮 メール, mail drop 動画",
+  "quick_answer": "多くのメールサービスには添付ファイルの上限があります。Gmailは25MB、Outlook.comは20MBです。Compress Videoで、圧縮後のサイズがその数字を下回るまで動画を圧縮し（収まるまで解像度のスライダーを下げます）、保存してからメールアプリやGmailに共有してください。大きいまま送りたいファイルは、AppleのMail Dropでリンクとして送れます。",
+  "intro": [
+    "30秒の4K動画でも、たいていのメールの添付上限を超えてしまいます。するとメールアプリはMail Dropを提案し、GmailはファイルをGoogleドライブのリンクに置き換え、相手によっては再生できる動画が届かないこともあります。",
+    "相手の受信トレイにファイルそのものを届けたいなら、上限に収まるサイズにしましょう。"
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/4.webp",
+    "alt": "メールに添付できる240KBまで圧縮した動画",
+    "caption": "圧縮後のサイズが、使っているメールサービスの上限を下回るようにします。"
+  },
+  "sections": [
+    {
+      "heading": "メールの添付ファイルの上限",
+      "table": {
+        "head": [
+          "サービス",
+          "添付の上限",
+          "上限を超えたとき"
+        ],
+        "rows": [
+          [
+            "Gmail",
+            "25MB",
+            "Googleドライブのリンクに置き換わる"
+          ],
+          [
+            "Outlook.com",
+            "20MB",
+            "OneDriveにアップロードしてリンクを共有"
+          ],
+          [
+            "Appleのメール＋iCloud",
+            "Mail Dropで5GBまで",
+            "30日で期限切れになるリンクとして送信"
+          ]
+        ]
+      },
+      "note": "会社のメールサーバーは、さらに上限が小さいことがあります。送信に失敗したら、もっと小さく圧縮してください。",
+      "links": [
+        {
+          "url": "/ja/",
+          "text": "メールで送れるサイズに圧縮できるiPhoneアプリ"
+        }
+      ]
+    },
+    {
+      "heading": "どこまで小さくすればいい？",
+      "paragraphs": [
+        "目安として、1分の動画を720p・30fpsのHEVCにすると25MBに収まることが多く、短い動画ならもっと高い解像度のままでも収まります。Compress Videoでは保存する前に正確なサイズが表示されるので、推測する必要はありません。"
+      ]
+    },
+    {
+      "heading": "Mail Dropを使ったほうがいいとき",
+      "paragraphs": [
+        "編集用など、相手が元の画質のままのファイルを必要とする場合はMail Dropを使いましょう。リンクは30日で期限が切れ、ファイルは添付ではなくダウンロードで受け取ります。"
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "メールで送れるサイズに動画を小さくする",
+    "intro": "iPhoneのメール、Gmail、Outlookで使えます。",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "動画を開く",
+        "text": "Compress Videoを開いて動画を選ぶか、写真アプリからCompress Videoに共有します。"
+      },
+      {
+        "name": "トリミング",
+        "text": "トリミングを開き、相手に必要な部分だけを残します。"
+      },
+      {
+        "name": "解像度を下げる",
+        "text": "圧縮設定で解像度のスライダーを下げ（4Kなら約3分の1、1080pなら約3分の2で≈720p）、必要ならフレームレートを30fpsにして、音声はそのままにし、圧縮をタップします。"
+      },
+      {
+        "name": "サイズを確認",
+        "text": "圧縮後のサイズが、Gmailなら25MB、Outlookなら20MBを下回っているか確認します。超えていれば、スライダーをもっと下げるか、さらにトリミングします。"
+      },
+      {
+        "name": "添付する",
+        "text": "圧縮後のファイルを保存し、メールアプリやGmail、Outlookに共有して送信します。"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "iPhoneでMail Dropを使うか聞かれるのはなぜですか？",
+      "answer": "添付ファイルが、メールサービスの上限を超えているからです。上限以下に圧縮すればそのまま添付でき、Mail Dropを選べばダウンロードリンクとして送れます。"
+    },
+    {
+      "question": "iPhoneから5分の動画をメールで送れますか？",
+      "answer": "十分に圧縮すれば送れます。解像度のスライダーを低くし、フレームレートを下げれば、5分でも25MBに収まることがあります。送る前に圧縮後のサイズを確認してください。"
+    },
+    {
+      "question": "メールで送るには大きすぎる動画を送るには？",
+      "answer": "添付の上限（Gmailは25MB、Outlook.comは20MB）以下に圧縮して小さいコピーを添付するか、AppleのメールでMail Dropを使って、ファイルの代わりにリンクで送ります。"
+    }
+  ],
+  "related": [
+    "video-too-large-to-send-on-iphone",
+    "how-to-compress-a-video-on-iphone",
+    "how-to-trim-and-compress-a-video-on-iphone",
+    "how-to-check-video-size-on-iphone"
+  ],
+  "published": "2026-11-25",
+  "updated": "2026-11-25"
+}
