@@ -23,6 +23,12 @@
         "Photos → Collections → Media Types → Videos.",
         "Settings → General → iPhone Storage → Photos shows how much videos use.",
         "Start with screen recordings and slow-motion: they are often large and rarely need full quality."
+      ],
+      "links": [
+        {
+          "url": "/",
+          "text": "Compress Video: reduce video size on iPhone"
+        }
       ]
     },
     {

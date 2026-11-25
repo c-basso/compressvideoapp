@@ -44,7 +44,13 @@
           ]
         ]
       },
-      "note": "Corporate mail servers often allow less. If a send fails, compress further."
+      "note": "Corporate mail servers often allow less. If a send fails, compress further.",
+      "links": [
+        {
+          "url": "/",
+          "text": "iPhone video compressor: make videos small enough to email"
+        }
+      ]
     },
     {
       "heading": "How small should the video be?",

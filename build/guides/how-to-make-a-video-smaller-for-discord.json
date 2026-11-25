@@ -1,12 +1,12 @@
 {
   "priority": 6,
-  "title": "How to Make a Video Smaller for Discord (20 MB Limit)",
-  "description": "Free Discord accounts can upload files up to 20 MB. Get your iPhone video under the limit in a minute: trim, lower resolution, export HEVC, share it fast.",
+  "title": "How to Compress a Video for Discord on iPhone (20 MB)",
+  "description": "Video too big for Discord? Compress it on iPhone under the free 20 MB limit: trim, lower resolution and fps, export HEVC. Settings for every clip length.",
   "h1": "How to make a video smaller for Discord on iPhone",
   "eyebrow": "Discord",
   "card_title": "Make a video fit Discord",
   "card_summary": "Free Discord uploads stop at 20 MB. Get any clip under it from your iPhone.",
-  "keywords": "how to make a video smaller for discord, discord file size limit, compress video for discord iphone, video too big for discord",
+  "keywords": "how to make a video smaller for discord, discord file size limit, compress video for discord iphone, video too big for discord, compress video for discord, discord reduce file size, how to make clips smaller for discord, discord video compress",
   "quick_answer": "Free Discord accounts can upload files up to 20 MB (raised from 10 MB in August 2026); Nitro Basic allows 50 MB and Nitro 500 MB. In Compress Video, trim the clip, drag the resolution slider down, lower the frame rate to 30 fps, tap Compress, and check that the Compressed size is under your limit. Then share it to Discord.",
   "intro": [
     "Gaming clips and screen recordings are exactly the videos that blow past Discord's limit: high resolution, 60 fps, long."
@@ -39,7 +39,13 @@
           ]
         ]
       },
-      "note": "Limits as of August 2026; servers with boosts can allow more."
+      "note": "Limits as of August 2026; servers with boosts can allow more.",
+      "links": [
+        {
+          "url": "/",
+          "text": "Compress Video: iPhone video compressor"
+        }
+      ]
     },
     {
       "heading": "Settings that fit 20 MB",
@@ -48,6 +54,47 @@
         "30–60 seconds: around 720p (about a third of 4K), 30 fps.",
         "Longer: trim to the highlight, or move the slider lower still."
       ]
+    },
+    {
+      "heading": "How long a video fits in 20 MB",
+      "paragraphs": [
+        "File size is bitrate × duration, so the longer the clip, the lower the bitrate it can use. These are the total bitrates (video + audio) that land just under Discord's free 20 MB limit."
+      ],
+      "table": {
+        "head": [
+          "Clip length",
+          "Max total bitrate",
+          "What usually fits"
+        ],
+        "rows": [
+          [
+            "15 s",
+            "≈10.5 Mbps",
+            "1080p, 60 fps"
+          ],
+          [
+            "30 s",
+            "≈5.3 Mbps",
+            "1080p, 30 fps"
+          ],
+          [
+            "60 s",
+            "≈2.6 Mbps",
+            "720p, 30 fps"
+          ],
+          [
+            "2 min",
+            "≈1.3 Mbps",
+            "540p–480p, 30 fps"
+          ],
+          [
+            "5 min",
+            "≈0.5 Mbps",
+            "Trim it into a shorter highlight"
+          ]
+        ]
+      },
+      "note": "20 MB ≈ 160 megabits. Keep a little headroom: Discord counts the whole file, including audio."
     }
   ],
   "steps": {
@@ -85,6 +132,14 @@
     {
       "question": "Can I send a longer video on Discord without Nitro?",
       "answer": "Yes, if you compress it under 20 MB, or trim it into a shorter highlight."
+    },
+    {
+      "question": "Why does Discord say my file is too large?",
+      "answer": "The file is above your upload limit (20 MB on a free account). iPhone clips are large because they are recorded at high resolution and often 60 fps. Trim and compress the clip, then check the Compressed size before you upload."
+    },
+    {
+      "question": "Do I need an online compressor for Discord?",
+      "answer": "No. Online compressors make you upload the video to a website first. Compress Video works on your iPhone, so the clip never leaves the device, and you can share the smaller file straight to Discord."
     }
   ],
   "related": [
@@ -93,5 +148,5 @@
     "how-to-compress-a-video-on-iphone"
   ],
   "published": "2026-10-04",
-  "updated": "2026-10-04"
+  "updated": "2026-11-25"
 }

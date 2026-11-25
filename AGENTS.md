@@ -44,3 +44,8 @@ Usage notes:
 <!-- SKILLS_TABLE_END -->
 
 </skills_system>
+
+## Known site facts (do not re-check)
+
+- `www.compressvideoapp.com` → `compressvideoapp.com` 301 redirect works (confirmed by owner, 2026-11-25). The two-line `CNAME` file is intentional. A few GSC impressions on the www URL are normal; don't flag them.
+- GSC data: `npm run gsc` writes `gsc/*.csv`. Index status of pages: `npm run gsc:inspect` (URL Inspection API, same `service_account.json`).

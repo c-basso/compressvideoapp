@@ -62,8 +62,14 @@ const DESC_OPTIMAL_MAX = 160;
 /** Ниже этого значения описание почти наверняка слишком бедное для любой локали — error. */
 const DESC_HARD_MIN = 50;
 
-/** Запас сверх типичного лимита отображения — error. */
-const DESC_HARD_MAX = 165;
+/**
+ * Google не ограничивает длину meta description: «There's no limit on how long a meta description can be,
+ * but the snippet is truncated … typically to fit the device width»
+ * (https://developers.google.com/search/docs/appearance/snippet). Длиннее ~155–160 символов хвост просто
+ * обрезается многоточием, поэтому выход за 150–160 — только warning. Error — лишь на явный мусор
+ * (случайно вставленный абзац): 320 — максимум сниппета, который Google когда-либо показывал (2017–2018).
+ */
+const DESC_HARD_MAX = 320;
 
 /** Мягкий ориентир для «развёрнутого» сниппета (латиница); ниже — только warning. */
 const DESC_WARN_MIN = 110;

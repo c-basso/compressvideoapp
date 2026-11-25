@@ -47,7 +47,13 @@
             "Always"
           ]
         ]
-      }
+      },
+      "links": [
+        {
+          "url": "/",
+          "text": "Compress Video: trim and compress video on iPhone"
+        }
+      ]
     }
   ],
   "steps": {

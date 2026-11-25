@@ -58,9 +58,18 @@ const VALID_TWITTER_CARD_TYPES = new Set([
   'player'
 ]);
 
-// Description length constraints
+/**
+ * Description length.
+ * Протокол Open Graph (https://ogp.me) длину og:description не ограничивает. Реальный документированный лимит
+ * есть у X: twitter:description — максимум 200 символов, а без него X берёт og:description
+ * (https://developer.x.com/en/docs/x-for-websites/cards/overview/markup). Поэтому error — только > 200.
+ * Нижняя граница 110 — вкусовой ориентир, не правило платформ, поэтому только warning.
+ */
 const OG_DESCRIPTION_MIN_LENGTH = 110;
-const OG_DESCRIPTION_MAX_LENGTH = 160;
+const OG_DESCRIPTION_MAX_LENGTH = 200;
+/** X: twitter:title — max 70, twitter:description — max 200 (developer.x.com cards markup). */
+const TWITTER_TITLE_MAX_LENGTH = 70;
+const TWITTER_DESCRIPTION_MAX_LENGTH = 200;
 
 /** Match content="..." or content='...' without treating apostrophe inside double quotes as the end. */
 function parseMetaContentAttribute(attrs) {
@@ -157,7 +166,7 @@ function validateOpenGraphTags(html, { file, lang }) {
   if (found['og:description']) {
     const descLength = found['og:description'].length;
     if (descLength < OG_DESCRIPTION_MIN_LENGTH) {
-      errors.push(`og:description is too short: ${descLength} characters (minimum: ${OG_DESCRIPTION_MIN_LENGTH})`);
+      warnings.push(`og:description is short: ${descLength} characters (recommended: ${OG_DESCRIPTION_MIN_LENGTH}+)`);
     } else if (descLength > OG_DESCRIPTION_MAX_LENGTH) {
       errors.push(`og:description is too long: ${descLength} characters (maximum: ${OG_DESCRIPTION_MAX_LENGTH})`);
     }
@@ -261,6 +270,17 @@ function validateTwitterTags(html, { file, lang }) {
     if (!url.startsWith('http://') && !url.startsWith('https://')) {
       errors.push(`twitter:url must be an absolute URL (found: ${url})`);
     }
+  }
+
+  const twitterTitle = metaTags['twitter:title'];
+  if (twitterTitle && twitterTitle.length > TWITTER_TITLE_MAX_LENGTH) {
+    errors.push(`twitter:title is too long: ${twitterTitle.length} characters (X maximum: ${TWITTER_TITLE_MAX_LENGTH})`);
+  }
+  const twitterDescription = metaTags['twitter:description'];
+  if (twitterDescription && twitterDescription.length > TWITTER_DESCRIPTION_MAX_LENGTH) {
+    errors.push(
+      `twitter:description is too long: ${twitterDescription.length} characters (X maximum: ${TWITTER_DESCRIPTION_MAX_LENGTH})`
+    );
   }
 
   for (const tag of OPTIONAL_TWITTER_TAGS) {

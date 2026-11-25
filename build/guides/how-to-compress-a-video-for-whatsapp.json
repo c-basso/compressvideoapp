@@ -38,7 +38,13 @@
             "Keeping quality, longer videos"
           ]
         ]
-      }
+      },
+      "links": [
+        {
+          "url": "/",
+          "text": "Video compressor for iPhone"
+        }
+      ]
     },
     {
       "heading": "What size to aim for",

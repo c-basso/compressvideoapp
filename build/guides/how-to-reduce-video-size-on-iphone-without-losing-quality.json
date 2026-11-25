@@ -1,12 +1,12 @@
 {
   "priority": 2,
-  "title": "Reduce Video Size on iPhone Without Losing Quality",
-  "description": "Reduce video size on iPhone and keep it sharp: convert to HEVC, keep resolution, trim, lower frame rate only where safe. Exact steps and best settings.",
+  "title": "How to Reduce Video Size on iPhone Without Losing Quality",
+  "description": "Reduce the size of a video on iPhone and keep it sharp: convert to HEVC, keep the resolution, trim. Lower fps or resolution only if it is still too big.",
   "h1": "How to reduce video size on iPhone without losing quality",
   "eyebrow": "Keep quality",
   "card_title": "Reduce size without losing quality",
   "card_summary": "Which settings cut size without a visible hit, and which ones you should leave alone.",
-  "keywords": "reduce video size iphone without losing quality, reduce video size on iphone after recording, compress video without losing quality iphone",
+  "keywords": "reduce video size iphone without losing quality, reduce video size on iphone after recording, compress video without losing quality iphone, how to reduce the size of a video on iphone, ios reduce video size, how to lower iphone video quality",
   "quick_answer": "Change the codec, not the picture. Re-encoding an H.264 clip to HEVC at the same resolution often cuts the size roughly in half at the same resolution. Then trim unused seconds. Lower resolution or frame rate only if you still need it smaller, and compare Original and Compressed before saving.",
   "intro": [
     "Every compression throws away data. The goal is to throw away what matters least and keep what you actually watch.",
@@ -25,7 +25,13 @@
         "Trim the start and end you don't need.",
         "Mute audio on clips where sound doesn't matter."
       ],
-      "ordered": false
+      "ordered": false,
+      "links": [
+        {
+          "url": "/",
+          "text": "Video compressor for iPhone that keeps quality (HEVC)"
+        }
+      ]
     },
     {
       "heading": "Trade-offs to make only if needed",
@@ -83,6 +89,14 @@
     {
       "question": "Will the compressed video play on Android or Windows?",
       "answer": "Modern Android phones and Windows with HEVC support play it. For very old devices, lower the resolution instead and share through an app that converts on upload."
+    },
+    {
+      "question": "How do I lower video quality on iPhone to make files smaller?",
+      "answer": "For new recordings, go to Settings > Camera > Record Video and pick a lower resolution or frame rate, and set Settings > Camera > Formats to High Efficiency (HEVC). For videos you already recorded, compress them in Compress Video: drag the resolution slider down or lower the frame rate."
+    },
+    {
+      "question": "What is the fastest way to reduce video size on iPhone?",
+      "answer": "Open the clip in Compress Video and tap Compress with HEVC at the original resolution. If it is still too big, trim the unused seconds, then lower the resolution one step at a time and compare Original vs Compressed."
     }
   ],
   "related": [
@@ -91,5 +105,5 @@
     "how-to-free-up-iphone-storage-from-videos"
   ],
   "published": "2026-10-04",
-  "updated": "2026-10-04"
+  "updated": "2026-11-25"
 }

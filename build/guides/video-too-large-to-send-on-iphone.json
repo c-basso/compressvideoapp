@@ -1,7 +1,7 @@
 {
   "priority": 4,
-  "title": "Video Too Large to Send on iPhone? How to Fix It Fast",
-  "description": "Getting “video too large to send” on iPhone in Messages or Messenger? Why the limit hits and how to trim and compress the clip so it sends first time.",
+  "title": "Video Too Large to Send on iPhone? Fix It in a Minute",
+  "description": "iPhone says the video is too large to send in Messages, Mail or Messenger? See the limits (Gmail 25 MB, Outlook 20 MB) and shrink the clip so it sends.",
   "h1": "Video too large to send on iPhone: how to fix it",
   "eyebrow": "Too large to send",
   "card_title": "“Video too large to send”",
@@ -24,6 +24,12 @@
         "MMS / text (green bubbles): carriers cap media at a small size, so long videos fail or arrive blurry.",
         "Messenger, Instagram, Snapchat: each app has its own cap and recompresses what you send.",
         "Email: Gmail 25 MB, Outlook.com 20 MB."
+      ],
+      "links": [
+        {
+          "url": "/",
+          "text": "Video compressor for iPhone: shrink clips so they send"
+        }
       ]
     },
     {
@@ -76,5 +82,5 @@
     "how-to-trim-and-compress-a-video-on-iphone"
   ],
   "published": "2026-10-04",
-  "updated": "2026-10-04"
+  "updated": "2026-11-25"
 }

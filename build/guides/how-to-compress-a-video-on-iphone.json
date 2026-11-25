@@ -29,6 +29,12 @@
         "Photos → Edit: trims the clip, but the remaining part keeps its original bitrate.",
         "iMovie: exporting at a lower resolution works, but it means building a project for one clip.",
         "Online compressors: they require uploading a private video to someone else's server."
+      ],
+      "links": [
+        {
+          "url": "/",
+          "text": "Free video compressor for iPhone"
+        }
       ]
     },
     {

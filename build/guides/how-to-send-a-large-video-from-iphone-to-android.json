@@ -24,6 +24,12 @@
         "Email: compress under 25 MB for Gmail.",
         "A cloud link (iCloud, Google Drive) for full-length originals.",
         "MMS only for very short, small clips."
+      ],
+      "links": [
+        {
+          "url": "/",
+          "text": "Video compressor for iPhone"
+        }
       ]
     },
     {
@@ -68,5 +74,6 @@
     "how-to-email-a-large-video-from-iphone"
   ],
   "published": "2026-10-04",
-  "updated": "2026-10-04"
+  "updated": "2026-10-04",
+  "og_title": "Send a large video from iPhone to Android without it getting blurry"
 }
