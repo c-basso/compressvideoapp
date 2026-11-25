@@ -6,7 +6,7 @@
   "eyebrow": "Keep quality",
   "card_title": "Reduce size without losing quality",
   "card_summary": "Which settings cut size without a visible hit, and which ones you should leave alone.",
-  "keywords": "reduce video size iphone without losing quality, reduce video size on iphone after recording, compress video without losing quality iphone, how to reduce the size of a video on iphone, ios reduce video size, how to lower iphone video quality",
+  "keywords": "reduce video size iphone without losing quality, reduce video size on iphone after recording, compress video without losing quality iphone, how to reduce the size of a video on iphone, ios reduce video size, how to lower iphone video quality, how to compress video files without losing quality, reduce video mb size, reduce file size of video iphone",
   "quick_answer": "Change the codec, not the picture. Re-encoding an H.264 clip to HEVC at the same resolution often cuts the size roughly in half at the same resolution. Then trim unused seconds. Lower resolution or frame rate only if you still need it smaller, and compare Original and Compressed before saving.",
   "intro": [
     "Every compression throws away data. The goal is to throw away what matters least and keep what you actually watch.",
@@ -97,6 +97,10 @@
     {
       "question": "What is the fastest way to reduce video size on iPhone?",
       "answer": "Open the clip in Compress Video and tap Compress with HEVC at the original resolution. If it is still too big, trim the unused seconds, then lower the resolution one step at a time and compare Original vs Compressed."
+    },
+    {
+      "question": "How do I compress a video file without losing quality?",
+      "answer": "Change the codec, not the picture: re-encode H.264 to HEVC at the same resolution and frame rate, and trim unused seconds. That usually saves the most megabytes with no visible change."
     }
   ],
   "related": [

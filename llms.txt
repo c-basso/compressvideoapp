@@ -39,6 +39,7 @@
 - [How to trim and compress a video on iPhone](https://compressvideoapp.com/guides/how-to-trim-and-compress-a-video-on-iphone/): Video too long to send? Trim and compress it in one app on iPhone: cut the part you need, shrink the size, save. The fastest way to shrink a long clip.
 - [How to free up iPhone storage by compressing videos](https://compressvideoapp.com/guides/how-to-free-up-iphone-storage-from-videos/): Videos eating your iPhone storage? Find the biggest clips, compress them to HEVC, keep the smaller copy and delete the original. Reclaim gigabytes fast.
 - [How to convert a video to HEVC on iPhone](https://compressvideoapp.com/guides/how-to-convert-video-to-hevc-on-iphone/): Convert H.264 videos to HEVC (H.265) on iPhone to cut file size, often by about half, at the same resolution. What HEVC is and how to convert in a minute.
+- [How to check video size on iPhone](https://compressvideoapp.com/guides/how-to-check-video-size-on-iphone/): See how many MB a video takes on iPhone: tap ⓘ in Photos or use list view in Files, then compare it with the email and Discord limits before you send.
 
 ## LLM-ready Q&A facts
 ### How do I compress a video on iPhone?
@@ -70,6 +71,9 @@ Yes, once you keep the compressed copy and delete the original. 4K and slow-moti
 
 ### What is HEVC and why does it make videos smaller?
 HEVC (H.265) is a newer video codec that stores the same picture in fewer bits than H.264. Compress Video always exports HEVC, which is why older H.264 clips often shrink a lot even at the same resolution.
+
+### How do I check a video's size on iPhone?
+In Photos, open the video and tap the Information button (ⓘ): the size appears under the device name. In Files, the size is next to the file name in list view. Compress Video also shows the original and compressed size side by side.
 
 ### Is Compress Video free?
 The download is free and includes a daily convert/share limit and one saved project. A premium in-app purchase removes the daily share limit and unlocks more projects. Current prices are shown on the App Store.

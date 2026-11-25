@@ -6,7 +6,7 @@
   "eyebrow": "Compress video",
   "card_title": "Compress a video on iPhone",
   "card_summary": "iOS has no compress button. Here is the fastest way to make any clip smaller, on device.",
-  "keywords": "compress video iphone, how to compress a video on iphone, video compressor iphone, compress video iphone free, compress video iphone app",
+  "keywords": "compress video iphone, how to compress a video on iphone, video compressor iphone, compress video iphone free, compress video iphone app, how to make a video smaller on iphone, make video file smaller iphone, shrink video size iphone",
   "quick_answer": "iPhone has no built-in “compress” button for an existing video. Open it in Compress Video, optionally trim it, drag the resolution slider down in Compress settings, tap Compress and then Download Compressed. You get a smaller HEVC copy; the original stays untouched.",
   "intro": [
     "Phone videos are huge: a minute of 4K is easily more than 150 MB. That breaks email, chat apps and uploads, and fills storage fast.",
@@ -169,6 +169,10 @@
     {
       "question": "Does compressing replace the original video?",
       "answer": "No. Compress Video saves a new, smaller copy. The original stays in Photos until you delete it."
+    },
+    {
+      "question": "How do I make a video smaller on iPhone?",
+      "answer": "Open it in a compressor such as Compress Video, trim the parts you don't need, lower the resolution or frame rate, and save the compressed copy. The app shows the new size before you save."
     }
   ],
   "related": [
@@ -177,5 +181,5 @@
     "how-to-trim-and-compress-a-video-on-iphone"
   ],
   "published": "2026-10-04",
-  "updated": "2026-10-04"
+  "updated": "2026-11-25"
 }

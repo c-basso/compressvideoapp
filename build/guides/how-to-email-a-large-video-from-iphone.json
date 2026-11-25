@@ -6,7 +6,7 @@
   "eyebrow": "Email",
   "card_title": "Email a video that's too large",
   "card_summary": "Gmail stops at 25 MB, Outlook at 20 MB. Compress under the limit and attach it.",
-  "keywords": "video too large to send by email, how to make a video smaller to email on iphone, email large video from iphone, gmail video too large",
+  "keywords": "video too large to send by email, how to make a video smaller to email on iphone, email large video from iphone, gmail video too large, how to email a video that is too large, video too large to email, how to send a video that is too large for email, compress iphone video for email, how to compress a video for email",
   "quick_answer": "Most email services cap attachments: Gmail at 25 MB, Outlook.com at 20 MB. Compress the video in Compress Video until the Compressed size reads under that number (drag the resolution slider down until it fits), then tap Download Compressed and share it to Mail or Gmail. For files that must stay large, Apple Mail Drop sends a link instead.",
   "intro": [
     "A 30-second 4K clip is often bigger than any email attachment limit. Mail then offers Mail Drop, Gmail swaps the file for a Drive link, and some recipients never get a playable video.",
@@ -100,13 +100,18 @@
     {
       "question": "Can I email a 5-minute video from iPhone?",
       "answer": "Yes, if you compress it enough: 5 minutes with the resolution slider low and a reduced frame rate can fit under 25 MB. Check the Compressed size before sending."
+    },
+    {
+      "question": "How do I send a video that is too large for email?",
+      "answer": "Compress it under the attachment limit (25 MB for Gmail, 20 MB for Outlook.com) and attach the smaller copy, or send it from Apple Mail with Mail Drop, which shares a link instead of attaching the file."
     }
   ],
   "related": [
     "video-too-large-to-send-on-iphone",
     "how-to-compress-a-video-on-iphone",
-    "how-to-trim-and-compress-a-video-on-iphone"
+    "how-to-trim-and-compress-a-video-on-iphone",
+    "how-to-check-video-size-on-iphone"
   ],
   "published": "2026-10-04",
-  "updated": "2026-10-04"
+  "updated": "2026-11-25"
 }

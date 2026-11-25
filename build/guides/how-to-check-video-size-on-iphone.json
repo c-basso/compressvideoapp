@@ -1,0 +1,141 @@
+{
+  "priority": 11,
+  "title": "How to Check Video Size on iPhone (Photos & Files)",
+  "description": "See how many MB a video takes on iPhone: tap ⓘ in Photos or use list view in Files, then compare it with the email and Discord limits before you send.",
+  "h1": "How to check video size on iPhone",
+  "og_title": "How to check video size on iPhone",
+  "eyebrow": "Video size",
+  "card_title": "Check a video's size",
+  "card_summary": "Find the MB size in Photos or Files before you try to send it.",
+  "keywords": "how to check video size on iphone, iphone video size, how to see video file size on iphone, check file size iphone photos, how big is my video iphone",
+  "quick_answer": "In Photos, open the video and tap the Information button (ⓘ) at the bottom: the file size appears under the name of the device that recorded it. In Files, switch to list view to see the size next to the file name. If the number is above the limit of the place you are sending it to, trim or compress the clip.",
+  "intro": [
+    "Knowing the size first saves a failed send. Email, texts and chat apps each have their own limit, and iPhone recordings pass them quickly, especially in 4K or at 60 fps."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "Compress Video file details showing the original video size",
+    "caption": "Compress Video shows the original size, and the compressed size before you save."
+  },
+  "sections": [
+    {
+      "id": "photos",
+      "heading": "In the Photos app",
+      "list": [
+        "Open Photos and tap the video.",
+        "Tap the Information button (ⓘ) at the bottom of the screen.",
+        "Read the file size under the name of the device that recorded the video, next to the other technical details."
+      ],
+      "ordered": true,
+      "note": "Photos shows one video at a time. It cannot sort your library by size.",
+      "links": [
+        {
+          "url": "/",
+          "text": "Compress Video: video compressor for iPhone"
+        }
+      ]
+    },
+    {
+      "id": "files",
+      "heading": "In the Files app",
+      "paragraphs": [
+        "For videos saved outside your photo library (downloads, AirDrop, cloud folders), open Files and find the video. The size appears next to the file name in list view, or under the thumbnail in icon view. Touch and hold the file and choose Get Info for the exact number.",
+        "Files can also sort a folder by size, which is the quickest way to spot the biggest clips."
+      ]
+    },
+    {
+      "id": "limits",
+      "heading": "Is it too big? Compare with the limit",
+      "table": {
+        "head": [
+          "Where you send it",
+          "Limit"
+        ],
+        "rows": [
+          [
+            "Gmail attachment",
+            "25 MB"
+          ],
+          [
+            "Outlook.com attachment",
+            "20 MB"
+          ],
+          [
+            "Discord (free account)",
+            "20 MB"
+          ],
+          [
+            "Apple Mail with Mail Drop",
+            "Up to 5 GB, as a link that expires after 30 days"
+          ]
+        ]
+      },
+      "note": "If the video is bigger than the limit, trim the parts you don't need and compress it, then check the new size again.",
+      "links": [
+        {
+          "url": "/guides/video-too-large-to-send-on-iphone/",
+          "text": "Video too large to send on iPhone"
+        },
+        {
+          "url": "/guides/how-to-email-a-large-video-from-iphone/",
+          "text": "How to email a video that is too large"
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "heading": "Why iPhone videos are so big",
+      "paragraphs": [
+        "File size grows with resolution, frame rate and length. A minute of 4K at 60 fps takes several times the space of the same minute at 1080p and 30 fps. Settings → Camera → Record Video shows roughly how much space one minute takes at each setting on your iPhone."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Check the size and make it smaller",
+    "intro": "Compress Video shows both numbers, so you know the file fits before you send it.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the clip",
+        "text": "Pick the video in Compress Video. The file details show its original size."
+      },
+      {
+        "name": "Trim if you can",
+        "text": "Tap Trim Video and keep only the part you need."
+      },
+      {
+        "name": "Compress",
+        "text": "Open Compress settings, lower the resolution or frame rate if needed, and tap Compress."
+      },
+      {
+        "name": "Compare and save",
+        "text": "Check that the Compressed size is under your limit, then tap Download Compressed or share it."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can I sort videos by size in the iPhone Photos app?",
+      "answer": "No. Photos shows the size of one video at a time. To compare many clips, save them to a folder in Files and sort the folder by size."
+    },
+    {
+      "question": "How big is a one-minute iPhone video?",
+      "answer": "It depends on resolution and frame rate. 4K at 60 fps is far larger than 1080p at 30 fps. Settings → Camera → Record Video shows the approximate size per minute for each option on your iPhone."
+    },
+    {
+      "question": "How do I make a video smaller once I know its size?",
+      "answer": "Trim the parts you don't need, then compress it: Compress Video re-encodes the clip to HEVC and lets you lower resolution and frame rate, showing the new size before you save."
+    }
+  ],
+  "related": [
+    "video-too-large-to-send-on-iphone",
+    "how-to-email-a-large-video-from-iphone",
+    "how-to-free-up-iphone-storage-from-videos"
+  ],
+  "published": "2026-11-25",
+  "updated": "2026-11-25",
+  "cta": {
+    "title": "See the size, then shrink it",
+    "text": "Free video compressor for iPhone. Compare Original vs Compressed size before you save."
+  }
+}

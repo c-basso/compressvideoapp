@@ -33,3 +33,28 @@ Intent filter: only queries where the searcher has a video on an iPhone that is 
 - WhatsApp documents up to 2 GB; video sent as media is recompressed by WhatsApp
 - iPhone camera: ~60 MB/min 1080p30, ~170–190 MB/min 4K30, ~400 MB/min 4K60 (HEVC; exact numbers in Settings → Camera → Record Video)
 - App screenshot example: 1.7 MB → 240 KB (86% smaller)
+
+## Google Trends pass (2026-11-25, past 12 months)
+Source: Google Trends related queries (worldwide) + head-to-head comparisons (US). Numbers are Trends relative interest, not volumes.
+
+Relative US interest, same chart: `compress video iphone` 62 · `video too large to email` 6. Second chart: `reduce video size iphone` 36 · `video too large to email` 12 · `compress video for discord` 6 · `compress video for email` 4 · `how to send large video from iphone` 1.
+→ Rough scale: compress video iphone ≈ 10× email-too-large; reduce video size iphone ≈ 3×; Discord ≈ ½.
+
+### New pages (gaps)
+| Candidate slug | Head keyword | Trends signal | Notes |
+|---|---|---|---|
+| how-to-check-video-size-on-iphone | how to check video size on iphone | rising +70% (iphone video size) | Easy how-to (Photos ⓘ / Files), natural hand-off: "too big? compress it" |
+| what-is-mail-drop-on-iphone | what is mail drop / mail drop iphone | rising +90% (what is mail drop in email) | Email-cluster support page; links to email guide |
+| best-video-compressor-app-for-iphone | best video compressor app for iphone | top for "video compressor app"; "app to reduce video size" rising +50% | Commercial comparison; honest criteria, our app included |
+
+### Phrases to fold into existing pages
+| Phrase (Trends) | Page |
+|---|---|
+| how to email a video that is too large · video too large to email · how to send a video that is too large for email · compress iphone video for email | email guide (title/H2/FAQ) |
+| how to send a video that is too large / too big | video-too-large guide |
+| how to make video smaller on iphone · make video file smaller · shrink video size | `/` + compress-on-iphone guide |
+| reduce video mb size · reduce file size of video | reduce-without-quality guide |
+| how to compress video files without losing quality (rising +140%) | reduce-without-quality guide |
+| app to reduce video size · video size compressor app | `/` |
+
+Still excluded (intent filter above): online / free online, android, pc, mp4 converters, pdf.

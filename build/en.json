@@ -3,7 +3,7 @@
     "lang": "en",
     "title": "Video Compressor for iPhone – Free, Reduce Video Size",
     "description": "Free video compressor for iPhone. Reduce video size right on your phone, no upload to an online site. Trim, compare sizes, send by email, WhatsApp or Discord.",
-    "keywords": "compress video iphone, video compressor app for iphone, reduce video size iphone, video file compressor, make video smaller iphone, shrink video iphone, compress video for email, video too large to send, iphone video compressor, video compressor iphone free, compress iphone video online, ios video compressor",
+    "keywords": "compress video iphone, video compressor app for iphone, reduce video size iphone, video file compressor, make video smaller iphone, shrink video iphone, compress video for email, video too large to send, iphone video compressor, video compressor iphone free, compress iphone video online, ios video compressor, app to reduce video size, video size compressor app, how to make a video smaller on iphone, shrink video size iphone",
     "og_title": "Video Compressor for iPhone – Free, Reduce Video Size",
     "og_description": "Shrink large iPhone videos so they actually send by email, WhatsApp or Discord. Trim, compare Original vs Compressed size, save the smaller copy.",
     "og_image_alt": "Compress Video app for iPhone: a 1.7 MB clip compressed to 240 KB, 86% smaller",
@@ -245,6 +245,11 @@
         "question": "What is HEVC and why does it make videos smaller?",
         "answer": "HEVC (H.265) is a newer video codec that stores the same picture in fewer bits than H.264. Compress Video always exports HEVC, which is why older H.264 clips often shrink a lot even at the same resolution.",
         "guide": "how-to-convert-video-to-hevc-on-iphone"
+      },
+      {
+        "question": "How do I check a video's size on iPhone?",
+        "answer": "In Photos, open the video and tap the Information button (ⓘ): the size appears under the device name. In Files, the size is next to the file name in list view. Compress Video also shows the original and compressed size side by side.",
+        "guide": "how-to-check-video-size-on-iphone"
       },
       {
         "question": "Is Compress Video free?",

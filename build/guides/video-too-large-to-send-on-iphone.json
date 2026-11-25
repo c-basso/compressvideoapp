@@ -6,7 +6,7 @@
   "eyebrow": "Too large to send",
   "card_title": "“Video too large to send”",
   "card_summary": "Why Messages, text and Messenger reject big clips, and how to make them fit.",
-  "keywords": "video too large to send iphone, video too large to send imessage, video too large to send text, video too long to send iphone, video too large to send messenger",
+  "keywords": "video too large to send iphone, video too large to send imessage, video too large to send text, video too long to send iphone, video too large to send messenger, how to send a video that is too large, how to send a video that is too big, video too big to send iphone",
   "quick_answer": "The error means the clip is bigger than the app, carrier or server allows. Trim it and drag the resolution slider down in Compress Video, then share the compressed file instead of the original. For green-bubble texts (MMS), carriers allow only small files, so send through iMessage, email or a chat app when you can.",
   "intro": [
     "The message shows up in different words: “too large to send”, “file is too big”, or a send that fails silently. The cause is always the same: the file is above a size limit somewhere between you and the recipient."
@@ -74,12 +74,17 @@
     {
       "question": "Will compressing make the video look bad?",
       "answer": "Not on a phone screen at 720p or 1080p in HEVC. Compare Original and Compressed in the app before you send."
+    },
+    {
+      "question": "How do I send a video that is too big?",
+      "answer": "Make the file smaller before sending: trim it to the part you need, then compress it to HEVC and lower the resolution until it is under the app's limit. Check the size first so you know how much to cut."
     }
   ],
   "related": [
     "how-to-email-a-large-video-from-iphone",
     "how-to-send-a-large-video-from-iphone-to-android",
-    "how-to-trim-and-compress-a-video-on-iphone"
+    "how-to-trim-and-compress-a-video-on-iphone",
+    "how-to-check-video-size-on-iphone"
   ],
   "published": "2026-10-04",
   "updated": "2026-11-25"
