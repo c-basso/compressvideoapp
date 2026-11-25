@@ -191,7 +191,7 @@ const SOFTWARE_APPLICATION_AGGREGATE_RATING = null;
  * not on every build: it feeds the visible "Updated" label, JSON-LD dateModified and sitemap lastmod.
  * Guides carry their own `updated` field in build/guides/<slug>.json.
  */
-const SITE_CONTENT_UPDATED_ISO = '2026-10-04';
+const SITE_CONTENT_UPDATED_ISO = '2026-11-25';
 
 /** Site-wide meta duplicated across locales; merged at build time in `normalizeMeta`. */
 const SHARED_SITE_META = {

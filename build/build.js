@@ -1115,6 +1115,8 @@ function prepareGuideData(guide, guides, siteData, lang) {
     return {
         ...siteData,
         page_type: 'guide',
+        // Footer "Page last updated" = this guide's own date, not the homepage date.
+        footer: { ...siteData.footer, last_updated_iso: guideUpdatedIso(guide) },
         guide: {
             ...guide,
             url,
@@ -1189,9 +1191,13 @@ function buildGuidesHub(guides, siteData, lang = DEFAULT_LANGUAGE) {
     const items = guideCardItems(guides, lang);
     const alternates = getGuideHubAlternates();
 
+    const hubUpdatedIso = guides.map(guideUpdatedIso).sort().pop() || HOME_UPDATED_ISO;
+
     const data = {
         ...siteData,
         page_type: 'hub',
+        // Hub changes whenever any guide changes: show the newest guide date.
+        footer: { ...siteData.footer, last_updated_iso: hubUpdatedIso },
         guides: { ...siteData.guides, items, hub_url: hubUrl, hub },
         meta: {
             ...siteData.meta,
@@ -1220,7 +1226,7 @@ function buildGuidesHub(guides, siteData, lang = DEFAULT_LANGUAGE) {
                     name: hub.h1,
                     description: stripHtml(hub.description),
                     url: hubUrl,
-                    dateModified: guides.map(guideUpdatedIso).sort().pop() || HOME_UPDATED_ISO,
+                    dateModified: hubUpdatedIso,
                     inLanguage: lang,
                     isPartOf: { '@type': 'WebSite', name: siteData.header?.app_name || DEFAULT_SITE_NAME, url: homeUrl }
                 },
